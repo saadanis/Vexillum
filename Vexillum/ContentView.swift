@@ -12,7 +12,46 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
-                    Text("Hello, world!")
+					Section(header: Text("Favorites")) {
+						NavigationLink(
+							destination: Text("Default"),
+							label: {
+								Label {
+									Text("Canada")
+								} icon: {
+									Image("ca")
+										.resizable()
+										.aspectRatio(contentMode: .fill)
+								}
+							})
+					}
+                    Section(header: Text("Lists")) {
+						NavigationLink(
+							destination: Text("Default"),
+							label: {
+								Label("All Flags", systemImage: "flag")
+							})
+						Button(action:{}) { Label("Add Custom List",systemImage: "plus")
+							.foregroundColor(.accentColor)
+						}
+                    }
+					Section(header: Text("Others")) {
+						NavigationLink(
+							destination: Text("Default"),
+							label: {
+								Label("Principles of Flag Design", systemImage: "checkmark.seal")
+							})
+						NavigationLink(
+							destination: Text("Glossary"),
+							label: {
+								Label("Glossary", systemImage: "text.book.closed")
+							})
+						NavigationLink(
+							destination: Text("Default"),
+							label: {
+								Label("About", systemImage: "info.circle")
+							})
+					}
                 }
             }
                 .navigationBarTitle(Text("Vexillum"))
