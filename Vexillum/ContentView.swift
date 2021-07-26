@@ -16,18 +16,18 @@ struct ContentView: View {
 						NavigationLink(
 							destination: Text("Default"),
 							label: {
-								Label {
-									Text("Canada")
-								} icon: {
+								HStack {
 									Image("ca")
 										.resizable()
-										.aspectRatio(contentMode: .fill)
+										.aspectRatio(contentMode: .fit)
+										.frame(maxWidth: 60, maxHeight: 22, alignment: .center)
+									Text("Canada")
 								}
 							})
 					}
                     Section(header: Text("Lists")) {
 						NavigationLink(
-							destination: Text("Default"),
+							destination: FlagsView(),
 							label: {
 								Label("All Flags", systemImage: "flag")
 							})
