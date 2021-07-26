@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93275AF326AE736B00842BD1 /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93275AF226AE736B00842BD1 /* FlagsView.swift */; };
 		93583C4F26AD3F5D00270584 /* VexillumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93583C4E26AD3F5D00270584 /* VexillumApp.swift */; };
 		93583C5126AD3F5D00270584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93583C5026AD3F5D00270584 /* ContentView.swift */; };
 		93583C5326AD3F5E00270584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93583C5226AD3F5E00270584 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93275AF226AE736B00842BD1 /* FlagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
 		93583C4B26AD3F5D00270584 /* Vexillum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vexillum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93583C4E26AD3F5D00270584 /* VexillumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexillumApp.swift; sourceTree = "<group>"; };
 		93583C5026AD3F5D00270584 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				93583C4E26AD3F5D00270584 /* VexillumApp.swift */,
 				93583C5026AD3F5D00270584 /* ContentView.swift */,
 				93583C5D26AD7A1A00270584 /* AboutView.swift */,
+				93275AF226AE736B00842BD1 /* FlagsView.swift */,
 				93583C5226AD3F5E00270584 /* Assets.xcassets */,
 				93583C5726AD3F5E00270584 /* Info.plist */,
 				93583C5426AD3F5E00270584 /* Preview Content */,
@@ -143,6 +146,7 @@
 			files = (
 				93583C5126AD3F5D00270584 /* ContentView.swift in Sources */,
 				93583C5E26AD7A1A00270584 /* AboutView.swift in Sources */,
+				93275AF326AE736B00842BD1 /* FlagsView.swift in Sources */,
 				93583C4F26AD3F5D00270584 /* VexillumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
