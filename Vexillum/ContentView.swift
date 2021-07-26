@@ -47,7 +47,7 @@ struct ContentView: View {
 								Label("Glossary", systemImage: "text.book.closed")
 							})
 						NavigationLink(
-							destination: Text("Default"),
+							destination: AboutView(),
 							label: {
 								Label("About", systemImage: "info.circle")
 							})
