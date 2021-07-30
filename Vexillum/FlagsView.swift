@@ -9,32 +9,35 @@ import SwiftUI
 
 struct FlagsView: View {
 	
-	let countryCodes = ["ca","np"]
+	@Environment(\.managedObjectContext) var managedObjectContext
+	@FetchRequest(
+		entity: Flag.entity(),
+		sortDescriptors: [
+			NSSortDescriptor(keyPath: \Flag.countryName, ascending: true),
+			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false)
+		]
+	) var flags: FetchedResults<Flag>
 	
-    var body: some View {
+	var title: String
+	
+	var body: some View {
 		List {
-//			Label {
-//				Text("Flag")
-//			} icon: {
-//				Image("ca")
-//					.resizable()
-//			}
-			ForEach(countryCodes, id: \.self) { code in
+			ForEach(flags, id: \.self) { flag in
 				HStack {
-					Image(code)
+					Image(uiImage: UIImage(data: Data(base64Encoded: flag.imageData! as String, options: .ignoreUnknownCharacters)!)!)
 						.resizable()
 						.aspectRatio(contentMode: .fit)
-						.frame(maxWidth: 70, maxHeight: 27.5, alignment: .center)
-					Text(code)
+						.frame(maxWidth: 60, maxHeight: 22)
+					Text(flag.countryName ?? "Unknown")
 				}
 			}
 		}
-			.navigationBarTitle(Text("Flags"))
-    }
+		.navigationBarTitle(Text(title))
+	}
 }
 
 struct FlagsView_Previews: PreviewProvider {
-    static var previews: some View {
-        FlagsView()
-    }
+	static var previews: some View {
+		FlagsView(title: "All Flags")
+	}
 }
