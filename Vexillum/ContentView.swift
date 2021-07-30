@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                List {
+	
+	var body: some View {
+		NavigationView {
+			VStack {
+				List {
 					Section(header: Text("Favorites")) {
 						NavigationLink(
 							destination: Text("Default"),
@@ -25,16 +26,16 @@ struct ContentView: View {
 								}
 							})
 					}
-                    Section(header: Text("Lists")) {
+					Section(header: Text("Lists")) {
 						NavigationLink(
-							destination: FlagsView(),
+							destination: FlagsView(title: "All Flags"),
 							label: {
 								Label("All Flags", systemImage: "flag")
 							})
-						Button(action:{}) { Label("Add Custom List",systemImage: "plus")
+						Button(action:{}) { Label("Create Custom List",systemImage: "plus")
 							.foregroundColor(.accentColor)
 						}
-                    }
+					}
 					Section(header: Text("Others")) {
 						NavigationLink(
 							destination: Text("Default"),
@@ -52,16 +53,15 @@ struct ContentView: View {
 								Label("About", systemImage: "info.circle")
 							})
 					}
-                }
-            }
-                .navigationBarTitle(Text("Vexillum"))
-
-        }
-    }
+				}
+			}
+			.navigationBarTitle(Text("Vexillum"))
+		}
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }
