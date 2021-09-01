@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Deprecated.
+
 struct GlossaryView: View {
 	var body: some View {
 			VStack {
