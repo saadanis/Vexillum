@@ -15,7 +15,10 @@ struct LoadingView: View {
 		entity: Flag.entity(),
 		sortDescriptors: [
 			NSSortDescriptor(keyPath: \Flag.countryName, ascending: true),
-			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false)
+			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageRed, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageGreen, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageBlue, ascending: false)
 		]
 	) var flags: FetchedResults<Flag>
 	@Binding var dataIsLoaded: Bool
@@ -25,59 +28,65 @@ struct LoadingView: View {
 	@State private var numberOfFlags = 0
 	@State private var flagImage = UIImage(systemName: "rectangle.slash")
 	@State private var numberOfFlagsProcessed = 0.0
-	@State private var currentMessage = "Fetching list from Wikipedia"
+	@State private var currentMessage = "Intializing"
+	@State private var dataExists = false
 	
 	var body: some View {
 		VStack(alignment: .leading) {
-			if currentMessage == "Fetching list from Wikipedia" {
-				Image(systemName: "square.and.arrow.down")
+			if dataExists {
+				Image(systemName: "flag")
 					.resizable()
 					.aspectRatio(contentMode: .fit)
-					.frame(maxWidth: 300, maxHeight: 70, alignment: .leading)
-			} else if currentMessage == "All flags processed." || currentMessage == "Data already loaded."{
-				Image(systemName: "face.smiling")
-					.resizable()
-					.aspectRatio(contentMode: .fit)
-					.frame(maxWidth: 300, maxHeight: 70, alignment: .leading)
+					.frame(maxWidth: .infinity, maxHeight: 100, alignment: .center)
+				Text("By Saad Anis")
+					.font(.caption)
+					.frame(maxWidth: .infinity, alignment: .center)
+					.padding(.top)
 			} else {
-				Image(uiImage: (flagImage ?? UIImage(systemName: "rectangle.slash"))!)
-					.resizable()
-					.aspectRatio(contentMode: .fit)
-					.frame(maxWidth: 300, maxHeight: 70, alignment: .leading)
-			}
-			if dataIsLoaded {
-				Text("Data is loaded.")
-			} else {
+				if currentMessage == "Intializing" {
+					Image(systemName: "square.and.arrow.down")
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
+				} else if currentMessage == "Finalizing" {
+					Image(systemName: "face.smiling")
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
+				} else {
+					Image(uiImage: (flagImage ?? UIImage(systemName: "rectangle.slash"))!)
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
+				}
 				ProgressView("\(currentMessage)", value: progressPercent, total:100)
 					.font(.headline)
 					.lineLimit(1)
-			}
-			VStack(alignment: .leading) {
-				Label {
-					Text("\(numberOfFlags)")
-				} icon: {
-					Image(systemName: "square.and.arrow.down")
-						.frame(maxWidth: 15, alignment: .center)
+					.padding(.horizontal)
+				VStack(alignment: .leading) {
+					Label {
+						Text("\(numberOfFlags)")
+					} icon: {
+						Image(systemName: "square.and.arrow.down")
+							.frame(maxWidth: 15, alignment: .center)
+					}
+					Label {
+						Text("\(Int(numberOfFlagsProcessed))")
+					} icon: {
+						Image(systemName: "hourglass")
+							.frame(maxWidth: 15, alignment: .center)
+					}
 				}
-				Label {
-					Text("\(Int(numberOfFlagsProcessed))")
-				} icon: {
-					Image(systemName: "hourglass")
-						.frame(maxWidth: 15, alignment: .center)
-				}
+				.font(.caption)
 			}
-			.font(.caption)
 		}
 		.padding()
 		.onAppear() {
 			if(flags.count < 100) {
 				loadData()
 			} else {
+				dataExists = true
 				dataIsLoaded = true
-				currentMessage = "Data already loaded."
-				progressPercent = 100
-				numberOfFlags = flags.count
-				numberOfFlagsProcessed = Double(flags.count)
 			}
 		}
 	}
@@ -147,16 +156,17 @@ struct LoadingView: View {
 		progressPercent = 95 * (numberOfFlagsProcessed / Double(numberOfFlags))
 		
 		if(Int(numberOfFlagsProcessed) == numberOfFlags) {
-			currentMessage = "All flags processed."
+			currentMessage = "Finalizing"
+			addAverageColors()
 			saveData()
 		}
 	}
 	
 	func saveData() {
 		flagImage = UIImage(systemName: "face.smiling")
-		print("Attempting to save data.")
-		
+		print("Attempting to remove duplicates.")
 		removeDuplicates()
+		print("Attempting to save data.")
 		for flag in flags {
 			if flag.imageData == nil {
 				fatalError("ImageData is nil for \(flag.countryName ?? "Unknown").")
@@ -173,10 +183,29 @@ struct LoadingView: View {
 		dataIsLoaded = true
 	}
 	
+	func addAverageColors() {
+		
+		flags.forEach { flag in
+			let uiImage = UIImage(data: Data(base64Encoded: flag.imageData! as String, options: .ignoreUnknownCharacters)!)!
+			let averageColor = uiImage.averageColor
+			flag.averageRed = Double(averageColor?.rgba.red ?? 0)
+			flag.averageGreen = Double(averageColor?.rgba.green ?? 0)
+			flag.averageBlue = Double(averageColor?.rgba.blue ?? 0)
+			
+			print("R: \(flag.averageRed) G: \(flag.averageGreen) B: \(flag.averageBlue) ")
+		}
+	}
+	
 	func removeDuplicates() {
-		for i in 0..<flags.count-1 {
-			if flags[i].countryName == flags[i+1].countryName {
-				managedObjectContext.delete(flags[i+1])
+		flags.forEach { flag in
+			var count = 0
+			flags.forEach { _flag in
+				if _flag.countryName == flag.countryName {
+					count+=1
+				}
+			}
+			if count >= 2 {
+				managedObjectContext.delete(flag)
 			}
 		}
 	}

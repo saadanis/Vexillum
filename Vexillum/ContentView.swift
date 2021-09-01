@@ -9,52 +9,67 @@ import SwiftUI
 
 struct ContentView: View {
 	
+	let screenSize: CGRect = UIScreen.main.bounds
+	
+	let lists: [[Flags]] = []
+	
 	var body: some View {
 		NavigationView {
-			VStack {
-				List {
-					Section(header: Text("Favorites")) {
-						NavigationLink(
-							destination: Text("Default"),
-							label: {
-								HStack {
-									Image("ca")
-										.resizable()
-										.aspectRatio(contentMode: .fit)
-										.frame(maxWidth: 60, maxHeight: 22, alignment: .center)
-									Text("Canada")
-								}
-							})
+			VStack(alignment: .leading){
+				
+				Text("Favorites")
+					.font(.headline)
+				HStack {
+					CardView(name: "No Favorites", iconName: "star", color: .secondary)
+				}
+				.frame(maxHeight: screenSize.width/3)
+				
+				Text("Lists")
+					.font(.headline)
+				if lists.count > 0 {
+					// If there are custom lists.
+					ScrollView(.horizontal) {
+						HStack {
+							NavigationLink(destination: FlagsView(title: "All Flags")) {
+								CardView(name: "All Flags", iconName: "flag", color: .accentColor, minWidth: screenSize.width/3)
+							}
+							Button(action: { }) {
+								CardView(name: "Create", iconName: "plus", color: .accentColor, minWidth: screenSize.width/3)
+							}
+						}
+						.frame(maxHeight: screenSize.width/3)
 					}
-					Section(header: Text("Lists")) {
-						NavigationLink(
-							destination: FlagsView(title: "All Flags"),
-							label: {
-								Label("All Flags", systemImage: "flag")
-							})
-						Button(action:{}) { Label("Create Custom List",systemImage: "plus")
-							.foregroundColor(.accentColor)
+				} else {
+					// If there are no custom lists.
+					HStack {
+						NavigationLink(destination: FlagsView(title: "All Flags")) {
+							CardView(name: "All Flags", iconName: "flag", color: .accentColor, minWidth: screenSize.width/3)
+						}
+						Button(action: { }) {
+							CardView(name: "Create", iconName: "plus", color: .accentColor, minWidth: screenSize.width/3)
 						}
 					}
-					Section(header: Text("Others")) {
-						NavigationLink(
-							destination: Text("Default"),
-							label: {
-								Label("Principles of Flag Design", systemImage: "checkmark.seal")
-							})
-						NavigationLink(
-							destination: Text("Glossary"),
-							label: {
-								Label("Glossary", systemImage: "text.book.closed")
-							})
-						NavigationLink(
-							destination: AboutView(),
-							label: {
-								Label("About", systemImage: "info.circle")
-							})
+					.frame(maxHeight: screenSize.width/3)
+				}
+				
+				Text("Others")
+					.font(.headline)
+				HStack {
+					NavigationLink(destination: Text("Principles")) {
+						CardView(name: "Principles", iconName: "checkmark.seal", color: .accentColor)
+					}
+					NavigationLink(destination: GlossaryView()) {
+						CardView(name: "Glossary", iconName: "text.book.closed", color: .accentColor)
+					}
+					NavigationLink(destination: AboutView()) {
+						CardView(name: "About", iconName: "info.circle", color: .accentColor)
 					}
 				}
+				.frame(maxHeight: screenSize.width/4)
+				
+				Spacer()
 			}
+			.padding()
 			.navigationBarTitle(Text("Vexillum"))
 		}
 	}

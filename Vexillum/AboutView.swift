@@ -11,9 +11,9 @@ struct AboutView: View {
 	var body: some View {
 		ScrollView {
 			VStack(alignment: .leading, spacing: 15) {
+				Text("Hello")
+					.font(.headline)
 				VStack(alignment: .leading, spacing: 5) {
-					Label("Hello", systemImage: "eyes")
-						.font(.title2)
 					Text("I am Saad, a computer science student and a hobbyist developer. Vexillum is one of my side-projects.")
 						.padding(.bottom)
 					Label {
@@ -29,19 +29,16 @@ struct AboutView: View {
 							.foregroundColor(.accentColor)
 					}
 				}
-				.frame(maxWidth: .infinity)
+				.frame(maxWidth: .infinity, alignment: .leading)
 				.padding()
 				.background(
-					RoundedRectangle(cornerRadius: 25, style: .continuous)
+					RoundedRectangle(cornerRadius: 20, style: .continuous)
 						.fill(Color.secondary)
 						.opacity(0.1)
 				)
+				Text("References")
+					.font(.headline)
 				VStack(alignment: .leading, spacing: 5) {
-					Label("References", systemImage: "books.vertical")
-						.font(.title2)
-					Text("I used the following resources to the gather relevant information about flags.")
-						.minimumScaleFactor(0.5)
-						.padding(.bottom)
 					Label {
 						Link("Wikipedia & Wikimedia Commons", destination: URL(string: "https://wikipedia.org/")!)
 					} icon: {
@@ -56,10 +53,10 @@ struct AboutView: View {
 							.foregroundColor(.accentColor)
 					}
 				}
-				.frame(maxWidth: .infinity)
+				.frame(maxWidth: .infinity, alignment: .leading)
 				.padding()
 				.background(
-					RoundedRectangle(cornerRadius: 25, style: .continuous)
+					RoundedRectangle(cornerRadius: 20, style: .continuous)
 						.fill(Color.secondary)
 						.opacity(0.1)
 				)
