@@ -17,7 +17,8 @@ struct FlagsView: View {
 			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false),
 			NSSortDescriptor(keyPath: \Flag.averageRed, ascending: false),
 			NSSortDescriptor(keyPath: \Flag.averageGreen, ascending: false),
-			NSSortDescriptor(keyPath: \Flag.averageBlue, ascending: false)
+			NSSortDescriptor(keyPath: \Flag.averageBlue, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.favorite, ascending: false)
 		]
 	) var flags: FetchedResults<Flag>
 	
@@ -30,26 +31,12 @@ struct FlagsView: View {
 	
 	var body: some View {
 		ScrollView(.vertical) {
-			VStack(alignment:.leading) {
+			LazyVStack(alignment:.leading) {
 				ForEach(flags_left_indices, id: \.self) { x in
 					HStack(alignment: .top) {
 						Spacer()
-						NavigationLink(destination: Text("")) {
-							CardView(name: flags[x].countryName!, imageData: flags[x].imageData!, color:
-										Color(red: flags[x].averageRed,
-											  green:flags[x].averageGreen,
-											  blue: flags[x].averageBlue
-										))
-						}
-						.frame(maxHeight: .infinity)
-						NavigationLink(destination: Text("")) {
-							CardView(name: flags[x+1].countryName!, imageData: flags[x+1].imageData!, color: Color(
-								red: flags[x+1].averageRed,
-								green:flags[x+1].averageGreen,
-								blue: flags[x+1].averageBlue
-							))
-						}
-						.frame(maxHeight: .infinity)
+						FlagCardView(index: x)
+						FlagCardView(index: x+1)
 						Spacer()
 					}
 				}
@@ -60,6 +47,54 @@ struct FlagsView: View {
 			(0..<flags.count/2).forEach({ i in
 				flags_left_indices.append(i*2)
 			})
+		}
+	}
+	
+	func saveData() {
+		print("Attempting to save data.")
+		do {
+			if managedObjectContext.hasChanges {
+				try managedObjectContext.save()
+			}
+		} catch {
+			fatalError("Issue.")
+		}
+	}
+}
+
+struct FlagCardView: View {
+	
+	@Environment(\.managedObjectContext) var managedObjectContext
+	@FetchRequest(
+		entity: Flag.entity(),
+		sortDescriptors: [
+			NSSortDescriptor(keyPath: \Flag.countryName, ascending: true),
+			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageRed, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageGreen, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.averageBlue, ascending: false),
+			NSSortDescriptor(keyPath: \Flag.favorite, ascending: false)
+		]
+	) var flags: FetchedResults<Flag>
+	
+	let index: Int
+	
+	var body: some View {
+		CardView(name: flags[index].countryName!, imageData: flags[index].imageData!, color: Color(red: flags[index].averageRed, green:flags[index].averageGreen, blue: flags[index].averageBlue), contextMenuItems: [MenuItemInfo(title: flags[index].favorite ? "Remove from Favorites" : "Add to Favorites", systemImageName: flags[index].favorite ? "star.slash.fill" : "star", action: {
+			flags[index].favorite = !flags[index].favorite
+			saveData()
+		}, defaultStyle: flags[index].favorite ? false : true)], destination: AnyView(Text(flags[index].countryName!)))
+		.frame(maxHeight: .infinity)
+	}
+	
+	func saveData() {
+		print("Attempting to save data.")
+		do {
+			if managedObjectContext.hasChanges {
+				try managedObjectContext.save()
+			}
+		} catch {
+			fatalError("Issue.")
 		}
 	}
 }
