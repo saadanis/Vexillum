@@ -13,13 +13,13 @@ struct GlossaryView: View {
 	var body: some View {
 			VStack {
 				HStack {
-					CardView(name: "Types", iconName: "checkerboard.rectangle", color: .red)
-					CardView(name: "Elements", iconName: "paintbrush.pointed", color: .blue)
+					CardView(name: "Types", iconName: "checkerboard.rectangle", color: .red, destination: AnyView(Text("Text")))
+					CardView(name: "Elements", iconName: "paintbrush.pointed", color: .blue, destination: AnyView(Text("Text")))
 				}
 				.padding(.horizontal)
 				HStack {
-					CardView(name: "Patterns", iconName: "cross", color: .green)
-					CardView(name: "Techniques", iconName: "building.columns", color: .yellow)
+					CardView(name: "Patterns", iconName: "cross", color: .green, destination: AnyView(Text("Text")))
+					CardView(name: "Techniques", iconName: "building.columns", color: .yellow, destination: AnyView(Text("Text")))
 				}
 				.padding(.horizontal)
 			}
