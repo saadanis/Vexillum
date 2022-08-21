@@ -10,7 +10,7 @@ import SwiftUI
 struct CardView: View {
 	let name: String
 	let iconName: String?
-	let imageData: String?
+	let imageName: String?
 	let color: Color
 	let minWidth: CGFloat?
 	let contextMenuItems: [MenuItemInfo]
@@ -23,28 +23,34 @@ struct CardView: View {
 					Image(systemName: iconName ?? "xmark.octagon")
 						.font(.title)
 						.foregroundColor(color)
+					Text(name)
+						.font(.callout)
+						.foregroundColor(color)
+						.lineLimit(3)
+						.truncationMode(.middle)
 				}
-				if imageData != nil {
-					Image(uiImage: UIImage(data: Data(base64Encoded: imageData! as String, options: .ignoreUnknownCharacters)!)!)
+				if imageName != nil {
+					Image(imageName!)
 						.resizable()
 						.aspectRatio(contentMode: .fit)
-						.frame(minHeight: 50, maxHeight: 50)
+						.cornerRadius(10)
+						.frame(minHeight: 70, maxHeight: 70)
+					Text(name)
+						.font(.none)
+						.foregroundColor(.primary)
+						.lineLimit(3)
+						.truncationMode(.middle)
 				}
-				Text(name)
-					.font(.none)
-					.foregroundColor(.primary)
-					.lineLimit(1)
-					.truncationMode(.middle)
 			}
+			.padding()
+			.frame(minWidth: minWidth, maxWidth: .infinity, maxHeight: .infinity)
+			.background(RoundedRectangle(cornerRadius: 20.0, style: .continuous)
+							.fill(color)
+							.opacity(0.3))
 		}
-		.padding()
-		.frame(minWidth: minWidth, maxWidth: .infinity, maxHeight: .infinity)
-		.background(RoundedRectangle(cornerRadius: 20.0, style: .continuous)
-						.fill(color)
-						.opacity(0.3))
 		.contextMenu {
 			ForEach(contextMenuItems, id: \.title) { contextMenuItem in
-				Button {
+				Button(role: contextMenuItem.title.contains("Remove") ? .destructive : .none) {
 					contextMenuItem.action()
 				} label: {
 					Label {
@@ -58,12 +64,13 @@ struct CardView: View {
 				}
 			}
 		}
+
 	}
 	
 	init(name: String, color: Color, destination: AnyView) {
 		self.name = name
 		self.iconName = nil
-		self.imageData = nil
+		self.imageName = nil
 		self.color = color
 		self.minWidth = nil
 		self.contextMenuItems = []
@@ -72,7 +79,7 @@ struct CardView: View {
 	init(name: String, iconName:String, color: Color, destination: AnyView) {
 		self.name = name
 		self.iconName = iconName
-		self.imageData = nil
+		self.imageName = nil
 		self.color = color
 		self.minWidth = nil
 		self.contextMenuItems = []
@@ -81,34 +88,43 @@ struct CardView: View {
 	init(name: String, iconName:String, color: Color, minWidth: CGFloat, destination: AnyView) {
 		self.name = name
 		self.iconName = iconName
-		self.imageData = nil
+		self.imageName = nil
 		self.color = color
 		self.minWidth = minWidth
 		self.contextMenuItems = []
 		self.destination = destination
 	}
-	init(name: String, imageData:String, color: Color, destination: AnyView) {
+	init(name: String, imageName:String, color: Color, destination: AnyView) {
 		self.name = name
 		self.iconName = nil
-		self.imageData = imageData
+		self.imageName = imageName
 		self.color = color
 		self.minWidth = nil
 		self.contextMenuItems = []
 		self.destination = destination
 	}
-	init(name: String, imageData:String, color: Color, contextMenuItems: [MenuItemInfo], destination: AnyView) {
+	init(name: String, imageName:String, color: Color, contextMenuItems: [MenuItemInfo], destination: AnyView) {
 		self.name = name
 		self.iconName = nil
-		self.imageData = imageData
+		self.imageName = imageName
 		self.color = color
 		self.minWidth = nil
 		self.contextMenuItems = contextMenuItems
 		self.destination = destination
 	}
-	init(name: String, imageData:String, color: Color, minWidth: CGFloat, contextMenuItems: [MenuItemInfo], destination: AnyView) {
+	init(name: String, imageName:String, color: Color, minWidth: CGFloat, destination: AnyView) {
 		self.name = name
 		self.iconName = nil
-		self.imageData = imageData
+		self.imageName = imageName
+		self.color = color
+		self.minWidth = minWidth
+		self.contextMenuItems = []
+		self.destination = destination
+	}
+	init(name: String, imageName:String, color: Color, minWidth: CGFloat, contextMenuItems: [MenuItemInfo], destination: AnyView) {
+		self.name = name
+		self.iconName = nil
+		self.imageName = imageName
 		self.color = color
 		self.minWidth = minWidth
 		self.contextMenuItems = contextMenuItems

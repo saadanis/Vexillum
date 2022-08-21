@@ -11,209 +11,276 @@ import Foundation
 struct LoadingView: View {
 	
 	@Environment(\.managedObjectContext) var managedObjectContext
+	
 	@FetchRequest(
 		entity: Flag.entity(),
-		sortDescriptors: [
-			NSSortDescriptor(keyPath: \Flag.countryName, ascending: true),
-			NSSortDescriptor(keyPath: \Flag.imageData, ascending: false),
-			NSSortDescriptor(keyPath: \Flag.averageRed, ascending: false),
-			NSSortDescriptor(keyPath: \Flag.averageGreen, ascending: false),
-			NSSortDescriptor(keyPath: \Flag.averageBlue, ascending: false)
-		]
+		sortDescriptors: []
 	) var flags: FetchedResults<Flag>
+	
+	@FetchRequest(
+		entity: Colour.entity(),
+		sortDescriptors: []
+	) var colours: FetchedResults<Colour>
+	
+	@FetchRequest(
+		entity: Continent.entity(),
+		sortDescriptors: []
+	) var continents: FetchedResults<Continent>
+	
+	@FetchRequest(entity: Bunch.entity(),
+				  sortDescriptors: []
+	) var bunches: FetchedResults<Bunch>
+	
+	
 	@Binding var dataIsLoaded: Bool
 	
-	@State private var progressPercent = 0.0
-	@State private var flagsImported = [FlagImported]()
-	@State private var numberOfFlags = 0
-	@State private var flagImage = UIImage(systemName: "rectangle.slash")
-	@State private var numberOfFlagsProcessed = 0.0
-	@State private var currentMessage = "Intializing"
-	@State private var dataExists = false
-	
 	var body: some View {
-		VStack(alignment: .leading) {
-			if dataExists {
-				Image(systemName: "flag")
-					.resizable()
-					.aspectRatio(contentMode: .fit)
-					.frame(maxWidth: .infinity, maxHeight: 100, alignment: .center)
-				Text("By Saad Anis")
-					.font(.caption)
-					.frame(maxWidth: .infinity, alignment: .center)
-					.padding(.top)
-			} else {
-				if currentMessage == "Intializing" {
-					Image(systemName: "square.and.arrow.down")
-						.resizable()
-						.aspectRatio(contentMode: .fit)
-						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
-				} else if currentMessage == "Finalizing" {
-					Image(systemName: "face.smiling")
-						.resizable()
-						.aspectRatio(contentMode: .fit)
-						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
-				} else {
-					Image(uiImage: (flagImage ?? UIImage(systemName: "rectangle.slash"))!)
-						.resizable()
-						.aspectRatio(contentMode: .fit)
-						.frame(maxWidth: .infinity, maxHeight: 70, alignment: .center)
-				}
-				ProgressView("\(currentMessage)", value: progressPercent, total:100)
-					.font(.headline)
-					.lineLimit(1)
-					.padding(.horizontal)
-				VStack(alignment: .leading) {
-					Label {
-						Text("\(numberOfFlags)")
-					} icon: {
-						Image(systemName: "square.and.arrow.down")
-							.frame(maxWidth: 15, alignment: .center)
-					}
-					Label {
-						Text("\(Int(numberOfFlagsProcessed))")
-					} icon: {
-						Image(systemName: "hourglass")
-							.frame(maxWidth: 15, alignment: .center)
-					}
-				}
-				.font(.caption)
-			}
+		VStack {
+//			Image("Vexillum_SC")
+//				.resizable()
+//				.frame(width: 80, height: 80)
+//				.cornerRadius(20)
+            Text("Loading View")
 		}
 		.padding()
 		.onAppear() {
-			if(flags.count < 100) {
-				loadData()
-			} else {
-				dataExists = true
-				dataIsLoaded = true
+			
+			// Load the JSON files.
+			let flagsJSON = loadJSON()
+			let coloursJSON = loadJSONColours()
+			let continentsJSON = loadJSONContinents()
+			
+			// Temporary delete alls.
+			for flag in flags {
+				managedObjectContext.delete(flag)
 			}
-		}
-	}
-	
-	func loadData() {
-		guard let url = URL(string: "https://flask-vexillum.herokuapp.com/vexillum") else {
-			print("Invalid URL")
-			return
-		}
-		
-		let request = URLRequest(url: url)
-		
-		URLSession.shared.dataTask(with: request) { data, response, error in
-			if let data = data {
-				if let decodedResponse = try? JSONDecoder().decode(Flags.self, from: data) {
-					DispatchQueue.main.async {
-						flagsImported = decodedResponse.flags
-						numberOfFlags = flagsImported.count
-						progressPercent = 2.5
-						
-						// The SVG Part:
-						flagsImported.forEach { flag in
-							var components = URLComponents(string: "https://flask-vexillum.herokuapp.com/convert")!
-							components.queryItems = [
-								URLQueryItem(name: "country_name", value: flag.country_name),
-								URLQueryItem(name: "image_url", value: flag.image_url)
-							]
-							let request = URLRequest(url: components.url!)
-							
-							let task = URLSession.shared.dataTask(with: request) { data, response, error in
-								if let data = data {
-									processFlagData(flag: flag, data: data)
-									return
-								} else {
-									print("Fetch (for \(flag.country_name)) failed: \(error?.localizedDescription ?? "Unknown error")")
-									
-									// Retry request.
-									URLSession.shared.dataTask(with: request) { data, response, error in
-										if let data = data {
-											processFlagData(flag: flag, data: data)
-											return
-										}
-									}.resume()
-								}
-							}
-							task.resume()
-						}
+			for colour in colours {
+				managedObjectContext.delete(colour)
+			}
+			for continent in continents {
+				managedObjectContext.delete(continent)
+			}
+			for bunch in bunches {
+				managedObjectContext.delete(bunch)
+			}
+			saveData()
+			
+			// Add the JSON continents to CoreData if there are more JSON continents.
+			if (continentsJSON.count > continents.count) {
+				for continentJSON in continentsJSON {
+					if(continents.filter{ $0.continentName == continentJSON }.isEmpty) {
+						let continent = Continent(context: managedObjectContext)
+						continent.continentName = continentJSON
 					}
-					return
 				}
 			}
-			print("Fetch (for list) failed: \(error?.localizedDescription ?? "Unknown error")")
+			saveData()
 			
-		}.resume()
+			// Add the JSON colours to CoreData if there are more JSON colours.
+			if (coloursJSON.count > colours.count) {
+				for colourJSON in coloursJSON {
+					if(colours.filter{ $0.colourHex == colourJSON.colour_hex }.isEmpty) {
+						let colour = Colour(context: managedObjectContext)
+                        colour.colourHex = colourJSON.colour_hex
+                        colour.colourName = colourJSON.colour_name
+					}
+				}
+			}
+			saveData()
+			
+			// Add the JSON flags to CoreData if there are more JSON flags.
+			if (flagsJSON.count > flags.count) {
+				for flagJSON in flagsJSON {
+					if(flags.filter{$0.countryName == flagJSON.country_name}.isEmpty) {
+						let flag = Flag(context: managedObjectContext)
+						flag.countryName = flagJSON.country_name
+						flag.flagId = flagJSON.flag_id
+						flag.countryId = flagJSON.country_id
+						flag.inception = Int32(flagJSON.inception)
+						flag.imageUrl = flagJSON.image_url
+						flag.nickname = flagJSON.nickname
+						flag.averageRed = Double(flagJSON.average_red)
+						flag.averageGreen = Double(flagJSON.average_green)
+						flag.averageBlue = Double(flagJSON.average_blue)
+						flag.favorite = false
+                        flag.aspectRatio = flagJSON.aspect_ratio
+						
+						var _colours = [Colour]()
+						for colourHex in flagJSON.colours {
+							_colours.append(colours.first(where: {$0.colourHex! == colourHex})!)
+						}
+						flag.colours = NSSet(array: _colours)
+                        
+						var _continents = [Continent]()
+						for continentName in flagJSON.continent {
+							_continents.append(continents.first(where: {$0.continentName! == continentName})!)
+						}
+						flag.continent = NSSet(array: _continents)
+					}
+				}
+			}
+			
+            if(bunches.filter{$0.bunchName == Constants.favoritesString}.isEmpty) {
+				print("Favorites list does not exist; Creating.")
+				let bunch = Bunch(context: managedObjectContext)
+                bunch.bunchName = Constants.favoritesString
+				bunch.bunchIconName = "star"
+				bunch.bunchColorName = "red"
+			}
+			
+			// Temporary: Create a new bunch.
+			if(bunches.filter{$0.bunchName == "My Top Four"}.isEmpty) {
+				let bunch = Bunch(context: managedObjectContext)
+				bunch.bunchName = "My Top Four"
+				bunch.bunchIconName = "hand.thumbsup.fill"
+				bunch.bunchColorName = "green"
+                bunch.bunchOrder = 0
+			}
+            if(bunches.filter{$0.bunchName == "My Bottom Four"}.isEmpty) {
+                let bunch = Bunch(context: managedObjectContext)
+                bunch.bunchName = "My Bottom Four"
+                bunch.bunchIconName = "hand.thumbsdown.fill"
+                bunch.bunchColorName = "red"
+                bunch.bunchOrder = 1
+            }
+			
+			// Save the newly updated data (in CoreData).
+			saveData()
+			
+			for flag in flags {
+				print()
+				print(flag.countryName)
+				print(flag.flagId)
+				print(flag.countryId)
+				print(flag.inception)
+				print(flag.imageUrl)
+				print(flag.nickname)
+				for case let colour as Colour in flag.colours! {
+					print(colour.colourHex)
+				}
+				for case let continent as Continent in flag.continent! {
+					print(continent.continentName)
+				}
+				print(flag.averageRed)
+				print(flag.averageGreen)
+				print(flag.averageBlue)
+			}
+			
+			for bunch in bunches {
+				print()
+				print(bunch.bunchName)
+				print(bunch.bunchIconName)
+                for case let _flag as Flag in bunch.flags! {
+                    print(_flag.countryName)
+                }
+			}
+			
+			dataIsLoaded = true
+		}
 	}
 	
-	func processFlagData(flag: FlagImported, data: Data) {
-		currentMessage = "Processing flag of \(flag.country_name)"
-		flagImage = UIImage(data: data)
+	func loadJSON() -> [FlagJSON] {
 		
-		// Create local instance of Flag object.
-		let _flag = Flag(context: managedObjectContext)
-		_flag.countryName = flag.country_name
-		_flag.imageData = flagImage?.pngData()?.base64EncodedString()
+		let flagsJSON: [FlagJSON] = load("flags.json")
 		
-		numberOfFlagsProcessed += 1.0
-		progressPercent = 95 * (numberOfFlagsProcessed / Double(numberOfFlags))
-		
-		if(Int(numberOfFlagsProcessed) == numberOfFlags) {
-			currentMessage = "Finalizing"
-			addAverageColors()
-			saveData()
+		func load<T: Decodable>(_ filename: String) -> T {
+			let data: Data
+			
+			guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+			else {
+				fatalError("Couldn't find \(filename) in main bundle.")
+			}
+			
+			do {
+				data = try Data(contentsOf: file)
+			} catch {
+				fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+			}
+			
+			do {
+				let decoder = JSONDecoder()
+				return try decoder.decode(T.self, from: data)
+			} catch {
+				fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+			}
 		}
+		
+		return flagsJSON
+	}
+	
+	func loadJSONColours() -> [ColourJSON] {
+		
+		let coloursJSON: [ColourJSON] = load("colours.json")
+		
+		func load<T: Decodable>(_ filename: String) -> T {
+			let data: Data
+			
+			guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+			else {
+				fatalError("Couldn't find \(filename) in main bundle.")
+			}
+			
+			do {
+				data = try Data(contentsOf: file)
+			} catch {
+				fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+			}
+			
+			do {
+				let decoder = JSONDecoder()
+				return try decoder.decode(T.self, from: data)
+			} catch {
+				fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+			}
+		}
+		
+		return coloursJSON
+	}
+	
+	func loadJSONContinents() -> [String] {
+		let continentsJSON: [String] = load("continents.json")
+		
+		func load<T: Decodable>(_ filename: String) -> T {
+			let data: Data
+			
+			guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+			else {
+				fatalError("Couldn't find \(filename) in main bundle.")
+			}
+			
+			do {
+				data = try Data(contentsOf: file)
+			} catch {
+				fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+			}
+			
+			do {
+				let decoder = JSONDecoder()
+				return try decoder.decode(T.self, from: data)
+			} catch {
+				fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+			}
+		}
+		
+		return continentsJSON
 	}
 	
 	func saveData() {
-		flagImage = UIImage(systemName: "face.smiling")
-		print("Attempting to remove duplicates.")
-		removeDuplicates()
-		print("Attempting to save data.")
-		for flag in flags {
-			if flag.imageData == nil {
-				fatalError("ImageData is nil for \(flag.countryName ?? "Unknown").")
-			}
-		}
 		do {
 			if managedObjectContext.hasChanges {
+				print("There are changes; Saving data.")
 				try managedObjectContext.save()
 			}
 		} catch {
-			fatalError("Issue.")
-		}
-		progressPercent = 100
-		dataIsLoaded = true
-	}
-	
-	func addAverageColors() {
-		
-		flags.forEach { flag in
-			let uiImage = UIImage(data: Data(base64Encoded: flag.imageData! as String, options: .ignoreUnknownCharacters)!)!
-			let averageColor = uiImage.averageColor
-			flag.averageRed = Double(averageColor?.rgba.red ?? 0)
-			flag.averageGreen = Double(averageColor?.rgba.green ?? 0)
-			flag.averageBlue = Double(averageColor?.rgba.blue ?? 0)
-			
-			print("R: \(flag.averageRed) G: \(flag.averageGreen) B: \(flag.averageBlue) ")
+			fatalError("Issue in saving data.")
 		}
 	}
 	
-	func removeDuplicates() {
-		flags.forEach { flag in
-			var count = 0
-			flags.forEach { _flag in
-				if _flag.countryName == flag.countryName {
-					count+=1
-				}
-			}
-			if count >= 2 {
-				managedObjectContext.delete(flag)
-			}
-		}
-	}
 }
 
 struct LoadingView_Previews: PreviewProvider {
 	
 	static var previews: some View {
-		LoadingView(dataIsLoaded: .constant(false))
+        LoadingView(dataIsLoaded: .constant(false))
 	}
 }

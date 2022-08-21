@@ -8,13 +8,25 @@
 import Foundation
 import SwiftUI
 
-// These structs are used in retreiving flag data from the web service.
-
-struct FlagImported: Codable {
+struct FlagJSON: Decodable {
 	var country_name: String
 	var image_url: String
+	var flag_id: String
+	var country_id: String
+	var genre: [String]?
+	var aspect_ratio: String
+	var color: [String]
+    var colours: [String]
+	var depicts: [String]?
+	var inception: Int
+	var nickname: String?
+	var continent: [String]
+	var average_red: Int
+	var average_green: Int
+	var average_blue: Int
 }
 
-struct Flags: Codable {
-	var flags: [FlagImported]
+struct ColourJSON: Decodable {
+	var colour_hex: String
+    var colour_name: String
 }

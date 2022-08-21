@@ -24,7 +24,6 @@ struct PersistenceController {
 		for _ in 0..<10 {
 			let flag = Flag(context: controller.container.viewContext)
 			flag.countryName = "United Country"
-			flag.imageData = UIImage(systemName: "rectangle.slash")!.jpegData(compressionQuality: 1.0)!.base64EncodedString()
 		}
 		
 		return controller

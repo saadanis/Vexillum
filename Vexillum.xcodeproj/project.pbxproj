@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9318AB962776E49000313FA4 /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318AB952776E49000313FA4 /* FlagView.swift */; };
+		9318AB992776F8FC00313FA4 /* continents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9318AB982776F8FC00313FA4 /* continents.json */; };
 		93275AF326AE736B00842BD1 /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93275AF226AE736B00842BD1 /* FlagsView.swift */; };
+		933BAE68288ABDA100933AE4 /* NewListSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BAE67288ABDA100933AE4 /* NewListSheetView.swift */; };
 		9348F26F26B4206F0025F52D /* GlossaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348F26E26B4206F0025F52D /* GlossaryView.swift */; };
+		934E496E287970B100D28A7E /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E496D287970B100D28A7E /* MoreView.swift */; };
 		93583C4F26AD3F5D00270584 /* VexillumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93583C4E26AD3F5D00270584 /* VexillumApp.swift */; };
 		93583C5126AD3F5D00270584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93583C5026AD3F5D00270584 /* ContentView.swift */; };
 		93583C5326AD3F5E00270584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93583C5226AD3F5E00270584 /* Assets.xcassets */; };
 		93583C5626AD3F5E00270584 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93583C5526AD3F5E00270584 /* Preview Assets.xcassets */; };
 		93583C5E26AD7A1A00270584 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93583C5D26AD7A1A00270584 /* AboutView.swift */; };
 		9388FE6B26AE86FB0093272B /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388FE6A26AE86FB0093272B /* Flag.swift */; };
+		938F5D422776025E00075882 /* colours.json in Resources */ = {isa = PBXBuildFile; fileRef = 938F5D412776025E00075882 /* colours.json */; };
 		93A7CEE226B13872003512D3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7CEE126B13872003512D3 /* LoadingView.swift */; };
 		93A7CEE526B2C1AD003512D3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93A7CEE326B2C1AD003512D3 /* Model.xcdatamodeld */; };
+		93BC7CDD287AD7CB00FCFC78 /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 93BC7CDC287AD7CB00FCFC78 /* flags.json */; };
 		93D0601B26B4F0D100E18081 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0601A26B4F0D100E18081 /* CardView.swift */; };
+		93DF96472876B22C009937BE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF96462876B22C009937BE /* MainView.swift */; };
+		93DF96492876B76B009937BE /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF96482876B76B009937BE /* BrowseView.swift */; };
+		93DF964B2876E7FD009937BE /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF964A2876E7FD009937BE /* ListsView.swift */; };
 		93F143F426B38B0B00095C6B /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F143F326B38B0B00095C6B /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9318AB952776E49000313FA4 /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
+		9318AB982776F8FC00313FA4 /* continents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = continents.json; sourceTree = "<group>"; };
 		93275AF226AE736B00842BD1 /* FlagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
+		933BAE67288ABDA100933AE4 /* NewListSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListSheetView.swift; sourceTree = "<group>"; };
 		9348F26E26B4206F0025F52D /* GlossaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryView.swift; sourceTree = "<group>"; };
+		934E496D287970B100D28A7E /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		93583C4B26AD3F5D00270584 /* Vexillum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vexillum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93583C4E26AD3F5D00270584 /* VexillumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexillumApp.swift; sourceTree = "<group>"; };
 		93583C5026AD3F5D00270584 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +45,14 @@
 		93583C5726AD3F5E00270584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93583C5D26AD7A1A00270584 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		9388FE6A26AE86FB0093272B /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		938F5D412776025E00075882 /* colours.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colours.json; sourceTree = "<group>"; };
 		93A7CEE126B13872003512D3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		93A7CEE426B2C1AD003512D3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		93BC7CDC287AD7CB00FCFC78 /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
 		93D0601A26B4F0D100E18081 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		93DF96462876B22C009937BE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		93DF96482876B76B009937BE /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		93DF964A2876E7FD009937BE /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
 		93F143F326B38B0B00095C6B /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,12 +86,20 @@
 		93583C4D26AD3F5D00270584 /* Vexillum */ = {
 			isa = PBXGroup;
 			children = (
+				9318AB982776F8FC00313FA4 /* continents.json */,
+				938F5D412776025E00075882 /* colours.json */,
+				93BC7CDC287AD7CB00FCFC78 /* flags.json */,
 				93583C4E26AD3F5D00270584 /* VexillumApp.swift */,
 				9388FE6A26AE86FB0093272B /* Flag.swift */,
 				93A7CEE126B13872003512D3 /* LoadingView.swift */,
 				93D0601A26B4F0D100E18081 /* CardView.swift */,
 				93583C5026AD3F5D00270584 /* ContentView.swift */,
+				93DF96462876B22C009937BE /* MainView.swift */,
+				934E496D287970B100D28A7E /* MoreView.swift */,
 				93275AF226AE736B00842BD1 /* FlagsView.swift */,
+				93DF96482876B76B009937BE /* BrowseView.swift */,
+				93DF964A2876E7FD009937BE /* ListsView.swift */,
+				9318AB952776E49000313FA4 /* FlagView.swift */,
 				9348F26E26B4206F0025F52D /* GlossaryView.swift */,
 				93583C5D26AD7A1A00270584 /* AboutView.swift */,
 				93583C5226AD3F5E00270584 /* Assets.xcassets */,
@@ -81,6 +107,7 @@
 				93583C5426AD3F5E00270584 /* Preview Content */,
 				93A7CEE326B2C1AD003512D3 /* Model.xcdatamodeld */,
 				93F143F326B38B0B00095C6B /* PersistenceController.swift */,
+				933BAE67288ABDA100933AE4 /* NewListSheetView.swift */,
 			);
 			path = Vexillum;
 			sourceTree = "<group>";
@@ -151,7 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93583C5626AD3F5E00270584 /* Preview Assets.xcassets in Resources */,
+				938F5D422776025E00075882 /* colours.json in Resources */,
 				93583C5326AD3F5E00270584 /* Assets.xcassets in Resources */,
+				93BC7CDD287AD7CB00FCFC78 /* flags.json in Resources */,
+				9318AB992776F8FC00313FA4 /* continents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +196,14 @@
 				93583C5E26AD7A1A00270584 /* AboutView.swift in Sources */,
 				9388FE6B26AE86FB0093272B /* Flag.swift in Sources */,
 				93A7CEE526B2C1AD003512D3 /* Model.xcdatamodeld in Sources */,
+				934E496E287970B100D28A7E /* MoreView.swift in Sources */,
 				93D0601B26B4F0D100E18081 /* CardView.swift in Sources */,
+				93DF96492876B76B009937BE /* BrowseView.swift in Sources */,
 				93275AF326AE736B00842BD1 /* FlagsView.swift in Sources */,
+				9318AB962776E49000313FA4 /* FlagView.swift in Sources */,
+				93DF964B2876E7FD009937BE /* ListsView.swift in Sources */,
+				93DF96472876B22C009937BE /* MainView.swift in Sources */,
+				933BAE68288ABDA100933AE4 /* NewListSheetView.swift in Sources */,
 				93583C4F26AD3F5D00270584 /* VexillumApp.swift in Sources */,
 				9348F26F26B4206F0025F52D /* GlossaryView.swift in Sources */,
 				93A7CEE226B13872003512D3 /* LoadingView.swift in Sources */,
@@ -229,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -284,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -304,7 +340,7 @@
 				DEVELOPMENT_TEAM = P8JY26RP56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vexillum/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saadanis.Vexillum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,7 +362,7 @@
 				DEVELOPMENT_TEAM = P8JY26RP56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Vexillum/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.saadanis.Vexillum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

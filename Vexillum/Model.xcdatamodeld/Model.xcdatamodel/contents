@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bunch" representedClassName="Bunch" syncable="YES" codeGenerationType="class">
+        <attribute name="bunchColorName" optional="YES" attributeType="String"/>
+        <attribute name="bunchIconName" optional="YES" attributeType="String"/>
+        <attribute name="bunchName" optional="YES" attributeType="String"/>
+        <attribute name="bunchOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="flags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flag"/>
+    </entity>
+    <entity name="Colour" representedClassName="Colour" syncable="YES" codeGenerationType="class">
+        <attribute name="colourHex" optional="YES" attributeType="String"/>
+        <attribute name="colourName" optional="YES" attributeType="String"/>
+        <relationship name="flag" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flag" inverseName="colours" inverseEntity="Flag"/>
+    </entity>
+    <entity name="Continent" representedClassName="Continent" syncable="YES" codeGenerationType="class">
+        <attribute name="continentName" optional="YES" attributeType="String"/>
+        <relationship name="flag" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flag" inverseName="continent" inverseEntity="Flag"/>
+    </entity>
     <entity name="Flag" representedClassName="Flag" syncable="YES" codeGenerationType="class">
+        <attribute name="aspectRatio" optional="YES" attributeType="String"/>
         <attribute name="averageBlue" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="averageGreen" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="averageRed" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="countryId" optional="YES" attributeType="String"/>
         <attribute name="countryName" optional="YES" attributeType="String"/>
         <attribute name="favorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="imageData" optional="YES" attributeType="String"/>
+        <attribute name="flagId" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="inception" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <relationship name="colours" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Colour" inverseName="flag" inverseEntity="Colour"/>
+        <relationship name="continent" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Continent" inverseName="flag" inverseEntity="Continent"/>
     </entity>
     <elements>
-        <element name="Flag" positionX="1419.240356445312" positionY="1066.11767578125" width="128" height="119"/>
+        <element name="Bunch" positionX="1575" positionY="1296" width="128" height="104"/>
+        <element name="Colour" positionX="1741.443725585937" positionY="1400.422790527344" width="128" height="74"/>
+        <element name="Continent" positionX="1638.676635742188" positionY="1139.498901367188" width="128" height="59"/>
+        <element name="Flag" positionX="1408.054260253906" positionY="1153.786010742187" width="128" height="224"/>
     </elements>
 </model>

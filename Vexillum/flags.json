@@ -1,0 +1,7173 @@
+[
+    {
+        "country_name": "Abkhazia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Republic_of_Abkhazia.svg",
+        "flag_id": "Q199621",
+        "country_id": "Q23334",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "hand",
+            "five-pointed star"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 128,
+        "average_green": 177,
+        "average_blue": 134,
+        "colours": [
+            "00993E",
+            "FFFFFF",
+            "C8312A"
+        ]
+    },
+    {
+        "country_name": "Afghanistan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Afghanistan_%282013%E2%80%932021%29.svg",
+        "flag_id": "Q108111555",
+        "country_id": "Q889",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "black",
+            "red",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "emblem of Afghanistan"
+        ],
+        "inception": 2013,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 79,
+        "average_green": 69,
+        "average_blue": 43,
+        "colours": [
+            "000000",
+            "009900",
+            "BF0000",
+            "F4E5D7"
+        ]
+    },
+    {
+        "country_name": "Albania",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Albania.svg",
+        "flag_id": "Q48409",
+        "country_id": "Q222",
+        "genre": null,
+        "aspect_ratio": "5:7",
+        "color": [
+            "red",
+            "black"
+        ],
+        "depicts": [
+            "double-headed eagle",
+            "field"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 222,
+        "average_green": 0,
+        "average_blue": 0,
+        "colours": [
+            "E41E20",
+            "020000"
+        ]
+    },
+    {
+        "country_name": "Algeria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Algeria.svg",
+        "flag_id": "Q83392",
+        "country_id": "Q262",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "star and crescent",
+            "five-pointed star",
+            "crescent",
+            "field"
+        ],
+        "inception": 1962,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 134,
+        "average_green": 170,
+        "average_blue": 148,
+        "colours": [
+            "FFFFFF",
+            "006233",
+            "D21034"
+        ]
+    },
+    {
+        "country_name": "Andorra",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Andorra.svg",
+        "flag_id": "Q81526",
+        "country_id": "Q228",
+        "genre": [
+            "tricolour",
+            "vertical triband"
+        ],
+        "aspect_ratio": "7:10",
+        "color": [
+            "blue",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "coat of arms of Andorra",
+            "field"
+        ],
+        "inception": 1971,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 159,
+        "average_green": 73,
+        "average_blue": 74,
+        "colours": [
+            "D0103A",
+            "0018A8",
+            "FDDE00",
+            "BBA373"
+        ]
+    },
+    {
+        "country_name": "Angola",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Angola.svg",
+        "flag_id": "Q124329",
+        "country_id": "Q916",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "black",
+            "yellow"
+        ],
+        "depicts": [
+            "machete",
+            "cogwheel",
+            "five-pointed star",
+            "field"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 109,
+        "average_green": 13,
+        "average_blue": 22,
+        "colours": [
+            "CE1126",
+            "000000",
+            "F7D416"
+        ]
+    },
+    {
+        "country_name": "Antigua and Barbuda",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Antigua_and_Barbuda.svg",
+        "flag_id": "Q135034",
+        "country_id": "Q781",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "black",
+            "blue",
+            "white",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "Sun",
+            "sunrise",
+            "Caribbean Sea",
+            "field",
+            "pile"
+        ],
+        "inception": 1967,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 136,
+        "average_green": 51,
+        "average_blue": 61,
+        "colours": [
+            "CE1126",
+            "000000",
+            "0072C6",
+            "FFFFFF",
+            "FBD116"
+        ]
+    },
+    {
+        "country_name": "Argentina",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Argentina.svg",
+        "flag_id": "Q130774",
+        "country_id": "Q414",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "5:8",
+        "color": [
+            "sky blue",
+            "white",
+            "yellow"
+        ],
+        "depicts": [
+            "Sun of May",
+            "field",
+            "fess",
+            "Sun"
+        ],
+        "inception": 1812,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 161,
+        "average_green": 196,
+        "average_blue": 228,
+        "colours": [
+            "74ACDF",
+            "FFFFFF",
+            "D7A454"
+        ]
+    },
+    {
+        "country_name": "Armenia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Armenia.svg",
+        "flag_id": "Q33213",
+        "country_id": "Q399",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "blue",
+            "orange"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1990,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 153,
+        "average_green": 73,
+        "average_blue": 59,
+        "colours": [
+            "F2A800",
+            "D90012",
+            "0033A0"
+        ]
+    },
+    {
+        "country_name": "Australia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Australia_%28converted%29.svg",
+        "flag_id": "Q81676",
+        "country_id": "Q408",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Union Jack",
+            "Commonwealth Star",
+            "Crux",
+            "Acrux",
+            "Mimosa",
+            "Gamma Crucis",
+            "Delta Crucis",
+            "Epsilon Crucis",
+            "seven-pointed star",
+            "five-pointed star",
+            "Blue Ensign"
+        ],
+        "inception": 1901,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 51,
+        "average_green": 55,
+        "average_blue": 116,
+        "colours": [
+            "00008B",
+            "FEFEFE",
+            "FF0101"
+        ]
+    },
+    {
+        "country_name": "Austria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Austria.svg",
+        "flag_id": "Q46835",
+        "country_id": "Q40",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess"
+        ],
+        "inception": 1918,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 243,
+        "average_green": 112,
+        "average_blue": 123,
+        "colours": [
+            "ED2939",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Azerbaijan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Azerbaijan.svg",
+        "flag_id": "Q82236",
+        "country_id": "Q227",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "light blue",
+            "red",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "star and crescent",
+            "eight-pointed star",
+            "crescent",
+            "field"
+        ],
+        "inception": 1918,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 106,
+        "average_green": 133,
+        "average_blue": 115,
+        "colours": [
+            "00B9E4",
+            "3F9C35",
+            "ED2939",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Bahrain",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Bahrain.svg",
+        "flag_id": "Q130481",
+        "country_id": "Q398",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "flanche"
+        ],
+        "inception": 2002,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 221,
+        "average_green": 94,
+        "average_blue": 108,
+        "colours": [
+            "CE1126",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Bangladesh",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Bangladesh.svg",
+        "flag_id": "Q127179",
+        "country_id": "Q902",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "Sun",
+            "field",
+            "roundel"
+        ],
+        "inception": 1972,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 51,
+        "average_green": 92,
+        "average_blue": 75,
+        "colours": [
+            "006A4E",
+            "F42A41"
+        ]
+    },
+    {
+        "country_name": "Barbados",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Barbados.svg",
+        "flag_id": "Q104351",
+        "country_id": "Q244",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "ultramarine",
+            "gold",
+            "black"
+        ],
+        "depicts": [
+            "trident",
+            "field",
+            "pale"
+        ],
+        "inception": 1966,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 75,
+        "average_green": 84,
+        "average_blue": 95,
+        "colours": [
+            "00267F",
+            "FFC726",
+            "010100"
+        ]
+    },
+    {
+        "country_name": "Belarus",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Belarus.svg",
+        "flag_id": "Q132633",
+        "country_id": "Q184",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "red",
+            "point",
+            "embroidery"
+        ],
+        "inception": 1995,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 147,
+        "average_green": 64,
+        "average_blue": 47,
+        "colours": [
+            "C8313E",
+            "4AA657",
+            "FEFAFA"
+        ]
+    },
+    {
+        "country_name": "Belgium",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Belgium.svg",
+        "flag_id": "Q12990",
+        "country_id": "Q31",
+        "genre": [
+            "tricolour",
+            "vertical triband"
+        ],
+        "aspect_ratio": "13:15",
+        "color": [
+            "black",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1831,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 163,
+        "average_green": 89,
+        "average_blue": 33,
+        "colours": [
+            "000000",
+            "ED2939",
+            "FAE042"
+        ]
+    },
+    {
+        "country_name": "Belize",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Belize.svg",
+        "flag_id": "Q169192",
+        "country_id": "Q242",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "royal blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "coat of arms of Belize",
+            "field",
+            "bar"
+        ],
+        "inception": 1981,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 87,
+        "average_green": 49,
+        "average_blue": 127,
+        "colours": [
+            "003F87",
+            "CE1126",
+            "D5DBD6",
+            "2A9104"
+        ]
+    },
+    {
+        "country_name": "Benin",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Benin.svg",
+        "flag_id": "Q130442",
+        "country_id": "Q962",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "flanche"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 145,
+        "average_green": 121,
+        "average_blue": 52,
+        "colours": [
+            "008751",
+            "FCD116",
+            "E8112D"
+        ]
+    },
+    {
+        "country_name": "Bhutan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Bhutan.svg",
+        "flag_id": "Q134521",
+        "country_id": "Q917",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "yellow",
+            "orange",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "Druk",
+            "field"
+        ],
+        "inception": 1969,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 251,
+        "average_green": 160,
+        "average_blue": 56,
+        "colours": [
+            "FFD520",
+            "FF4E12",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Bosnia and Herzegovina",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Bosnia_and_Herzegovina.svg",
+        "flag_id": "Q162033",
+        "country_id": "Q225",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "yellow",
+            "white"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "field",
+            "side sinister"
+        ],
+        "inception": 1998,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 73,
+        "average_green": 85,
+        "average_blue": 116,
+        "colours": [
+            "002395",
+            "FECB00",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Botswana",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Botswana.svg",
+        "flag_id": "Q160242",
+        "country_id": "Q963",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "light blue",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "fimbriation"
+        ],
+        "inception": 1966,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 103,
+        "average_green": 148,
+        "average_blue": 178,
+        "colours": [
+            "75AADB",
+            "000000",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Brazil",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Brazil.svg",
+        "flag_id": "Q82194",
+        "country_id": "Q155",
+        "genre": null,
+        "aspect_ratio": "7:10",
+        "color": [
+            "green",
+            "yellow",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "rhombus",
+            "disk",
+            "motto",
+            "Canis Minor",
+            "Canis Major",
+            "Canopus",
+            "Spica",
+            "Hydra",
+            "Crux",
+            "Octans",
+            "Triangulum Australe",
+            "Scorpius",
+            "Procyon",
+            "Sirius",
+            "Beta Canis Majoris",
+            "Gamma Canis Majoris",
+            "Delta Canis Majoris",
+            "Epsilon Canis Majoris",
+            "Antares",
+            "Beta Scorpii",
+            "Epsilon Scorpii",
+            "Theta Scorpii",
+            "Iota Scorpii",
+            "Kappa Scorpii",
+            "Lambda Scorpii",
+            "Mu Scorpii",
+            "Alphard",
+            "Gamma Hydrae",
+            "Acrux",
+            "Mimosa",
+            "Gamma Crucis",
+            "Delta Crucis",
+            "Epsilon Crucis",
+            "Alpha Trianguli Australis",
+            "Beta Trianguli Australis",
+            "Gamma Trianguli Australis",
+            "Sigma Octantis",
+            "five-pointed star"
+        ],
+        "inception": 1889,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 47,
+        "average_green": 153,
+        "average_blue": 57,
+        "colours": [
+            "009B3A",
+            "FDDF00",
+            "012876",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Brunei",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Brunei.svg",
+        "flag_id": "Q165872",
+        "country_id": "Q921",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "yellow",
+            "white",
+            "black",
+            "red"
+        ],
+        "depicts": [
+            "emblem of Brunei",
+            "field",
+            "bend"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 202,
+        "average_green": 178,
+        "average_blue": 70,
+        "colours": [
+            "F7E017",
+            "FFFFFF",
+            "010000",
+            "CF1226",
+            "E2751F",
+            "DE5A68"
+        ]
+    },
+    {
+        "country_name": "Bulgaria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Bulgaria.svg",
+        "flag_id": "Q225360",
+        "country_id": "Q219",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "white",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1879,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 156,
+        "average_green": 147,
+        "average_blue": 127,
+        "colours": [
+            "FFFFFF",
+            "D62612",
+            "00966E",
+            "47714F",
+            "54B99E"
+        ]
+    },
+    {
+        "country_name": "Burkina Faso",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Burkina_Faso.svg",
+        "flag_id": "Q134252",
+        "country_id": "Q965",
+        "genre": [
+            "horizontal bicolor flag",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "green",
+            "yellow"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "field"
+        ],
+        "inception": 1984,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 122,
+        "average_green": 102,
+        "average_blue": 58,
+        "colours": [
+            "009E49",
+            "EF2B2D",
+            "FCD116",
+            "F89B1D",
+            "8EBB2C"
+        ]
+    },
+    {
+        "country_name": "Burundi",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Burundi.svg",
+        "flag_id": "Q103084",
+        "country_id": "Q967",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "white",
+            "red",
+            "green"
+        ],
+        "depicts": [
+            "six-pointed star",
+            "field",
+            "saltire",
+            "fimbriation"
+        ],
+        "inception": 1967,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 162,
+        "average_green": 156,
+        "average_blue": 120,
+        "colours": [
+            "1EB53A",
+            "FFFFFF",
+            "CE1126",
+            "D8EEDA",
+            "5CC870",
+            "DD5867"
+        ]
+    },
+    {
+        "country_name": "Cambodia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Cambodia.svg",
+        "flag_id": "Q162999",
+        "country_id": "Q424",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "Angkor Wat",
+            "field",
+            "fess"
+        ],
+        "inception": 1948,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 110,
+        "average_green": 42,
+        "average_blue": 114,
+        "colours": [
+            "032EA1",
+            "E00025",
+            "A49FA0",
+            "767273",
+            "A05964",
+            "752A37"
+        ]
+    },
+    {
+        "country_name": "Cameroon",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Cameroon.svg",
+        "flag_id": "Q159872",
+        "country_id": "Q1009",
+        "genre": [
+            "vertical triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "field"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 153,
+        "average_green": 118,
+        "average_blue": 51,
+        "colours": [
+            "FCD116",
+            "007A5E",
+            "CE1126",
+            "E6761E"
+        ]
+    },
+    {
+        "country_name": "Canada",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Canada.svg",
+        "flag_id": "Q80110",
+        "country_id": "Q16",
+        "genre": [
+            "Canadian pale"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "maple leaf",
+            "field",
+            "pale"
+        ],
+        "inception": 1965,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 255,
+        "average_green": 92,
+        "average_blue": 92,
+        "colours": [
+            "FF0000",
+            "FFFFFF",
+            "FFD0D0",
+            "FF9191",
+            "FF2C2C",
+            "FF5050"
+        ]
+    },
+    {
+        "country_name": "Cape Verde",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Cape_Verde_%282-3_ratio%29.svg",
+        "flag_id": "Q102944",
+        "country_id": "Q1011",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "white",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "barrulet",
+            "fimbriation",
+            "five-pointed star"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 62,
+        "average_green": 88,
+        "average_blue": 152,
+        "colours": [
+            "003893",
+            "FFFFFF",
+            "CF2027",
+            "DF696E",
+            "F5D017",
+            "B5A838"
+        ]
+    },
+    {
+        "country_name": "Central African Republic",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Central_African_Republic.svg",
+        "flag_id": "Q165775",
+        "country_id": "Q929",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "white",
+            "green",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "barry",
+            "pale"
+        ],
+        "inception": 1958,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 152,
+        "average_green": 141,
+        "average_blue": 95,
+        "colours": [
+            "FFCE00",
+            "FFFFFF",
+            "289728",
+            "003082",
+            "D21034",
+            "CDAF1A"
+        ]
+    },
+    {
+        "country_name": "Chad",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Chad.svg",
+        "flag_id": "Q165811",
+        "country_id": "Q657",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 150,
+        "average_green": 84,
+        "average_blue": 49,
+        "colours": [
+            "FECB00",
+            "002664",
+            "C60C30"
+        ]
+    },
+    {
+        "country_name": "Chile",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Chile.svg",
+        "flag_id": "Q160872",
+        "country_id": "Q298",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "five-pointed star"
+        ],
+        "inception": 1817,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 195,
+        "average_green": 118,
+        "average_blue": 129,
+        "colours": [
+            "D52B1E",
+            "FFFFFF",
+            "0039A6",
+            "3663B9",
+            "A3B8DF",
+            "6A8CCB"
+        ]
+    },
+    {
+        "country_name": "Colombia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Colombia.svg",
+        "flag_id": "Q160425",
+        "country_id": "Q739",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "yellow",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1860,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 177,
+        "average_green": 118,
+        "average_blue": 45,
+        "colours": [
+            "FCD116",
+            "003893",
+            "CE1126"
+        ]
+    },
+    {
+        "country_name": "Comoros",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Comoros.svg",
+        "flag_id": "Q168917",
+        "country_id": "Q970",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "yellow",
+            "white",
+            "red",
+            "blue",
+            "green"
+        ],
+        "depicts": [
+            "barry",
+            "triangle",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 2002,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 161,
+        "average_green": 150,
+        "average_blue": 114,
+        "colours": [
+            "3A75C4",
+            "FFC61E",
+            "3D8E33",
+            "FFFFFF",
+            "CE1126",
+            "709D2E"
+        ]
+    },
+    {
+        "country_name": "Cook Islands",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Cook_Islands.svg",
+        "flag_id": "Q193693",
+        "country_id": "Q26988",
+        "genre": [
+            "Blue Ensign",
+            "defaced flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Union Jack",
+            "five-pointed star"
+        ],
+        "inception": 1979,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 53,
+        "average_green": 60,
+        "average_blue": 119,
+        "colours": [
+            "00247D",
+            "FDFDFE",
+            "CF142B",
+            "546CA7",
+            "304D96",
+            "DC5364"
+        ]
+    },
+    {
+        "country_name": "Costa Rica",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Costa_Rica_%28state%29.svg",
+        "flag_id": "Q170289",
+        "country_id": "Q800",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "blue",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "chief",
+            "point",
+            "coat of arms of Costa Rica"
+        ],
+        "inception": 1848,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 152,
+        "average_green": 110,
+        "average_blue": 144,
+        "colours": [
+            "002B7F",
+            "FFFFFF",
+            "CE1126",
+            "5572AA",
+            "DE5F6D"
+        ]
+    },
+    {
+        "country_name": "Croatia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Croatia.svg",
+        "flag_id": "Q133015",
+        "country_id": "Q224",
+        "genre": [
+            "horizontal triband",
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "blue",
+            "cyan",
+            "yellow",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "coat of arms of Croatia"
+        ],
+        "inception": 1990,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 175,
+        "average_green": 89,
+        "average_blue": 131,
+        "colours": [
+            "FF0000",
+            "171796",
+            "FFFFFF",
+            "FD7071",
+            "B3B3DC",
+            "9C2639"
+        ]
+    },
+    {
+        "country_name": "Cuba",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Cuba.svg",
+        "flag_id": "Q163008",
+        "country_id": "Q241",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "bar",
+            "equilateral triangle",
+            "five-pointed star"
+        ],
+        "inception": 1849,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 120,
+        "average_green": 104,
+        "average_blue": 153,
+        "colours": [
+            "002A8F",
+            "FFFFFF",
+            "CF142B",
+            "302578",
+            "E16B79",
+            "DA495B"
+        ]
+    },
+    {
+        "country_name": "Cyprus",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Cyprus.svg",
+        "flag_id": "Q4633",
+        "country_id": "Q229",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "orange",
+            "green"
+        ],
+        "depicts": [
+            "map",
+            "olive branch",
+            "field"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 248,
+        "average_green": 240,
+        "average_blue": 229,
+        "colours": [
+            "FFFFFF",
+            "D47600",
+            "F0E6D6",
+            "475429",
+            "E4A85D",
+            "DC8E2D"
+        ]
+    },
+    {
+        "country_name": "Czech Republic",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Czech_Republic.svg",
+        "flag_id": "Q127155",
+        "country_id": "Q213",
+        "genre": [
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "red",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "equilateral triangle"
+        ],
+        "inception": 1993,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 180,
+        "average_green": 120,
+        "average_blue": 136,
+        "colours": [
+            "FFFFFF",
+            "D7141A",
+            "11457E",
+            "B0C1D4",
+            "6083A9",
+            "95243B"
+        ]
+    },
+    {
+        "country_name": "C\u00f4te d'Ivoire",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_C%C3%B4te_d%27Ivoire.svg",
+        "flag_id": "Q102967",
+        "country_id": "Q1008",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "orange",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 167,
+        "average_green": 180,
+        "average_blue": 117,
+        "colours": [
+            "FFFFFF",
+            "F77F00",
+            "009E60"
+        ]
+    },
+    {
+        "country_name": "Democratic Republic of the Congo",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Democratic_Republic_of_the_Congo.svg",
+        "flag_id": "Q164584",
+        "country_id": "Q974",
+        "genre": null,
+        "aspect_ratio": "3:4",
+        "color": [
+            "sky blue",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "fimbriation",
+            "five-pointed star"
+        ],
+        "inception": 2006,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 73,
+        "average_green": 116,
+        "average_blue": 180,
+        "colours": [
+            "007FFF",
+            "CE1021",
+            "F7D518",
+            "539CB2",
+            "E16C1D",
+            "B1BD59"
+        ]
+    },
+    {
+        "country_name": "Denmark",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Denmark.svg",
+        "flag_id": "Q60149",
+        "country_id": "Q35",
+        "genre": [
+            "Nordic cross flag"
+        ],
+        "aspect_ratio": "14:17",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "Nordic cross",
+            "field"
+        ],
+        "inception": 1748,
+        "nickname": null,
+        "continent": [
+            "Europe",
+            "North America"
+        ],
+        "average_red": 211,
+        "average_green": 69,
+        "average_blue": 96,
+        "colours": [
+            "C60C30",
+            "FFFFFF",
+            "D8576F"
+        ]
+    },
+    {
+        "country_name": "Djibouti",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Djibouti.svg",
+        "flag_id": "Q102184",
+        "country_id": "Q977",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "light blue",
+            "green",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "equilateral triangle",
+            "five-pointed star"
+        ],
+        "inception": 1977,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 117,
+        "average_green": 195,
+        "average_blue": 167,
+        "colours": [
+            "6AB2E7",
+            "12AD2B",
+            "FFFFFF",
+            "D7141A",
+            "E45F63",
+            "5DC76E"
+        ]
+    },
+    {
+        "country_name": "Dominica",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Dominica.svg",
+        "flag_id": "Q179383",
+        "country_id": "Q784",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "yellow",
+            "black",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "cross",
+            "roundel",
+            "Imperial Amazon",
+            "five-pointed star"
+        ],
+        "inception": 1978,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 61,
+        "average_green": 112,
+        "average_blue": 69,
+        "colours": [
+            "000000",
+            "D31C30",
+            "FCD116",
+            "D4AD13",
+            "80B59F",
+            "7E9E2A"
+        ]
+    },
+    {
+        "country_name": "Dominican Republic",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Dominican_Republic.svg",
+        "flag_id": "Q184265",
+        "country_id": "Q786",
+        "genre": null,
+        "aspect_ratio": "5:8",
+        "color": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "cross",
+            "coat of arms of the Dominican Republic"
+        ],
+        "inception": 1863,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 149,
+        "average_green": 98,
+        "average_blue": 120,
+        "colours": [
+            "CE1126",
+            "002D62",
+            "FFFFFF",
+            "358F49",
+            "9E2228",
+            "0D7720"
+        ]
+    },
+    {
+        "country_name": "Ecuador",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Ecuador.svg",
+        "flag_id": "Q165542",
+        "country_id": "Q736",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "yellow",
+            "blue",
+            "red",
+            "green",
+            "white",
+            "brown",
+            "grey",
+            "dark brown"
+        ],
+        "depicts": [
+            "field",
+            "coat of arms of Ecuador"
+        ],
+        "inception": 56,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 187,
+        "average_green": 135,
+        "average_blue": 49,
+        "colours": [
+            "FFDD00",
+            "ED1C24",
+            "034EA2",
+            "483220",
+            "42AAC9",
+            "4D9332"
+        ]
+    },
+    {
+        "country_name": "Egypt",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Egypt.svg",
+        "flag_id": "Q130458",
+        "country_id": "Q79",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "black",
+            "gold"
+        ],
+        "depicts": [
+            "Eagle of Saladin",
+            "field"
+        ],
+        "inception": 1983,
+        "nickname": null,
+        "continent": [
+            "Africa",
+            "Asia"
+        ],
+        "average_red": 152,
+        "average_green": 88,
+        "average_blue": 92,
+        "colours": [
+            "000000",
+            "CE1126",
+            "FFFFFF",
+            "E4D091",
+            "EFB0B7",
+            "C29608"
+        ]
+    },
+    {
+        "country_name": "El Salvador",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_El_Salvador.svg",
+        "flag_id": "Q173554",
+        "country_id": "Q792",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "189:335",
+        "color": [
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "coat of arms of El Salvador"
+        ],
+        "inception": 1912,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 81,
+        "average_green": 129,
+        "average_blue": 195,
+        "colours": [
+            "0F47AF",
+            "FFFFFF",
+            "B0C2E5",
+            "C1B11D",
+            "258795",
+            "E27C77"
+        ]
+    },
+    {
+        "country_name": "Equatorial Guinea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Equatorial_Guinea.svg",
+        "flag_id": "Q170554",
+        "country_id": "Q983",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "white",
+            "red",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "triangle",
+            "coat of arms of Equatorial Guinea"
+        ],
+        "inception": 1979,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 153,
+        "average_green": 137,
+        "average_blue": 98,
+        "colours": [
+            "3E9A00",
+            "E32118",
+            "FFFFFF",
+            "0073CE",
+            "D2D2D1",
+            "3893BA"
+        ]
+    },
+    {
+        "country_name": "Eritrea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Eritrea.svg",
+        "flag_id": "Q170555",
+        "country_id": "Q986",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "green",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "pile issuant from dexter",
+            "emblem of Eritrea"
+        ],
+        "inception": 1995,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 136,
+        "average_green": 92,
+        "average_blue": 88,
+        "colours": [
+            "EA0437",
+            "12AD2B",
+            "4189DD",
+            "F25130",
+            "F9902B",
+            "A63979"
+        ]
+    },
+    {
+        "country_name": "Estonia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Estonia.svg",
+        "flag_id": "Q81471",
+        "country_id": "Q191",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "7:11",
+        "color": [
+            "blue",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1918,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 85,
+        "average_green": 123,
+        "average_blue": 153,
+        "colours": [
+            "FFFFFF",
+            "4891D9",
+            "000000",
+            "545454",
+            "183048"
+        ]
+    },
+    {
+        "country_name": "Eswatini",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Eswatini.svg",
+        "flag_id": "Q102993",
+        "country_id": "Q1050",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "red",
+            "yellow",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "fimbriation",
+            "Nguni shield",
+            "spear"
+        ],
+        "inception": 1968,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 134,
+        "average_green": 86,
+        "average_blue": 91,
+        "colours": [
+            "3E5EB9",
+            "B10C0C",
+            "FED800",
+            "FEFEFE",
+            "020202",
+            "5E5C61"
+        ]
+    },
+    {
+        "country_name": "Ethiopia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Ethiopia.svg",
+        "flag_id": "Q162068",
+        "country_id": "Q115",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Emblem of Ethiopia"
+        ],
+        "inception": 1996,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 133,
+        "average_green": 112,
+        "average_blue": 50,
+        "colours": [
+            "078930",
+            "DA121A",
+            "FBDD09",
+            "0F47AF",
+            "D7C623",
+            "A12144"
+        ]
+    },
+    {
+        "country_name": "Federated States of Micronesia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Federated_States_of_Micronesia.svg",
+        "flag_id": "Q190648",
+        "country_id": "Q702",
+        "genre": null,
+        "aspect_ratio": "10:19",
+        "color": [
+            "light blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1978,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 120,
+        "average_green": 179,
+        "average_blue": 221,
+        "colours": [
+            "75B2DD",
+            "FDFEFE",
+            "D2E6F4"
+        ]
+    },
+    {
+        "country_name": "Fiji",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Fiji.svg",
+        "flag_id": "Q182514",
+        "country_id": "Q712",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "sky blue",
+            "blue",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "Union Jack",
+            "Fijian shield-of-arms",
+            "field"
+        ],
+        "inception": 1970,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 127,
+        "average_green": 155,
+        "average_blue": 195,
+        "colours": [
+            "68BFE5",
+            "CF1129",
+            "FEFEFE",
+            "DFD1D5",
+            "4E6D94",
+            "B4962A"
+        ]
+    },
+    {
+        "country_name": "Finland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Finland.svg",
+        "flag_id": "Q47891",
+        "country_id": "Q33",
+        "genre": [
+            "Nordic cross flag"
+        ],
+        "aspect_ratio": "11:18",
+        "color": [
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Nordic cross"
+        ],
+        "inception": 1918,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 154,
+        "average_green": 175,
+        "average_blue": 204,
+        "colours": [
+            "FFFFFF",
+            "003580",
+            "5C7EAE",
+            "8DA5C6"
+        ]
+    },
+    {
+        "country_name": "France",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_France_%281958%E2%80%931976%2C_2020-%29.svg",
+        "flag_id": "Q43192",
+        "country_id": "Q142",
+        "genre": [
+            "tricolour",
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1853,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 165,
+        "average_green": 100,
+        "average_blue": 117,
+        "colours": [
+            "FFFFFF",
+            "002395",
+            "ED2939"
+        ]
+    },
+    {
+        "country_name": "Gabon",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Gabon.svg",
+        "flag_id": "Q101769",
+        "country_id": "Q1000",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "3:4",
+        "color": [
+            "green",
+            "gold",
+            "blue"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 103,
+        "average_green": 161,
+        "average_blue": 104,
+        "colours": [
+            "009E60",
+            "3A75C4",
+            "FCD116",
+            "BCB350",
+            "A8C02F"
+        ]
+    },
+    {
+        "country_name": "Georgia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Georgia.svg",
+        "flag_id": "Q26491",
+        "country_id": "Q230",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "cross",
+            "Bolnisi cross"
+        ],
+        "inception": 2004,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 255,
+        "average_green": 163,
+        "average_blue": 163,
+        "colours": [
+            "FFFFFF",
+            "FF0000",
+            "FF8E8E",
+            "FF2E2E",
+            "FFD4D4"
+        ]
+    },
+    {
+        "country_name": "Germany",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Germany_%283-2_aspect_ratio%29.svg",
+        "flag_id": "Q48160",
+        "country_id": "Q183",
+        "genre": [
+            "horizontal triband",
+            "plain flag"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "black",
+            "red",
+            "gold"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1919,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 158,
+        "average_green": 68,
+        "average_blue": 0,
+        "colours": [
+            "FFCE00",
+            "000000",
+            "DD0000",
+            "E84500",
+            "930000"
+        ]
+    },
+    {
+        "country_name": "Ghana",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Ghana.svg",
+        "flag_id": "Q160676",
+        "country_id": "Q117",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "gold",
+            "green",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1957,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 146,
+        "average_green": 105,
+        "average_blue": 40,
+        "colours": [
+            "006B3F",
+            "CE1126",
+            "FCD116",
+            "ED911C",
+            "A9AF24",
+            "8C750C"
+        ]
+    },
+    {
+        "country_name": "Greece",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Greece.svg",
+        "flag_id": "Q129132",
+        "country_id": "Q41",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "barry",
+            "canton",
+            "cross"
+        ],
+        "inception": 1978,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 118,
+        "average_green": 164,
+        "average_blue": 209,
+        "colours": [
+            "0D5EAF",
+            "FFFFFF",
+            "79A6D3",
+            "AEC9E4",
+            "4382C1"
+        ]
+    },
+    {
+        "country_name": "Grenada",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Grenada.svg",
+        "flag_id": "Q103414",
+        "country_id": "Q769",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "red",
+            "gold",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "roundel",
+            "five-pointed star",
+            "bordure",
+            "nutmeg"
+        ],
+        "inception": 1974,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 162,
+        "average_green": 106,
+        "average_blue": 48,
+        "colours": [
+            "CE1126",
+            "FCD116",
+            "007A5E",
+            "DD6221",
+            "78A43C",
+            "992C34"
+        ]
+    },
+    {
+        "country_name": "Guatemala",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Guatemala.svg",
+        "flag_id": "Q178179",
+        "country_id": "Q774",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "5:8",
+        "color": [
+            "blue sky",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "pale",
+            "coat of arms of Guatemala"
+        ],
+        "inception": 1871,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 130,
+        "average_green": 182,
+        "average_blue": 218,
+        "colours": [
+            "4997D0",
+            "FFFFFF",
+            "C3DDF0",
+            "EAD98C",
+            "6B5032",
+            "C8AD4E"
+        ]
+    },
+    {
+        "country_name": "Guinea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Guinea.svg",
+        "flag_id": "Q165500",
+        "country_id": "Q1006",
+        "genre": [
+            "vertical triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1958,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 152,
+        "average_green": 124,
+        "average_blue": 52,
+        "colours": [
+            "009460",
+            "CE1126",
+            "FCD116"
+        ]
+    },
+    {
+        "country_name": "Guinea-Bissau",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Guinea-Bissau.svg",
+        "flag_id": "Q102953",
+        "country_id": "Q1007",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "black",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "flanche",
+            "five-pointed star"
+        ],
+        "inception": 1973,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 149,
+        "average_green": 127,
+        "average_blue": 43,
+        "colours": [
+            "009E49",
+            "FCD116",
+            "CE1126",
+            "764D35",
+            "E2631F",
+            "50070F"
+        ]
+    },
+    {
+        "country_name": "Guyana",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Guyana.svg",
+        "flag_id": "Q171124",
+        "country_id": "Q734",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "red",
+            "black",
+            "gold",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "pile issuant from dexter",
+            "equilateral triangle",
+            "fimbriation",
+            "fimbriation"
+        ],
+        "inception": 1966,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 103,
+        "average_green": 138,
+        "average_blue": 68,
+        "colours": [
+            "009E49",
+            "CE1126",
+            "FCD116",
+            "FEFEFD",
+            "46B97B",
+            "6B5E24"
+        ]
+    },
+    {
+        "country_name": "Haiti",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Haiti.svg",
+        "flag_id": "Q102987",
+        "country_id": "Q790",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "blue",
+            "red",
+            "white",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Coat of Arms of Haiti"
+        ],
+        "inception": 1986,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 108,
+        "average_green": 31,
+        "average_blue": 108,
+        "colours": [
+            "00209F",
+            "D21034",
+            "1D6D1F",
+            "A56A25",
+            "BD9B3F",
+            "D0504D"
+        ]
+    },
+    {
+        "country_name": "Honduras",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Honduras.svg",
+        "flag_id": "Q102939",
+        "country_id": "Q783",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "turquoise blue",
+            "white"
+        ],
+        "depicts": [
+            "Marino",
+            "fess",
+            "five-pointed star"
+        ],
+        "inception": 1866,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 91,
+        "average_green": 122,
+        "average_blue": 186,
+        "colours": [
+            "0073CF",
+            "FFFFFF",
+            "AAD0EF",
+            "55A2DF"
+        ]
+    },
+    {
+        "country_name": "Hungary",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Hungary.svg",
+        "flag_id": "Q81970",
+        "country_id": "Q28",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1957,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 177,
+        "average_green": 135,
+        "average_blue": 130,
+        "colours": [
+            "436F4D",
+            "CD2A3E",
+            "FFFFFF",
+            "C1D0C4",
+            "EEB8BF"
+        ]
+    },
+    {
+        "country_name": "Iceland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Iceland.svg",
+        "flag_id": "Q93335",
+        "country_id": "Q189",
+        "genre": [
+            "Nordic cross flag"
+        ],
+        "aspect_ratio": "18:25",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Nordic cross",
+            "fimbriation"
+        ],
+        "inception": 1944,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 83,
+        "average_green": 100,
+        "average_blue": 153,
+        "colours": [
+            "003897",
+            "D72828",
+            "FFFFFF",
+            "EA8C8C",
+            "E05757",
+            "4971B5"
+        ]
+    },
+    {
+        "country_name": "India",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_India.svg",
+        "flag_id": "Q41673",
+        "country_id": "Q668",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "orange",
+            "white",
+            "green",
+            "blue"
+        ],
+        "depicts": [
+            "Ashoka Chakra",
+            "field"
+        ],
+        "inception": 1947,
+        "nickname": "The Tricolor",
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 171,
+        "average_green": 176,
+        "average_blue": 102,
+        "colours": [
+            "FF9933",
+            "128807",
+            "FFFFFF",
+            "B0C07F",
+            "07078B",
+            "3A3AA3"
+        ]
+    },
+    {
+        "country_name": "Indonesia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Indonesia.svg",
+        "flag_id": "Q101472",
+        "country_id": "Q252",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1945,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Oceania"
+        ],
+        "average_red": 255,
+        "average_green": 127,
+        "average_blue": 127,
+        "colours": [
+            "FFFFFF",
+            "CE1126"
+        ]
+    },
+    {
+        "country_name": "Iran",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Iran.svg",
+        "flag_id": "Q126622",
+        "country_id": "Q794",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "4:7",
+        "color": [
+            "green",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Coat of Arms of Iran",
+            "Takbir"
+        ],
+        "inception": 1980,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 176,
+        "average_green": 144,
+        "average_blue": 115,
+        "colours": [
+            "FFFFFF",
+            "DA0101",
+            "239F40",
+            "B0DDBA",
+            "E96A6A",
+            "8ACC99"
+        ]
+    },
+    {
+        "country_name": "Iraq",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Iraq.svg",
+        "flag_id": "Q162781",
+        "country_id": "Q796",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "black",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "Takbir"
+        ],
+        "inception": 2008,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 147,
+        "average_green": 87,
+        "average_blue": 92,
+        "colours": [
+            "000000",
+            "DCEDE5",
+            "14844C",
+            "E9949D",
+            "459E71",
+            "84BFA1"
+        ]
+    },
+    {
+        "country_name": "Ireland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Ireland.svg",
+        "flag_id": "Q82205",
+        "country_id": "Q27",
+        "genre": [
+            "tricolour",
+            "vertical triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white",
+            "orange"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1922,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 177,
+        "average_green": 182,
+        "average_blue": 138,
+        "colours": [
+            "FF883E",
+            "FFFFFF",
+            "169B62",
+            "7AC5A5"
+        ]
+    },
+    {
+        "country_name": "Israel",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Israel.svg",
+        "flag_id": "Q128480",
+        "country_id": "Q801",
+        "genre": null,
+        "aspect_ratio": "8:11",
+        "color": [
+            "white",
+            "Israel blue"
+        ],
+        "depicts": [
+            "Star of David",
+            "field",
+            "bar",
+            "tallit"
+        ],
+        "inception": 1948,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 164,
+        "average_green": 184,
+        "average_blue": 229,
+        "colours": [
+            "FFFFFF",
+            "0038B8",
+            "5F82D2",
+            "D8E1F4",
+            "88A2DE"
+        ]
+    },
+    {
+        "country_name": "Italy",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Italy.svg",
+        "flag_id": "Q42876",
+        "country_id": "Q38",
+        "genre": [
+            "vertical triband",
+            "tricolour"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1797,
+        "nickname": null,
+        "continent": [
+            "Europe",
+            "Africa"
+        ],
+        "average_red": 153,
+        "average_green": 148,
+        "average_blue": 126,
+        "colours": [
+            "FFFFFF",
+            "009246",
+            "CE2B37"
+        ]
+    },
+    {
+        "country_name": "Jamaica",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Jamaica.svg",
+        "flag_id": "Q172517",
+        "country_id": "Q766",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "gold",
+            "green",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "saltire"
+        ],
+        "inception": 1962,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 86,
+        "average_green": 101,
+        "average_blue": 33,
+        "colours": [
+            "000000",
+            "009B3A",
+            "FED100",
+            "8B7300",
+            "8AB91A"
+        ]
+    },
+    {
+        "country_name": "Japan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Japan.svg",
+        "flag_id": "Q43175",
+        "country_id": "Q17",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "crimson"
+        ],
+        "depicts": [
+            "Sun",
+            "field",
+            "roundel"
+        ],
+        "inception": 1870,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 242,
+        "average_green": 206,
+        "average_blue": 215,
+        "colours": [
+            "FFFFFF",
+            "BC002D",
+            "D14F6E",
+            "EDBBC7",
+            "DF869B"
+        ]
+    },
+    {
+        "country_name": "Jordan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Jordan.svg",
+        "flag_id": "Q170064",
+        "country_id": "Q810",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "black",
+            "white",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "triangle",
+            "seven-pointed star"
+        ],
+        "inception": 1928,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 101,
+        "average_green": 88,
+        "average_blue": 76,
+        "colours": [
+            "007A3D",
+            "000000",
+            "CE1126",
+            "FFFFFF",
+            "D84857",
+            "972D2C"
+        ]
+    },
+    {
+        "country_name": "Kazakhstan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kazakhstan.svg",
+        "flag_id": "Q131650",
+        "country_id": "Q232",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "sky blue",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Sun",
+            "Steppe Eagle"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Europe",
+            "Asia"
+        ],
+        "average_red": 21,
+        "average_green": 176,
+        "average_blue": 185,
+        "colours": [
+            "00AFCA",
+            "FAC50F",
+            "97BC59",
+            "2BB3AA"
+        ]
+    },
+    {
+        "country_name": "Kenya",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kenya.svg",
+        "flag_id": "Q165905",
+        "country_id": "Q114",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "black",
+            "white",
+            "red",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "fimbriation",
+            "spear",
+            "shield"
+        ],
+        "inception": 1963,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 83,
+        "average_green": 57,
+        "average_blue": 27,
+        "colours": [
+            "000000",
+            "BB0000",
+            "006600",
+            "FFFFFF",
+            "D56262",
+            "E6A6A6"
+        ]
+    },
+    {
+        "country_name": "Kiribati",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kiribati.svg",
+        "flag_id": "Q117758",
+        "country_id": "Q710",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "blue",
+            "white",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "barry",
+            "sunrise",
+            "Sun",
+            "Fregata"
+        ],
+        "inception": 1979,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 174,
+        "average_green": 94,
+        "average_blue": 96,
+        "colours": [
+            "CE1126",
+            "FFFEFF",
+            "FACF15",
+            "D0DCE9",
+            "3768A1",
+            "8FABCA"
+        ]
+    },
+    {
+        "country_name": "Kosovo",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kosovo.svg",
+        "flag_id": "Q168711",
+        "country_id": "Q1246",
+        "genre": null,
+        "aspect_ratio": "5:7",
+        "color": [
+            "blue",
+            "gold",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "map",
+            "five-pointed star"
+        ],
+        "inception": 2008,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 57,
+        "average_green": 86,
+        "average_blue": 157,
+        "colours": [
+            "244AA5",
+            "D0A650",
+            "FBFCFE",
+            "A7B7DB",
+            "748CC6",
+            "A79064"
+        ]
+    },
+    {
+        "country_name": "Kuwait",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kuwait.svg",
+        "flag_id": "Q165545",
+        "country_id": "Q817",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white",
+            "red",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "trapezoid"
+        ],
+        "inception": 1961,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 123,
+        "average_green": 104,
+        "average_blue": 92,
+        "colours": [
+            "007A3D",
+            "CE1126",
+            "FFFFFF",
+            "000000",
+            "EA9AA3",
+            "890B19"
+        ]
+    },
+    {
+        "country_name": "Kyrgyzstan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Kyrgyzstan.svg",
+        "flag_id": "Q165641",
+        "country_id": "Q813",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "Sun",
+            "tyndyk",
+            "40",
+            "field"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 255,
+        "average_green": 22,
+        "average_blue": 0,
+        "colours": [
+            "E8112D",
+            "FFED00",
+            "F58E14",
+            "F05A1E"
+        ]
+    },
+    {
+        "country_name": "Laos",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Laos.svg",
+        "flag_id": "Q46008",
+        "country_id": "Q819",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "roundel"
+        ],
+        "inception": 1945,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 124,
+        "average_green": 46,
+        "average_blue": 83,
+        "colours": [
+            "CE1126",
+            "002868",
+            "FEFFFF",
+            "879AB8",
+            "375788",
+            "ABB8CD"
+        ]
+    },
+    {
+        "country_name": "Latvia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Latvia.svg",
+        "flag_id": "Q130449",
+        "country_id": "Q211",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "carmine",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess"
+        ],
+        "inception": 1923,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 177,
+        "average_green": 89,
+        "average_blue": 96,
+        "colours": [
+            "9E3039",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Lebanon",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Lebanon.svg",
+        "flag_id": "Q36005",
+        "country_id": "Q822",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "Cedrus libani",
+            "field",
+            "fess"
+        ],
+        "inception": 1943,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 228,
+        "average_green": 135,
+        "average_blue": 133,
+        "colours": [
+            "ED1C24",
+            "FFFFFF",
+            "01A652",
+            "8ED8B2",
+            "42BD7E",
+            "D7F1E4"
+        ]
+    },
+    {
+        "country_name": "Lesotho",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Lesotho.svg",
+        "flag_id": "Q104969",
+        "country_id": "Q1013",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "white",
+            "green",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "mokorotlo"
+        ],
+        "inception": 2006,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 93,
+        "average_green": 147,
+        "average_blue": 161,
+        "colours": [
+            "FFFFFF",
+            "00209F",
+            "009543",
+            "020202",
+            "2E2E2E",
+            "4E4E4E"
+        ]
+    },
+    {
+        "country_name": "Liberia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Liberia.svg",
+        "flag_id": "Q170795",
+        "country_id": "Q1014",
+        "genre": null,
+        "aspect_ratio": "10:19",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "five-pointed star"
+        ],
+        "inception": 1847,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 199,
+        "average_green": 116,
+        "average_blue": 140,
+        "colours": [
+            "BF0A30",
+            "FFFFFF",
+            "002868",
+            "EAADBA",
+            "D96C83",
+            "CA3453"
+        ]
+    },
+    {
+        "country_name": "Libya",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Libya.svg",
+        "flag_id": "Q34599",
+        "country_id": "Q1016",
+        "genre": [
+            "horizontal triband",
+            "Pan-Arab colors flag",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "red",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "crescent",
+            "star and crescent",
+            "five-pointed star"
+        ],
+        "inception": 1951,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 69,
+        "average_green": 42,
+        "average_blue": 25,
+        "colours": [
+            "000000",
+            "E70013",
+            "239E46",
+            "727272",
+            "313131",
+            "505050"
+        ]
+    },
+    {
+        "country_name": "Liechtenstein",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Liechtenstein.svg",
+        "flag_id": "Q103055",
+        "country_id": "Q347",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "blue",
+            "red",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "crown"
+        ],
+        "inception": 1921,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 108,
+        "average_green": 33,
+        "average_blue": 78,
+        "colours": [
+            "CE1126",
+            "002B7F",
+            "BEA12E",
+            "F9D33C",
+            "826E1F",
+            "524615"
+        ]
+    },
+    {
+        "country_name": "Lithuania",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Lithuania.svg",
+        "flag_id": "Q81477",
+        "country_id": "Q37",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "yellow",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1820,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 148,
+        "average_green": 110,
+        "average_blue": 43,
+        "colours": [
+            "FDB913",
+            "C1272D",
+            "006A44",
+            "40543D",
+            "548533"
+        ]
+    },
+    {
+        "country_name": "Luxembourg",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Luxembourg.svg",
+        "flag_id": "Q133022",
+        "country_id": "Q32",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "red",
+            "white",
+            "light blue"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1972,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 164,
+        "average_green": 152,
+        "average_blue": 178,
+        "colours": [
+            "00A1DE",
+            "ED2939",
+            "FFFFFF",
+            "F9B8BD",
+            "AAE0F4"
+        ]
+    },
+    {
+        "country_name": "Madagascar",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Madagascar.svg",
+        "flag_id": "Q103019",
+        "country_id": "Q1019",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "flanche"
+        ],
+        "inception": 1958,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 169,
+        "average_green": 147,
+        "average_blue": 121,
+        "colours": [
+            "FFFFFF",
+            "007E3A",
+            "FC3D32"
+        ]
+    },
+    {
+        "country_name": "Malawi",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Malawi.svg",
+        "flag_id": "Q103001",
+        "country_id": "Q1020",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "black",
+            "red",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "sunrise",
+            "Sun"
+        ],
+        "inception": 1964,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 97,
+        "average_green": 59,
+        "average_blue": 32,
+        "colours": [
+            "CE1126",
+            "339E35",
+            "000000",
+            "550710",
+            "6D3C23",
+            "8F0C1A"
+        ]
+    },
+    {
+        "country_name": "Malaysia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Malaysia.svg",
+        "flag_id": "Q168935",
+        "country_id": "Q833",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "blue",
+            "yellow"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "canton",
+            "crescent",
+            "fourteen-pointed star"
+        ],
+        "inception": 1963,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 173,
+        "average_green": 98,
+        "average_blue": 116,
+        "colours": [
+            "CC0001",
+            "FFFFFF",
+            "010066",
+            "E26E6F",
+            "F1B7B7",
+            "D4A911"
+        ]
+    },
+    {
+        "country_name": "Maldives",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Maldives.svg",
+        "flag_id": "Q169441",
+        "country_id": "Q826",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bordure",
+            "crescent"
+        ],
+        "inception": 1965,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 143,
+        "average_green": 54,
+        "average_blue": 56,
+        "colours": [
+            "D21034",
+            "007E3A",
+            "C9E4D5",
+            "6FB690",
+            "379A64",
+            "29935A"
+        ]
+    },
+    {
+        "country_name": "Mali",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mali.svg",
+        "flag_id": "Q169903",
+        "country_id": "Q912",
+        "genre": [
+            "vertical triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "gold",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1961,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 159,
+        "average_green": 135,
+        "average_blue": 39,
+        "colours": [
+            "14B53A",
+            "CE1126",
+            "FCD116"
+        ]
+    },
+    {
+        "country_name": "Malta",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Malta.svg",
+        "flag_id": "Q131469",
+        "country_id": "Q233",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "George Cross"
+        ],
+        "inception": 1964,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 226,
+        "average_green": 133,
+        "average_blue": 149,
+        "colours": [
+            "CF142B",
+            "FFFFFF",
+            "A9A29C",
+            "F6A9B5",
+            "D36773",
+            "6F6E6E"
+        ]
+    },
+    {
+        "country_name": "Marshall Islands",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Marshall_Islands.svg",
+        "flag_id": "Q200260",
+        "country_id": "Q709",
+        "genre": null,
+        "aspect_ratio": "10:19",
+        "color": [
+            "blue",
+            "orange",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "Sun",
+            "twenty four-pointed star"
+        ],
+        "inception": 1979,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 60,
+        "average_green": 91,
+        "average_blue": 146,
+        "colours": [
+            "003893",
+            "FEFEFE",
+            "DD7500",
+            "CCD7E9",
+            "2958A4",
+            "90A8D0"
+        ]
+    },
+    {
+        "country_name": "Mauritania",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mauritania.svg",
+        "flag_id": "Q102977",
+        "country_id": "Q1025",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "gold",
+            "red"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 2017,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 96,
+        "average_green": 115,
+        "average_blue": 62,
+        "colours": [
+            "006233",
+            "FFC400",
+            "477D25",
+            "B4A70F"
+        ]
+    },
+    {
+        "country_name": "Mauritius",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mauritius.svg",
+        "flag_id": "Q173548",
+        "country_id": "Q1027",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "blue",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1968,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 128,
+        "average_green": 112,
+        "average_blue": 61,
+        "colours": [
+            "FFD500",
+            "00A551",
+            "EA2839",
+            "1A206D"
+        ]
+    },
+    {
+        "country_name": "Mexico",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mexico.svg",
+        "flag_id": "Q122462",
+        "country_id": "Q96",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "4:7",
+        "color": [
+            "green",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Mexican coat of arms"
+        ],
+        "inception": 1810,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 148,
+        "average_green": 118,
+        "average_blue": 113,
+        "colours": [
+            "006847",
+            "CE1126",
+            "FFFFFF",
+            "EFB1B7",
+            "593520",
+            "925A2F"
+        ]
+    },
+    {
+        "country_name": "Moldova",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Moldova.svg",
+        "flag_id": "Q167584",
+        "country_id": "Q217",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Coat of arms of Moldova"
+        ],
+        "inception": 1990,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 142,
+        "average_green": 86,
+        "average_blue": 77,
+        "colours": [
+            "CC092F",
+            "0046AE",
+            "FFD200",
+            "352815",
+            "AD7D54",
+            "674F21"
+        ]
+    },
+    {
+        "country_name": "Monaco",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Monaco.svg",
+        "flag_id": "Q159746",
+        "country_id": "Q235",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "4:5",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1881,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 230,
+        "average_green": 136,
+        "average_blue": 146,
+        "colours": [
+            "FFFFFF",
+            "CE1126"
+        ]
+    },
+    {
+        "country_name": "Mongolia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mongolia.svg",
+        "flag_id": "Q165552",
+        "country_id": "Q711",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "pale",
+            "Soyombo symbol"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 147,
+        "average_green": 67,
+        "average_blue": 89,
+        "colours": [
+            "C4272F",
+            "015197",
+            "F9CF02",
+            "833551",
+            "E69511",
+            "D66120"
+        ]
+    },
+    {
+        "country_name": "Montenegro",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Montenegro.svg",
+        "flag_id": "Q162980",
+        "country_id": "Q236",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "bordure",
+            "Coat of arms of Montenegro"
+        ],
+        "inception": 2004,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 197,
+        "average_green": 41,
+        "average_blue": 20,
+        "colours": [
+            "C40308",
+            "D3AD3B",
+            "C4722A",
+            "1D5E91",
+            "6E8B3E",
+            "626765"
+        ]
+    },
+    {
+        "country_name": "Morocco",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Morocco.svg",
+        "flag_id": "Q159865",
+        "country_id": "Q1028",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star",
+            "pentagram"
+        ],
+        "inception": 1915,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 187,
+        "average_green": 40,
+        "average_blue": 45,
+        "colours": [
+            "C1272D",
+            "016233",
+            "684230"
+        ]
+    },
+    {
+        "country_name": "Mozambique",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Mozambique.svg",
+        "flag_id": "Q484249",
+        "country_id": "Q1029",
+        "genre": [
+            "triband",
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "black",
+            "yellow",
+            "white",
+            "red"
+        ],
+        "depicts": [
+            "hoe",
+            "AK-47",
+            "book",
+            "five-pointed star",
+            "field",
+            "fimbriation",
+            "triangle"
+        ],
+        "inception": 1983,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 123,
+        "average_green": 111,
+        "average_blue": 50,
+        "colours": [
+            "FCE100",
+            "007168",
+            "000000",
+            "D21034",
+            "D05B28",
+            "B1A33E"
+        ]
+    },
+    {
+        "country_name": "Myanmar",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Myanmar.svg",
+        "flag_id": "Q163753",
+        "country_id": "Q836",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "yellow",
+            "green",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 2010,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 195,
+        "average_green": 150,
+        "average_blue": 56,
+        "colours": [
+            "FECB00",
+            "EA2839",
+            "34B233",
+            "FEFFFE",
+            "77BA22",
+            "708435"
+        ]
+    },
+    {
+        "country_name": "Namibia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Namibia.svg",
+        "flag_id": "Q165822",
+        "country_id": "Q1030",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "red",
+            "green",
+            "white",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "fimbriation",
+            "Sun"
+        ],
+        "inception": 1990,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 86,
+        "average_green": 94,
+        "average_blue": 94,
+        "colours": [
+            "009543",
+            "003580",
+            "D21034",
+            "FEFDFD",
+            "FECD01",
+            "E05D75"
+        ]
+    },
+    {
+        "country_name": "Nauru",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Nauru.svg",
+        "flag_id": "Q185277",
+        "country_id": "Q697",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "yellow",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "dodecagram"
+        ],
+        "inception": 1968,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 26,
+        "average_green": 60,
+        "average_blue": 121,
+        "colours": [
+            "002B7F",
+            "FFC61E",
+            "334A6C",
+            "FEFEFE",
+            "738AB9",
+            "9AABCC"
+        ]
+    },
+    {
+        "country_name": "Nepal",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Nepal.svg",
+        "flag_id": "Q159741",
+        "country_id": "Q837",
+        "genre": [
+            "non-quadrilateral flag"
+        ],
+        "aspect_ratio": "1.2190103:1",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bordure",
+            "Sun",
+            "crescent",
+            "Moon",
+            "dodecagram"
+        ],
+        "inception": 2004,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 100,
+        "average_green": 35,
+        "average_blue": 62,
+        "colours": [
+            "003A96",
+            "DC143C",
+            "FFFEFE",
+            "EA728A",
+            "F099AA",
+            "63286C"
+        ]
+    },
+    {
+        "country_name": "Netherlands",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Netherlands.svg",
+        "flag_id": "Q46585",
+        "country_id": "Q55",
+        "genre": [
+            "horizontal triband",
+            "tricolour"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "orange-red",
+            "white",
+            "cobalt blue"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1937,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 154,
+        "average_green": 117,
+        "average_blue": 144,
+        "colours": [
+            "AE1C28",
+            "21468B",
+            "FFFFFF",
+            "E4B3B7",
+            "B6C2D9"
+        ]
+    },
+    {
+        "country_name": "New Zealand",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_New_Zealand.svg",
+        "flag_id": "Q160260",
+        "country_id": "Q664",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Union Jack",
+            "Crux",
+            "Acrux",
+            "Mimosa",
+            "Gamma Crucis",
+            "Delta Crucis",
+            "five-pointed star",
+            "fimbriation"
+        ],
+        "inception": 1903,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 44,
+        "average_green": 52,
+        "average_blue": 113,
+        "colours": [
+            "00247D",
+            "CC142B",
+            "FEFDFE",
+            "546CA8",
+            "DDD9E6",
+            "2E4B95"
+        ]
+    },
+    {
+        "country_name": "Nicaragua",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Nicaragua.svg",
+        "flag_id": "Q172533",
+        "country_id": "Q811",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "3:5",
+        "color": [
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "Coat of arms of Nicaragua"
+        ],
+        "inception": 1971,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 83,
+        "average_green": 152,
+        "average_blue": 215,
+        "colours": [
+            "0067C6",
+            "FFFFFF",
+            "ABCDEC",
+            "98C826",
+            "D0DB25",
+            "CF2425"
+        ]
+    },
+    {
+        "country_name": "Niger",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Niger.svg",
+        "flag_id": "Q103046",
+        "country_id": "Q1032",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "6:7",
+        "color": [
+            "orange",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "roundel",
+            "Sun"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 162,
+        "average_green": 161,
+        "average_blue": 87,
+        "colours": [
+            "E05206",
+            "0DB02B",
+            "FFFFFF",
+            "F5C5AC",
+            "AFE5B9",
+            "EEA279"
+        ]
+    },
+    {
+        "country_name": "Nigeria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Nigeria.svg",
+        "flag_id": "Q102960",
+        "country_id": "Q1033",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "pale"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 85,
+        "average_green": 175,
+        "average_blue": 139,
+        "colours": [
+            "008751",
+            "FFFFFF",
+            "5AB18E"
+        ]
+    },
+    {
+        "country_name": "Niue",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Niue.svg",
+        "flag_id": "Q202189",
+        "country_id": "Q34020",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "yellow",
+            "gold",
+            "blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "Union Jack",
+            "Crux",
+            "five-pointed star",
+            "disk",
+            "field"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 230,
+        "average_green": 193,
+        "average_blue": 33,
+        "colours": [
+            "FCD116",
+            "FEFEFE",
+            "CF142B",
+            "002868",
+            "506B97",
+            "D95F25"
+        ]
+    },
+    {
+        "country_name": "North Korea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_North_Korea.svg",
+        "flag_id": "Q103064",
+        "country_id": "Q423",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "fimbriation",
+            "roundel",
+            "five-pointed star"
+        ],
+        "inception": 1948,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 160,
+        "average_green": 69,
+        "average_blue": 103,
+        "colours": [
+            "ED1C27",
+            "024FA2",
+            "FFFEFE",
+            "F5868C",
+            "568AC1",
+            "F14C55"
+        ]
+    },
+    {
+        "country_name": "North Macedonia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_North_Macedonia.svg",
+        "flag_id": "Q167119",
+        "country_id": "Q221",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "Sun",
+            "field",
+            "roundel"
+        ],
+        "inception": 1995,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 226,
+        "average_green": 97,
+        "average_blue": 40,
+        "colours": [
+            "D20000",
+            "FFE600",
+            "DC3400",
+            "F4AE00",
+            "E86F00"
+        ]
+    },
+    {
+        "country_name": "Northern Cyprus",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Turkish_Republic_of_Northern_Cyprus.svg",
+        "flag_id": "Q207518",
+        "country_id": "Q23681",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "bar",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1983,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 247,
+        "average_green": 191,
+        "average_blue": 194,
+        "colours": [
+            "FFFFFF",
+            "E30A17",
+            "EA4B55",
+            "F6AEB2"
+        ]
+    },
+    {
+        "country_name": "Norway",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Norway_%28c81329_for_red_%26_14275b_for_blue%29.svg",
+        "flag_id": "Q83149",
+        "country_id": "Q20",
+        "genre": [
+            "Nordic cross flag"
+        ],
+        "aspect_ratio": "8:11",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Nordic cross",
+            "fimbriation"
+        ],
+        "inception": 1821,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 173,
+        "average_green": 66,
+        "average_blue": 90,
+        "colours": [
+            "EF2B2D",
+            "002868",
+            "FFFFFF",
+            "F68E8F",
+            "BBC6D7",
+            "637CA3"
+        ]
+    },
+    {
+        "country_name": "Oman",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Oman.svg",
+        "flag_id": "Q165550",
+        "country_id": "Q842",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "white",
+            "red",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "flanche",
+            "Coat of arms of Oman"
+        ],
+        "inception": 1995,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 173,
+        "average_green": 109,
+        "average_blue": 79,
+        "colours": [
+            "DB161B",
+            "FFFFFF",
+            "008000",
+            "E76669",
+            "923A12",
+            "F3B0B2"
+        ]
+    },
+    {
+        "country_name": "Pakistan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Pakistan.svg",
+        "flag_id": "Q128347",
+        "country_id": "Q843",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "flanche",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1947,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 80,
+        "average_green": 124,
+        "average_blue": 99,
+        "colours": [
+            "01411C",
+            "FFFFFF",
+            "82A18F",
+            "DDE6E1",
+            "47755A",
+            "235A3A"
+        ]
+    },
+    {
+        "country_name": "Palau",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Palau.svg",
+        "flag_id": "Q188609",
+        "country_id": "Q695",
+        "genre": null,
+        "aspect_ratio": "5:8",
+        "color": [
+            "light blue",
+            "yellow"
+        ],
+        "depicts": [
+            "full moon",
+            "field",
+            "roundel"
+        ],
+        "inception": 1981,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 45,
+        "average_green": 171,
+        "average_blue": 209,
+        "colours": [
+            "4AADD6",
+            "FFDE00",
+            "D4D233",
+            "74B9A5",
+            "9AC377"
+        ]
+    },
+    {
+        "country_name": "Panama",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Panama.svg",
+        "flag_id": "Q168941",
+        "country_id": "Q804",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1925,
+        "nickname": null,
+        "continent": [
+            "North America",
+            "South America"
+        ],
+        "average_red": 179,
+        "average_green": 134,
+        "average_blue": 150,
+        "colours": [
+            "FFFFFF",
+            "005293",
+            "D21034",
+            "EA90A1",
+            "5088B5",
+            "DF536D"
+        ]
+    },
+    {
+        "country_name": "Papua New Guinea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Papua_New_Guinea.svg",
+        "flag_id": "Q185271",
+        "country_id": "Q691",
+        "genre": null,
+        "aspect_ratio": "3:4",
+        "color": [
+            "black",
+            "red",
+            "white",
+            "gold"
+        ],
+        "depicts": [
+            "Acrux",
+            "Mimosa",
+            "Gamma Crucis",
+            "Delta Crucis",
+            "Epsilon Crucis",
+            "Paradisaea raggiana",
+            "five-pointed star",
+            "Crux",
+            "field"
+        ],
+        "inception": 1971,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 109,
+        "average_green": 23,
+        "average_blue": 22,
+        "colours": [
+            "000000",
+            "CE1126",
+            "FCD016",
+            "EC8F1B",
+            "DC4D21",
+            "6E0914"
+        ]
+    },
+    {
+        "country_name": "Paraguay",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Paraguay.svg",
+        "flag_id": "Q170465",
+        "country_id": "Q733",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "11:20",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "coat of arms of Paraguay"
+        ],
+        "inception": 1968,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 153,
+        "average_green": 116,
+        "average_blue": 148,
+        "colours": [
+            "0038A8",
+            "D52B1E",
+            "FFFFFF",
+            "ABBDE2",
+            "F1B8B4",
+            "309556"
+        ]
+    },
+    {
+        "country_name": "People's Republic of China",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_People%27s_Republic_of_China.svg",
+        "flag_id": "Q131147",
+        "country_id": "Q148",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "field"
+        ],
+        "inception": 1949,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 238,
+        "average_green": 33,
+        "average_blue": 36,
+        "colours": [
+            "DE2910",
+            "FFDC00",
+            "EB6F0A"
+        ]
+    },
+    {
+        "country_name": "Peru",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Peru_%28state%29.svg",
+        "flag_id": "Q160255",
+        "country_id": "Q419",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "pale"
+        ],
+        "inception": 1825,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 220,
+        "average_green": 89,
+        "average_blue": 97,
+        "colours": [
+            "D91023",
+            "FFFFFF"
+        ]
+    },
+    {
+        "country_name": "Philippines",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Philippines.svg",
+        "flag_id": "Q134627",
+        "country_id": "Q928",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "gold",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "equilateral triangle",
+            "Sun",
+            "five-pointed star"
+        ],
+        "inception": 2020,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 135,
+        "average_green": 82,
+        "average_blue": 127,
+        "colours": [
+            "CE1126",
+            "0038A8",
+            "FFFFFE",
+            "FCD116",
+            "FEEFAD",
+            "698ACC"
+        ]
+    },
+    {
+        "country_name": "Plurinational State of Bolivia",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_Bolivia_%28state%29.svg",
+        "flag_id": "Q134874",
+        "country_id": "Q750",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "15:22",
+        "color": [
+            "red",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "coat of arms of Bolivia",
+            "field"
+        ],
+        "inception": 1825,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 149,
+        "average_green": 126,
+        "average_blue": 29,
+        "colours": [
+            "D52B1E",
+            "007934",
+            "FFE000",
+            "F0A40A",
+            "ABBE11",
+            "A46021"
+        ]
+    },
+    {
+        "country_name": "Poland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Poland.svg",
+        "flag_id": "Q42436",
+        "country_id": "Q36",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "5:8",
+        "color": [
+            "white",
+            "crimson"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1919,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 237,
+        "average_green": 137,
+        "average_blue": 157,
+        "colours": [
+            "FFFFFF",
+            "DC143C"
+        ]
+    },
+    {
+        "country_name": "Portugal",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Portugal.svg",
+        "flag_id": "Q128812",
+        "country_id": "Q45",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "Coat of arms of Portugal"
+        ],
+        "inception": 1911,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 161,
+        "average_green": 51,
+        "average_blue": 6,
+        "colours": [
+            "FF0000",
+            "006600",
+            "959E01",
+            "FDFDFE",
+            "2F59AC",
+            "BA5F41"
+        ]
+    },
+    {
+        "country_name": "Qatar",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Qatar.svg",
+        "flag_id": "Q172530",
+        "country_id": "Q846",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "11:28",
+        "color": [
+            "white",
+            "bordeaux"
+        ],
+        "depicts": [
+            "field",
+            "flanche"
+        ],
+        "inception": 1971,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 177,
+        "average_green": 99,
+        "average_blue": 122,
+        "colours": [
+            "8D1B3D",
+            "FFFFFF",
+            "B2657D",
+            "E5CAD2"
+        ]
+    },
+    {
+        "country_name": "Republic of Artsakh",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Artsakh.svg",
+        "flag_id": "Q204678",
+        "country_id": "Q244165",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "blue",
+            "orange"
+        ],
+        "depicts": null,
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 170,
+        "average_green": 103,
+        "average_blue": 91,
+        "colours": [
+            "F2A800",
+            "D90012",
+            "0033A0",
+            "FFFFFF",
+            "482271",
+            "E13947"
+        ]
+    },
+    {
+        "country_name": "Republic of the Congo",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Republic_of_the_Congo.svg",
+        "flag_id": "Q163333",
+        "country_id": "Q971",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 156,
+        "average_green": 132,
+        "average_blue": 64,
+        "colours": [
+            "009543",
+            "DC241F",
+            "FBDE4A",
+            "EC8134",
+            "7DBA47"
+        ]
+    },
+    {
+        "country_name": "Romania",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Romania.svg",
+        "flag_id": "Q130811",
+        "country_id": "Q218",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "cobalt blue",
+            "yellow",
+            "orange-red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1848,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 152,
+        "average_green": 89,
+        "average_blue": 62,
+        "colours": [
+            "002B7F",
+            "CE1126",
+            "FCD116"
+        ]
+    },
+    {
+        "country_name": "Russia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Russia.svg",
+        "flag_id": "Q16611",
+        "country_id": "Q159",
+        "genre": [
+            "horizontal triband",
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "Berde",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1696,
+        "nickname": null,
+        "continent": [
+            "Europe",
+            "Asia"
+        ],
+        "average_red": 155,
+        "average_green": 118,
+        "average_blue": 150,
+        "colours": [
+            "FFFFFF",
+            "D52B1E",
+            "0039A6",
+            "463479",
+            "547AC3"
+        ]
+    },
+    {
+        "country_name": "Rwanda",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Rwanda.svg",
+        "flag_id": "Q170543",
+        "country_id": "Q1037",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "Sun"
+        ],
+        "inception": 2001,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 74,
+        "average_green": 157,
+        "average_blue": 122,
+        "colours": [
+            "00A1DE",
+            "FAD201",
+            "20603D",
+            "81B162",
+            "40A9A0",
+            "C2BA22"
+        ]
+    },
+    {
+        "country_name": "Western Sahara",
+        "real_name": "Sahrawi Arab Democratic Republic",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Sahrawi_Arab_Democratic_Republic.svg",
+        "flag_id": "Q375554",
+        "country_id": "Q40362",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "black",
+            "white",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "triangle",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1976,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 93,
+        "average_green": 97,
+        "average_blue": 81,
+        "colours": [
+            "000000",
+            "007A3D",
+            "FFFFFF",
+            "C4111B",
+            "CE3A42",
+            "DA6B71"
+        ]
+    },
+    {
+        "country_name": "Saint Kitts and Nevis",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Saint_Kitts_and_Nevis.svg",
+        "flag_id": "Q181120",
+        "country_id": "Q763",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "black",
+            "red",
+            "yellow",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "fimbriation",
+            "five-pointed star"
+        ],
+        "inception": 1983,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 93,
+        "average_green": 79,
+        "average_blue": 40,
+        "colours": [
+            "000000",
+            "CE1126",
+            "009E49",
+            "FBD116",
+            "292929",
+            "474747"
+        ]
+    },
+    {
+        "country_name": "Saint Lucia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Saint_Lucia.svg",
+        "flag_id": "Q184596",
+        "country_id": "Q760",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "cerulean",
+            "gold",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "triangle",
+            "fimbriation",
+            "Atlantic Ocean",
+            "Caribbean Sea",
+            "Pitons"
+        ],
+        "inception": 1967,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 113,
+        "average_green": 198,
+        "average_blue": 229,
+        "colours": [
+            "66CCFF",
+            "FCD116",
+            "FDFEFE",
+            "665509",
+            "AD900F",
+            "FDDD56"
+        ]
+    },
+    {
+        "country_name": "Saint Vincent and the Grenadines",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Saint_Vincent_and_the_Grenadines.svg",
+        "flag_id": "Q184584",
+        "country_id": "Q757",
+        "genre": [
+            "vertical triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "yellow",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "rhombus"
+        ],
+        "inception": 1985,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 110,
+        "average_green": 139,
+        "average_blue": 58,
+        "colours": [
+            "FCD116",
+            "009E60",
+            "0072C6",
+            "7EB83B",
+            "7EA16E"
+        ]
+    },
+    {
+        "country_name": "Samoa",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Samoa.svg",
+        "flag_id": "Q188477",
+        "country_id": "Q683",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "Acrux",
+            "Mimosa",
+            "Gamma Crucis",
+            "Delta Crucis",
+            "Epsilon Crucis",
+            "Crux",
+            "field",
+            "canton",
+            "five-pointed star"
+        ],
+        "inception": 1949,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 156,
+        "average_green": 25,
+        "average_blue": 61,
+        "colours": [
+            "CE1126",
+            "002B7F",
+            "FBFCFD",
+            "2F5297",
+            "6D86B6",
+            "BAC6DC"
+        ]
+    },
+    {
+        "country_name": "San Marino",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_San_Marino.svg",
+        "flag_id": "Q168925",
+        "country_id": "Q238",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "3:4",
+        "color": [
+            "white",
+            "light blue"
+        ],
+        "depicts": [
+            "field",
+            "Coat of arms of San Marino"
+        ],
+        "inception": 1862,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 168,
+        "average_green": 207,
+        "average_blue": 223,
+        "colours": [
+            "FFFFFF",
+            "5EB6E4",
+            "86681D",
+            "364B36",
+            "D7A42E",
+            "9CCBE7"
+        ]
+    },
+    {
+        "country_name": "Saudi Arabia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Saudi_Arabia.svg",
+        "flag_id": "Q160877",
+        "country_id": "Q851",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "Shahada",
+            "sword"
+        ],
+        "inception": 1973,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 13,
+        "average_green": 115,
+        "average_blue": 63,
+        "colours": [
+            "006C35",
+            "FBFDFC",
+            "8BBCA3",
+            "4C9872",
+            "B7D5C6"
+        ]
+    },
+    {
+        "country_name": "Senegal",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Senegal.svg",
+        "flag_id": "Q134933",
+        "country_id": "Q1041",
+        "genre": [
+            "vertical triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 154,
+        "average_green": 130,
+        "average_blue": 54,
+        "colours": [
+            "00853F",
+            "E31B23",
+            "FDEF42",
+            "71B540",
+            "ABCD41"
+        ]
+    },
+    {
+        "country_name": "Serbia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Serbia.svg",
+        "flag_id": "Q163832",
+        "country_id": "Q403",
+        "genre": [
+            "horizontal triband",
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "depicts": [
+            "Coat of arms of Serbia",
+            "field"
+        ],
+        "inception": 2004,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 169,
+        "average_green": 132,
+        "average_blue": 145,
+        "colours": [
+            "C6363C",
+            "0C4076",
+            "CF9E2E",
+            "B06232",
+            "CFA6A5",
+            "5C7FA3"
+        ]
+    },
+    {
+        "country_name": "Seychelles",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Seychelles.svg",
+        "flag_id": "Q173201",
+        "country_id": "Q1042",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "yellow",
+            "red",
+            "white",
+            "green"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1996,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 156,
+        "average_green": 120,
+        "average_blue": 100,
+        "colours": [
+            "D62828",
+            "003F87",
+            "007A3D",
+            "FCD856",
+            "FFFEFE",
+            "3B996A"
+        ]
+    },
+    {
+        "country_name": "Sierra Leone",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Sierra_Leone.svg",
+        "flag_id": "Q168912",
+        "country_id": "Q1044",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "light green",
+            "white",
+            "light blue"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1961,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 95,
+        "average_green": 183,
+        "average_blue": 170,
+        "colours": [
+            "0072C6",
+            "1EB53A",
+            "FFFFFF",
+            "B4E6BD",
+            "ABD1EC"
+        ]
+    },
+    {
+        "country_name": "Singapore",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Singapore.svg",
+        "flag_id": "Q483659",
+        "country_id": "Q334",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1959,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 246,
+        "average_green": 154,
+        "average_blue": 161,
+        "colours": [
+            "FFFFFF",
+            "ED2939",
+            "F58C94",
+            "FBCCD0"
+        ]
+    },
+    {
+        "country_name": "Slovakia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Slovakia.svg",
+        "flag_id": "Q160861",
+        "country_id": "Q214",
+        "genre": [
+            "horizontal triband",
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Coat of arms of Slovakia",
+            "fimbriation"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 182,
+        "average_green": 118,
+        "average_blue": 144,
+        "colours": [
+            "EE1C25",
+            "FFFFFF",
+            "0B4EA2",
+            "5C89C1",
+            "F24C53",
+            "9B2E53"
+        ]
+    },
+    {
+        "country_name": "Slovenia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Slovenia.svg",
+        "flag_id": "Q130807",
+        "country_id": "Q215",
+        "genre": [
+            "horizontal triband",
+            "Pan-Slavic colors flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "Coat of arms of Slovenia"
+        ],
+        "inception": 1991,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 168,
+        "average_green": 114,
+        "average_blue": 160,
+        "colours": [
+            "ED1C24",
+            "005DA4",
+            "FFFFFF",
+            "5593C2",
+            "4E477A",
+            "B7B92E"
+        ]
+    },
+    {
+        "country_name": "Solomon Islands",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Solomon_Islands.svg",
+        "flag_id": "Q75374",
+        "country_id": "Q685",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "green",
+            "yellow",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "five-pointed star"
+        ],
+        "inception": 1977,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 46,
+        "average_green": 102,
+        "average_blue": 110,
+        "colours": [
+            "215B33",
+            "0051BA",
+            "FCD116",
+            "FDFEFE",
+            "C3B21D",
+            "2F71C7"
+        ]
+    },
+    {
+        "country_name": "Somalia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Somalia.svg",
+        "flag_id": "Q159538",
+        "country_id": "Q1045",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "light blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 73,
+        "average_green": 142,
+        "average_blue": 222,
+        "colours": [
+            "4189DD",
+            "FEFFFF",
+            "9AC0ED"
+        ]
+    },
+    {
+        "country_name": "Somaliland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Somaliland.svg",
+        "flag_id": "Q201987",
+        "country_id": "Q34754",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white",
+            "red",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star",
+            "Shahada"
+        ],
+        "inception": 1993,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 169,
+        "average_green": 126,
+        "average_blue": 104,
+        "colours": [
+            "020202",
+            "006D21",
+            "9B9F9C",
+            "2C2C2C",
+            "6D6D6D"
+        ]
+    },
+    {
+        "country_name": "South Africa",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_South_Africa.svg",
+        "flag_id": "Q160250",
+        "country_id": "Q258",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "blue",
+            "black",
+            "green",
+            "white",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "triangle",
+            "fimbriation"
+        ],
+        "inception": 1994,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 91,
+        "average_green": 92,
+        "average_blue": 92,
+        "colours": [
+            "007A4D",
+            "002395",
+            "DE3831",
+            "FEFEFE",
+            "000000",
+            "FDB512"
+        ]
+    },
+    {
+        "country_name": "South Korea",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_South_Korea.svg",
+        "flag_id": "Q127296",
+        "country_id": "Q884",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "red",
+            "blue",
+            "black"
+        ],
+        "depicts": [
+            "Taegeuk",
+            "ba gua",
+            "field"
+        ],
+        "inception": 1883,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 214,
+        "average_green": 208,
+        "average_blue": 215,
+        "colours": [
+            "FFFFFF",
+            "013478",
+            "C60C30",
+            "030303",
+            "EED6DE",
+            "303030"
+        ]
+    },
+    {
+        "country_name": "South Ossetia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_South_Ossetia.svg",
+        "flag_id": "Q209060",
+        "country_id": "Q23427",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "white",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 255,
+        "average_green": 159,
+        "average_blue": 85,
+        "colours": [
+            "FFFFFF",
+            "FFDF00",
+            "FF0000",
+            "FF5454",
+            "FF8238"
+        ]
+    },
+    {
+        "country_name": "South Sudan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_South_Sudan.svg",
+        "flag_id": "Q182782",
+        "country_id": "Q958",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "black",
+            "red",
+            "green",
+            "white",
+            "blue",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "fimbriation",
+            "triangle",
+            "five-pointed star"
+        ],
+        "inception": 2005,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 69,
+        "average_green": 75,
+        "average_blue": 71,
+        "colours": [
+            "078930",
+            "000000",
+            "0F47AF",
+            "DA121A",
+            "FFFFFF",
+            "FBDC0A"
+        ]
+    },
+    {
+        "country_name": "Spain",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Spain.svg",
+        "flag_id": "Q121688",
+        "country_id": "Q29",
+        "genre": [
+            "Spanish fess"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "gold",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "coat of arms of Spain"
+        ],
+        "inception": 1785,
+        "nickname": "rojigualda",
+        "continent": [
+            "Europe",
+            "Africa"
+        ],
+        "average_red": 220,
+        "average_green": 97,
+        "average_blue": 18,
+        "colours": [
+            "C60B1E",
+            "FFC400",
+            "975C11",
+            "9E2918",
+            "B08F07",
+            "CEB56B"
+        ]
+    },
+    {
+        "country_name": "Sri Lanka",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Sri_Lanka.svg",
+        "flag_id": "Q154823",
+        "country_id": "Q854",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "dark red",
+            "yellow",
+            "green",
+            "orange"
+        ],
+        "depicts": [
+            "field",
+            "flanche",
+            "bordure",
+            "lion",
+            "sword"
+        ],
+        "inception": 1972,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 183,
+        "average_green": 111,
+        "average_blue": 44,
+        "colours": [
+            "FEB700",
+            "8D2029",
+            "005641",
+            "552D0A",
+            "B88301",
+            "B3511B"
+        ]
+    },
+    {
+        "country_name": "State of Palestine",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Palestine.svg",
+        "flag_id": "Q191731",
+        "country_id": "Q219060",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "black",
+            "white",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "triangle"
+        ],
+        "inception": 1988,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 110,
+        "average_green": 107,
+        "average_blue": 79,
+        "colours": [
+            "007A3D",
+            "000000",
+            "FFFFFF",
+            "CE1126",
+            "D63849",
+            "E16C79"
+        ]
+    },
+    {
+        "country_name": "Sudan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Sudan.svg",
+        "flag_id": "Q102198",
+        "country_id": "Q1049",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "black",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "triangle"
+        ],
+        "inception": 1970,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 123,
+        "average_green": 85,
+        "average_blue": 83,
+        "colours": [
+            "000000",
+            "D21034",
+            "FFFFFF",
+            "007229",
+            "2A894C",
+            "7E382F"
+        ]
+    },
+    {
+        "country_name": "Suriname",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Suriname.svg",
+        "flag_id": "Q180725",
+        "country_id": "Q730",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "white",
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "fimbriation",
+            "five-pointed star"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 146,
+        "average_green": 111,
+        "average_blue": 93,
+        "colours": [
+            "377E3F",
+            "B40A2D",
+            "FFFFFF",
+            "ECC81D",
+            "C33B29",
+            "D16E25"
+        ]
+    },
+    {
+        "country_name": "Sweden",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Sweden.svg",
+        "flag_id": "Q81286",
+        "country_id": "Q34",
+        "genre": [
+            "Nordic cross flag"
+        ],
+        "aspect_ratio": "5:8",
+        "color": [
+            "blue",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "Nordic cross"
+        ],
+        "inception": 1906,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 76,
+        "average_green": 135,
+        "average_blue": 116,
+        "colours": [
+            "006AA7",
+            "FECC00"
+        ]
+    },
+    {
+        "country_name": "Switzerland",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Switzerland.svg",
+        "flag_id": "Q124020",
+        "country_id": "Q39",
+        "genre": null,
+        "aspect_ratio": "1:1",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "Greek cross",
+            "field"
+        ],
+        "inception": 1889,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 255,
+        "average_green": 50,
+        "average_blue": 50,
+        "colours": [
+            "FF0000",
+            "FFFFFF",
+            "FF6060",
+            "FF9C9C"
+        ]
+    },
+    {
+        "country_name": "Syria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Syria.svg",
+        "flag_id": "Q45136",
+        "country_id": "Q858",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "black",
+            "green"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1958,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 146,
+        "average_green": 86,
+        "average_blue": 92,
+        "colours": [
+            "000000",
+            "CE1126",
+            "FFFFFF",
+            "EFB0B7",
+            "309361",
+            "70B492"
+        ]
+    },
+    {
+        "country_name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Sao_Tome_and_Principe.svg",
+        "flag_id": "Q169907",
+        "country_id": "Q1039",
+        "genre": [
+            "horizontal triband",
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "yellow",
+            "red",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "triangle",
+            "five-pointed star"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 117,
+        "average_green": 160,
+        "average_blue": 29,
+        "colours": [
+            "12AD2B",
+            "FFCE00",
+            "D21034",
+            "78BB18",
+            "725E2F",
+            "E86F1A"
+        ]
+    },
+    {
+        "country_name": "Taiwan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Republic_of_China.svg",
+        "flag_id": "Q173535",
+        "country_id": "Q865",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "navy blue",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "Sun"
+        ],
+        "inception": 1924,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 198,
+        "average_green": 8,
+        "average_blue": 40,
+        "colours": [
+            "FE0000",
+            "000095",
+            "FEFEFE",
+            "6666BF",
+            "CECEEB",
+            "ABABDC"
+        ]
+    },
+    {
+        "country_name": "Tajikistan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Tajikistan.svg",
+        "flag_id": "Q160124",
+        "country_id": "Q863",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white",
+            "green",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "crown",
+            "five-pointed star"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 167,
+        "average_green": 137,
+        "average_blue": 105,
+        "colours": [
+            "FFFFFF",
+            "006600",
+            "CC0000",
+            "F8C405",
+            "6EA86E",
+            "E26D6D"
+        ]
+    },
+    {
+        "country_name": "Tanzania",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Tanzania.svg",
+        "flag_id": "Q170809",
+        "country_id": "Q924",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "black",
+            "blue",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "bend sinister",
+            "fimbriation"
+        ],
+        "inception": 1964,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 38,
+        "average_green": 125,
+        "average_blue": 83,
+        "colours": [
+            "000000",
+            "1EB53A",
+            "00A3DD",
+            "FBD016",
+            "BEC548",
+            "93C327"
+        ]
+    },
+    {
+        "country_name": "Thailand",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Thailand.svg",
+        "flag_id": "Q134885",
+        "country_id": "Q869",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "fimbriation"
+        ],
+        "inception": 1917,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 151,
+        "average_green": 103,
+        "average_blue": 123,
+        "colours": [
+            "FFFFFF",
+            "241D4F",
+            "ED1C24",
+            "6D688A",
+            "F3686D"
+        ]
+    },
+    {
+        "country_name": "The Bahamas",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Bahamas.svg",
+        "flag_id": "Q103447",
+        "country_id": "Q778",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "aquamarine",
+            "gold",
+            "black"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "equilateral triangle"
+        ],
+        "inception": 1973,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 54,
+        "average_green": 110,
+        "average_blue": 88,
+        "colours": [
+            "00ABC9",
+            "000000",
+            "FAE042",
+            "A8CE6E",
+            "A9972D",
+            "62581A"
+        ]
+    },
+    {
+        "country_name": "The Gambia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_The_Gambia.svg",
+        "flag_id": "Q135014",
+        "country_id": "Q1005",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "blue",
+            "green",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "fimbriation"
+        ],
+        "inception": 1965,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 118,
+        "average_green": 79,
+        "average_blue": 85,
+        "colours": [
+            "CE1126",
+            "3A7728",
+            "0C1C8C",
+            "FFFFFF",
+            "BDD2B7",
+            "D0C2D7"
+        ]
+    },
+    {
+        "country_name": "Timor-Leste",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_East_Timor.svg",
+        "flag_id": "Q30768",
+        "country_id": "Q574",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "black",
+            "white",
+            "yellow",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "triangle",
+            "triangle",
+            "five-pointed star"
+        ],
+        "inception": 1975,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 190,
+        "average_green": 47,
+        "average_blue": 30,
+        "colours": [
+            "DC241F",
+            "000000",
+            "FFC726",
+            "5D490E",
+            "A17E18",
+            "D2A41F"
+        ]
+    },
+    {
+        "country_name": "Togo",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Togo.svg",
+        "flag_id": "Q103070",
+        "country_id": "Q945",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:1.618",
+        "color": [
+            "green",
+            "yellow",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "five-pointed star"
+        ],
+        "inception": 1960,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 130,
+        "average_green": 124,
+        "average_blue": 51,
+        "colours": [
+            "006A4E",
+            "FFCE00",
+            "D21034",
+            "FFFDFD",
+            "F2BAC4",
+            "E2647B"
+        ]
+    },
+    {
+        "country_name": "Tonga",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Tonga.svg",
+        "flag_id": "Q188072",
+        "country_id": "Q678",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "Greek cross"
+        ],
+        "inception": 1875,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 203,
+        "average_green": 43,
+        "average_blue": 43,
+        "colours": [
+            "C10000",
+            "FFFFFF",
+            "D65555",
+            "EFBFBF",
+            "E49090"
+        ]
+    },
+    {
+        "country_name": "Transnistria",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Transnistria_%28state%29.svg",
+        "flag_id": "Q199961",
+        "country_id": "Q907112",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "red",
+            "green",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "fess",
+            "hammer and sickle",
+            "red star",
+            "five-pointed star",
+            "fimbriation"
+        ],
+        "inception": 2000,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 168,
+        "average_green": 37,
+        "average_blue": 26,
+        "colours": [
+            "DE0000",
+            "009933",
+            "6F4D1A",
+            "FED200",
+            "F48E00"
+        ]
+    },
+    {
+        "country_name": "Trinidad and Tobago",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Trinidad_and_Tobago.svg",
+        "flag_id": "Q184283",
+        "country_id": "Q754",
+        "genre": null,
+        "aspect_ratio": "3:5",
+        "color": [
+            "dark red",
+            "black",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "bend",
+            "fimbriation"
+        ],
+        "inception": 1962,
+        "nickname": null,
+        "continent": [
+            "North America"
+        ],
+        "average_red": 177,
+        "average_green": 44,
+        "average_blue": 62,
+        "colours": [
+            "CE1126",
+            "000000",
+            "FEFDFE",
+            "DF6371",
+            "E78893",
+            "EEADB4"
+        ]
+    },
+    {
+        "country_name": "Tunisia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Tunisia.svg",
+        "flag_id": "Q162789",
+        "country_id": "Q948",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "roundel",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1831,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 233,
+        "average_green": 23,
+        "average_blue": 41,
+        "colours": [
+            "E70013",
+            "FFFEFE",
+            "F16C77",
+            "F7ADB4",
+            "EC3847"
+        ]
+    },
+    {
+        "country_name": "Turkey",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Turkey.svg",
+        "flag_id": "Q81952",
+        "country_id": "Q43",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "star and crescent",
+            "field",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1936,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Europe"
+        ],
+        "average_red": 228,
+        "average_green": 24,
+        "average_blue": 37,
+        "colours": [
+            "E30A17",
+            "FFFEFE",
+            "F9CDD0",
+            "EF7279",
+            "EA4953"
+        ]
+    },
+    {
+        "country_name": "Turkmenistan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Turkmenistan.svg",
+        "flag_id": "Q41327",
+        "country_id": "Q874",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "field",
+            "crescent",
+            "five-pointed star",
+            "gul"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 35,
+        "average_green": 126,
+        "average_blue": 62,
+        "colours": [
+            "28AE66",
+            "C93745",
+            "B47134",
+            "60654E",
+            "65BE8E",
+            "AE915A"
+        ]
+    },
+    {
+        "country_name": "Tuvalu",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Tuvalu.svg",
+        "flag_id": "Q105643",
+        "country_id": "Q672",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "sky blue",
+            "blue",
+            "red",
+            "white",
+            "yellow"
+        ],
+        "depicts": [
+            "Union Jack",
+            "five-pointed star",
+            "field",
+            "map"
+        ],
+        "inception": 1997,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 49,
+        "average_green": 144,
+        "average_blue": 192,
+        "colours": [
+            "5B97B1",
+            "CF142B",
+            "FEFEFE",
+            "00247D",
+            "FCCD03",
+            "B2B452"
+        ]
+    },
+    {
+        "country_name": "Uganda",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Uganda.svg",
+        "flag_id": "Q103037",
+        "country_id": "Q1036",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "black",
+            "yellow",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "Grey Crowned Crane",
+            "field",
+            "roundel"
+        ],
+        "inception": 1962,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 161,
+        "average_green": 83,
+        "average_blue": 11,
+        "colours": [
+            "FCDC04",
+            "000000",
+            "D90000",
+            "FEFDFD",
+            "544901",
+            "C4A636"
+        ]
+    },
+    {
+        "country_name": "Ukraine",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Ukraine.svg",
+        "flag_id": "Q127974",
+        "country_id": "Q212",
+        "genre": [
+            "horizontal bicolor flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "blue",
+            "yellow"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1992,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 127,
+        "average_green": 152,
+        "average_blue": 93,
+        "colours": [
+            "FFD500",
+            "005BBB"
+        ]
+    },
+    {
+        "country_name": "United Arab Emirates",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_United_Arab_Emirates.svg",
+        "flag_id": "Q134247",
+        "country_id": "Q878",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "white",
+            "black",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "flanche"
+        ],
+        "inception": 1971,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 127,
+        "average_green": 92,
+        "average_blue": 75,
+        "colours": [
+            "FF0000",
+            "FFFFFF",
+            "000000",
+            "00732F",
+            "929292"
+        ]
+    },
+    {
+        "country_name": "United Kingdom",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_United_Kingdom.svg",
+        "flag_id": "Q83278",
+        "country_id": "Q145",
+        "genre": null,
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "red",
+            "white"
+        ],
+        "depicts": [
+            "saltire",
+            "Saint Patrick's Saltire",
+            "St George's Cross",
+            "field"
+        ],
+        "inception": 1801,
+        "nickname": "Union Jack",
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 162,
+        "average_green": 102,
+        "average_blue": 134,
+        "colours": [
+            "CF142B",
+            "FFFFFF",
+            "F3C4CA",
+            "AAB6D4",
+            "DB4F60",
+            "6E82B5"
+        ]
+    },
+    {
+        "country_name": "United States of America",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_United_States.svg",
+        "flag_id": "Q42537",
+        "country_id": "Q30",
+        "genre": null,
+        "aspect_ratio": "10:19",
+        "color": [
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "five-pointed star",
+            "field",
+            "canton"
+        ],
+        "inception": 1777,
+        "nickname": "Old Glory",
+        "continent": [
+            "North America"
+        ],
+        "average_red": 186,
+        "average_green": 126,
+        "average_blue": 143,
+        "colours": [
+            "B22234",
+            "FEFEFE",
+            "3C3B6E",
+            "CA6673",
+            "EDCDD1",
+            "DC9AA2"
+        ]
+    },
+    {
+        "country_name": "Uruguay",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Uruguay.svg",
+        "flag_id": "Q171103",
+        "country_id": "Q77",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "white",
+            "blue",
+            "gold"
+        ],
+        "depicts": [
+            "field",
+            "canton",
+            "Sun of May",
+            "Sun"
+        ],
+        "inception": 1830,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 158,
+        "average_green": 176,
+        "average_blue": 211,
+        "colours": [
+            "FFFFFF",
+            "9E830E",
+            "C6D3EC",
+            "8DA6D8",
+            "F8CE16",
+            "547AC5"
+        ]
+    },
+    {
+        "country_name": "Uzbekistan",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Uzbekistan.svg",
+        "flag_id": "Q483774",
+        "country_id": "Q265",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "blue",
+            "white",
+            "green",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "fimbriation",
+            "crescent",
+            "five-pointed star"
+        ],
+        "inception": 1991,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 101,
+        "average_green": 190,
+        "average_blue": 160,
+        "colours": [
+            "FFFFFF",
+            "1EB53A",
+            "0099B5",
+            "CE1126",
+            "4EB8CC",
+            "89D0DD"
+        ]
+    },
+    {
+        "country_name": "Vanuatu",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Vanuatu_%28official%29.svg",
+        "flag_id": "Q185285",
+        "country_id": "Q686",
+        "genre": null,
+        "aspect_ratio": "19:36",
+        "color": [
+            "red",
+            "green",
+            "black",
+            "yellow"
+        ],
+        "depicts": [
+            "tusk",
+            "fern",
+            "field",
+            "fess",
+            "fimbriation"
+        ],
+        "inception": 1980,
+        "nickname": null,
+        "continent": [
+            "Oceania"
+        ],
+        "average_red": 91,
+        "average_green": 72,
+        "average_blue": 39,
+        "colours": [
+            "009543",
+            "D21034",
+            "010100",
+            "FCCE12",
+            "A6870B",
+            "7A6308"
+        ]
+    },
+    {
+        "country_name": "Vatican City",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_the_Vatican_City.svg",
+        "flag_id": "Q79198",
+        "country_id": "Q237",
+        "genre": [
+            "vertical bicolor flag"
+        ],
+        "aspect_ratio": "1:1",
+        "color": [
+            "gold",
+            "white"
+        ],
+        "depicts": [
+            "coats of arms of the Vatican City",
+            "field"
+        ],
+        "inception": 1929,
+        "nickname": null,
+        "continent": [
+            "Europe"
+        ],
+        "average_red": 250,
+        "average_green": 232,
+        "average_blue": 115,
+        "colours": [
+            "FFE000",
+            "FFFFFF",
+            "D1D0CE",
+            "AA9A68",
+            "B2890F",
+            "9C2C20"
+        ]
+    },
+    {
+        "country_name": "Venezuela",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Venezuela.svg",
+        "flag_id": "Q165538",
+        "country_id": "Q717",
+        "genre": [
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "red",
+            "white",
+            "blue"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 2007,
+        "nickname": null,
+        "continent": [
+            "South America"
+        ],
+        "average_red": 156,
+        "average_green": 88,
+        "average_blue": 57,
+        "colours": [
+            "FFCC00",
+            "CF142B",
+            "00247D",
+            "555C53",
+            "441F62",
+            "2E4B94"
+        ]
+    },
+    {
+        "country_name": "Vietnam",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Vietnam.svg",
+        "flag_id": "Q131204",
+        "country_id": "Q881",
+        "genre": null,
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "yellow"
+        ],
+        "depicts": [
+            "field",
+            "five-pointed star"
+        ],
+        "inception": 1945,
+        "nickname": null,
+        "continent": [
+            "Asia"
+        ],
+        "average_red": 220,
+        "average_green": 51,
+        "average_blue": 27,
+        "colours": [
+            "DA251D",
+            "FFFE00",
+            "E67013"
+        ]
+    },
+    {
+        "country_name": "Yemen",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Yemen.svg",
+        "flag_id": "Q162699",
+        "country_id": "Q805",
+        "genre": [
+            "Pan-Arab colors flag",
+            "horizontal triband"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "red",
+            "white",
+            "black"
+        ],
+        "depicts": [
+            "field"
+        ],
+        "inception": 1990,
+        "nickname": null,
+        "continent": [
+            "Asia",
+            "Africa"
+        ],
+        "average_red": 153,
+        "average_green": 90,
+        "average_blue": 97,
+        "colours": [
+            "000000",
+            "CE1126",
+            "FFFFFF",
+            "ABABAB",
+            "EFB0B7"
+        ]
+    },
+    {
+        "country_name": "Zambia",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Zambia.svg",
+        "flag_id": "Q170814",
+        "country_id": "Q953",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "2:3",
+        "color": [
+            "green",
+            "orange",
+            "red",
+            "black"
+        ],
+        "depicts": [
+            "African Fish Eagle",
+            "field",
+            "sinister canton"
+        ],
+        "inception": 1964,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 58,
+        "average_green": 117,
+        "average_blue": 1,
+        "colours": [
+            "198A00",
+            "EF7D00",
+            "DE2010",
+            "000000",
+            "904F05",
+            "4C6C02"
+        ]
+    },
+    {
+        "country_name": "Zimbabwe",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/File%3AFlag_of_Zimbabwe.svg",
+        "flag_id": "Q159986",
+        "country_id": "Q954",
+        "genre": [
+            "Pan-African flag"
+        ],
+        "aspect_ratio": "1:2",
+        "color": [
+            "green",
+            "yellow",
+            "black",
+            "red"
+        ],
+        "depicts": [
+            "field",
+            "isosceles triangle",
+            "fimbriation",
+            "five-pointed star",
+            "Zimbabwe Bird"
+        ],
+        "inception": 1980,
+        "nickname": null,
+        "continent": [
+            "Africa"
+        ],
+        "average_red": 146,
+        "average_green": 113,
+        "average_blue": 34,
+        "colours": [
+            "319208",
+            "DE2010",
+            "FFFFFF",
+            "000000",
+            "C5C002",
+            "F18507"
+        ]
+    }
+]
