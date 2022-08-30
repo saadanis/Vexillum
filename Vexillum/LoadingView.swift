@@ -36,10 +36,11 @@ struct LoadingView: View {
 	
 	var body: some View {
 		VStack {
-//			Image("Vexillum_SC")
-//				.resizable()
-//				.frame(width: 80, height: 80)
-//				.cornerRadius(20)
+            Image("AppIconImage")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 75)
+                .cornerRadius(20)
             Text("Loading View")
 		}
 		.padding()
@@ -51,19 +52,19 @@ struct LoadingView: View {
 			let continentsJSON = loadJSONContinents()
 			
 			// Temporary delete alls.
-			for flag in flags {
-				managedObjectContext.delete(flag)
-			}
-			for colour in colours {
-				managedObjectContext.delete(colour)
-			}
-			for continent in continents {
-				managedObjectContext.delete(continent)
-			}
-			for bunch in bunches {
-				managedObjectContext.delete(bunch)
-			}
-			saveData()
+//			for flag in flags {
+//				managedObjectContext.delete(flag)
+//			}
+//			for colour in colours {
+//				managedObjectContext.delete(colour)
+//			}
+//			for continent in continents {
+//				managedObjectContext.delete(continent)
+//			}
+//			for bunch in bunches {
+//				managedObjectContext.delete(bunch)
+//			}
+//			saveData()
 			
 			// Add the JSON continents to CoreData if there are more JSON continents.
 			if (continentsJSON.count > continents.count) {
@@ -118,14 +119,6 @@ struct LoadingView: View {
 						flag.continent = NSSet(array: _continents)
 					}
 				}
-			}
-			
-            if(bunches.filter{$0.bunchName == Constants.favoritesString}.isEmpty) {
-				print("Favorites list does not exist; Creating.")
-				let bunch = Bunch(context: managedObjectContext)
-                bunch.bunchName = Constants.favoritesString
-				bunch.bunchIconName = "star"
-				bunch.bunchColorName = "red"
 			}
 			
 			// Temporary: Create a new bunch.

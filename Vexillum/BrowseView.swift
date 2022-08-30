@@ -27,42 +27,93 @@ struct BrowseView: View {
     ) var bunches: FetchedResults<Bunch>
     
     @State private var searchText = ""
+    @State private var showAlert = false
+    @State private var showingEditListSheet = false
+    @State private var showingFilterOptionsSheet = false
     
-    var listName: String?
+    var bunch: Bunch?
+    
+    @State private var selectedSortIndex = 0
+    @State private var isReverse = false
+    @State private var isFiltered = false
+    
+    @State private var selectedContinents: [String] = []
+    
+    var ascendingText: String {
+        switch selectedSortIndex {
+        case 1:
+            return "Oldest First"
+        case 2:
+            return "Shortest First"
+        case 3:
+            return "Least First"
+        default:
+            return "Ascending"
+        }
+    }
+    var descendingText: String {
+        switch selectedSortIndex {
+        case 1:
+            return "Newest First"
+        case 2:
+            return "Longest First"
+        case 3:
+            return "Most First"
+        default:
+            return "Descending"
+        }
+    }
     
     var searchResults: Array<Flag> {
         
         var localFlags: [Flag] = []
         
-        if let unwrappedListName = listName {
-            for bunch in bunches {
-                if bunch.bunchName == unwrappedListName {
-                    localFlags = bunch.flags!.allObjects as! [Flag]
-                }
-            }
+        if bunch != nil {
+            localFlags = bunch!.flags!.allObjects as! [Flag]
         } else {
-            localFlags = flags.filter {
-                $0.countryName == $0.countryName
+            localFlags = flags.filter { $0 == $0 }
+        }
+        
+        if selectedContinents.count > 0 {
+            localFlags = localFlags.filter {
+                $0 == $0
             }
         }
         
-        if searchText.isEmpty {
-            return localFlags.filter {
-                $0.countryName == $0.countryName
-            }
-        } else {
-            return localFlags.filter { $0.countryName!.localizedCaseInsensitiveContains(searchText)
+        if !searchText.isEmpty {
+            localFlags = localFlags.filter {
+                $0.countryName!.localizedCaseInsensitiveContains(searchText)
             }
         }
+        
+        switch selectedSortIndex {
+        case 1:
+            localFlags = localFlags.sorted(by: { $0.inception < $1.inception })
+        case 2:
+            localFlags = localFlags.sorted(by: {
+                let zero = $0.aspectRatio!.components(separatedBy: ":").map{Double($0)}
+                let zero_ratio = zero[1]!/zero[0]!
+                let one = $1.aspectRatio!.components(separatedBy: ":").map{Double($0)}
+                let one_ratio = one[1]!/one[0]!
+                
+                return zero_ratio < one_ratio
+            })
+        case 3:
+            localFlags = localFlags.sorted(by: { $0.colours!.count < $1.colours!.count })
+        default:
+            localFlags = localFlags.sorted(by: { $0.countryName! < $1.countryName! })
+        }
+        
+        if isReverse {
+            localFlags = localFlags.reversed()
+        }
+        
+        return localFlags
     }
     
     var title: String {
-        if let listName = listName {
-            if listName == Constants.favoritesString {
-                return "Favorites"
-            } else {
-                return listName
-            }
+        if let bunch = bunch {
+            return bunch.bunchName!
         } else {
             return "National Flags"
         }
@@ -100,50 +151,110 @@ struct BrowseView: View {
     }
     
     var body: some View {
-//        NavigationView {
-            ScrollView {
-                LazyVGrid(columns: layout) {
-                    ForEach(searchResults, id: \.self) { flag in
-                        CellContent(flagId: flag.flagId!, countryName: flag.countryName!, color: Color(red: flag.averageRed/255, green: flag.averageGreen/255, blue: flag.averageBlue/255), destination: FlagView(flag: flag))
+        ScrollView {
+            LazyVGrid(columns: layout) {
+                ForEach(searchResults, id: \.self) { flag in
+                    CellContent(
+                        flagId: flag.flagId!,
+                        countryName: flag.countryName!,
+                        color: Color(
+                            red: flag.averageRed/255,
+                            green: flag.averageGreen/255,
+                            blue: flag.averageBlue/255
+                        ),
+                        destination: FlagView(flag: flag)
+                    )
+                    .contextMenu {
+                        if bunch != nil {
+                            Button(role: .destructive) {
+                                removeFromBunch(flag: flag)
+                                PersistenceController.shared.save()
+                            } label: {
+                                Label("Remove From List", systemImage: "text.badge.minus")
+                            }
+                        }
                     }
                 }
-                .searchable(text: $searchText)
-                .disableAutocorrection(true)
-                .textInputAutocapitalization(.never)
-                .padding(.horizontal)
+                .id(UUID())
             }
-            .navigationTitle(title)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "line.3.horizontal.decrease.circle")
-                        //                        Text("Filter")
-                    }
+            .searchable(text: $searchText)
+            .disableAutocorrection(true)
+            .textInputAutocapitalization(.never)
+            .padding(.horizontal)
+        }
+        .navigationTitle(title)
+        .toolbar {
+            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                Button {
+                    showingFilterOptionsSheet.toggle()
+                } label: {
+                    Image(systemName: "line.3.horizontal.decrease.circle")
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
+                Menu {
+                    Picker(selection: $selectedSortIndex) {
+                        Text("Country").tag(0)
+                        Text("Year of Inception").tag(1)
+                        Text("Aspect Ratio").tag(2)
+                        Text("Number of Colors").tag(3)
+                    } label: {
+                        Text("Sorting Option")
+                    }
+                    Picker(selection: $isReverse) {
+                        Text(ascendingText).tag(false)
+                        Text(descendingText).tag(true)
+                    } label: {
+                        Text("Sorting Option")
+                    }
+                } label: {
+                    Image(systemName: "arrow.up.arrow.down.circle")
+                }
+                if bunch != nil {
                     Menu {
-                        Button(action: {}) {
-                            Label("Country Name", systemImage: "signature")
+                        Button {
+                            showingEditListSheet.toggle()
+                        } label: {
+                            Label("Edit List Info", systemImage: "pencil")
                         }
-                        Button(action: {}) {
-                            Label("Year of Inception", systemImage: "calendar")
-                        }
-                        Divider()
-                        Button(action: {}) {
-                            Label("Ascending", systemImage: "arrowtriangle.up")
-                        }
-                        Button(action: {}) {
-                            Label("Descending", systemImage: "arrowtriangle.down")
+                        Button (role: .destructive) {
+                            self.showAlert = true
+                        } label: {
+                            Label("Delete List", systemImage: "trash")
                         }
                     } label: {
-                        Image(systemName: "arrow.up.arrow.down.circle")
-                        //                        Text("Sort By")
+                        Image(systemName: "ellipsis.circle")
                     }
                 }
             }
-//        }
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(
+                title: Text("Delete list \"\(bunch!.bunchName!)\"?"),
+                primaryButton: .destructive(Text("Delete")) {
+                    let _bunch = bunches.filter{ $0.bunchName == bunch!.bunchName! }[0]
+                    managedObjectContext.delete(_bunch)
+                },
+                secondaryButton: .cancel()
+            )
+        }
+        .sheet(isPresented: $showingEditListSheet) {
+            NewListSheetView(editBunch: bunch)
+        }
+        .sheet(isPresented: $showingFilterOptionsSheet) {
+            FilterOptionsSheetView(selectedContinents: $selectedContinents, isFiltered: $isFiltered)
+        }
+    }
+    
+    func removeFromBunch(flag: Flag) {
+        
+        var _flags = bunch!.flags!.allObjects
+        
+        if _flags.contains(where: { $0 as! NSObject == flag }) {
+            _flags.removeAll { $0 as! NSObject == flag }
+            bunches.filter{ $0.bunchName == bunch!.bunchName! }[0].flags = NSSet(array: _flags)
+            print("Removed from the list.")
+        } else {
+            print("Not in the list.")
+        }
     }
 }
 

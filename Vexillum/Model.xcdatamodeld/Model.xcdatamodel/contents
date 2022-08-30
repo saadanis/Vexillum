@@ -5,7 +5,7 @@
         <attribute name="bunchIconName" optional="YES" attributeType="String"/>
         <attribute name="bunchName" optional="YES" attributeType="String"/>
         <attribute name="bunchOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
-        <relationship name="flags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flag"/>
+        <relationship name="flags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flag" inverseName="bunches" inverseEntity="Flag"/>
     </entity>
     <entity name="Colour" representedClassName="Colour" syncable="YES" codeGenerationType="class">
         <attribute name="colourHex" optional="YES" attributeType="String"/>
@@ -28,6 +28,7 @@
         <attribute name="imageUrl" optional="YES" attributeType="String"/>
         <attribute name="inception" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="nickname" optional="YES" attributeType="String"/>
+        <relationship name="bunches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bunch" inverseName="flags" inverseEntity="Bunch"/>
         <relationship name="colours" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Colour" inverseName="flag" inverseEntity="Colour"/>
         <relationship name="continent" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Continent" inverseName="flag" inverseEntity="Continent"/>
     </entity>
@@ -35,6 +36,6 @@
         <element name="Bunch" positionX="1575" positionY="1296" width="128" height="104"/>
         <element name="Colour" positionX="1741.443725585937" positionY="1400.422790527344" width="128" height="74"/>
         <element name="Continent" positionX="1638.676635742188" positionY="1139.498901367188" width="128" height="59"/>
-        <element name="Flag" positionX="1408.054260253906" positionY="1153.786010742187" width="128" height="224"/>
+        <element name="Flag" positionX="1408.054260253906" positionY="1153.786010742187" width="128" height="239"/>
     </elements>
 </model>

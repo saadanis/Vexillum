@@ -5,6 +5,8 @@
 //  Created by Saad Anis on 7/30/21.
 //
 
+// Adapted from: https://www.hackingwithswift.com/quick-start/swiftui/how-to-configure-core-data-to-work-with-swiftui
+
 import Foundation
 import SwiftUI
 import CoreData
@@ -46,9 +48,9 @@ struct PersistenceController {
 	
 	func save() {
 		let context = container.viewContext
-		
 		if context.hasChanges {
 			do {
+                print("There are changes; saving.")
 				try context.save()
 			} catch {
 				print("Unable to save data.")

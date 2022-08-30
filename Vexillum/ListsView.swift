@@ -6,6 +6,7 @@
 //
 
 // Reordering of bunches adapted from: https://stackoverflow.com/a/62239979
+// Fixed the pop-back issue using .navigationViewStyle(.stack)
 
 import SwiftUI
 
@@ -23,12 +24,6 @@ struct ListsView: View {
         ]
     ) var bunches: FetchedResults<Bunch>
     
-    var otherBunches: [Bunch] {
-        bunches.filter {
-            $0.bunchName != Constants.favoritesString
-        }
-    }
-    
     @State private var showingNewListSheet = false
     
     var body: some View {
@@ -42,19 +37,9 @@ struct ListsView: View {
                             .foregroundColor(.accentColor)
                     }
                 }
-//                Section {
-                    NavigationLink(destination: BrowseView(listName: Constants.favoritesString)) {
-                        Label {
-                            Text("Favorites")
-                        } icon: {
-                            Image(systemName: "star.fill")
-                                .foregroundColor(.accentColor)
-                        }
-                    }
-//                }
-                Section("Custom Lists") {
-                    ForEach(bunches, id: \.self) { bunch in
-                        NavigationLink(destination: BrowseView(listName: bunch.bunchName)) {
+                Section {
+                    ForEach(bunches) { bunch in
+                        NavigationLink(destination: BrowseView(bunch: bunch)) {
                             Label {
                                 Text(bunch.bunchName!)
                             } icon: {
@@ -64,7 +49,6 @@ struct ListsView: View {
                         }
                     }
                     .onDelete { offsets in
-                        //                        otherBunches.remove(atOffsets: offsets)
                         for index in offsets {
                             let bunch = bunches[index]
                             managedObjectContext.delete(bunch)
@@ -72,23 +56,7 @@ struct ListsView: View {
                     }
                     .onMove( perform: bunchMove )
                 }
-                Section("Smart Lists") {
-                    ForEach(smartLists, id: \.self) { smartList in
-                        NavigationLink(destination: Text(smartList)) {
-                            Label {
-                                Text(smartList)
-                            } icon: {
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.green)
-                            }
-                        }                    }
-                    .onDelete { offsets in
-                        smartLists.remove(atOffsets: offsets)
-                    }
-                    .onMove(perform: smartListMove)
-                }
             }
-//            .id(UUID())
             .navigationTitle("Lists")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -98,7 +66,7 @@ struct ListsView: View {
                     Button(action: {
                         showingNewListSheet.toggle()
                     }) {
-                        Label("New Custom List", systemImage: "plus")
+                        Image(systemName: "plus")
                     }
                 }
             }
@@ -106,6 +74,7 @@ struct ListsView: View {
                 NewListSheetView()
             }
         }
+        .navigationViewStyle(.stack)
     }
     
     private func bunchMove(from source: IndexSet, to destination: Int) {

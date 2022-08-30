@@ -11,7 +11,20 @@ struct NewListSheetView: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.managedObjectContext) var managedObjectContext
     
+    @FetchRequest(
+        entity: Bunch.entity(),
+        sortDescriptors: [
+            NSSortDescriptor(keyPath: \Bunch.bunchOrder, ascending: true),
+            NSSortDescriptor(keyPath: \Bunch.bunchName, ascending: true)
+        ]
+    ) var bunches: FetchedResults<Bunch>
+    
     @State private var localTitle: String = ""
+    
+    @State var editBunch: Bunch?
+    @State var addFlag: Flag?
+    
+    @State private var showAlert = false
     
     private var title: String {
         localTitle.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -79,104 +92,8 @@ struct NewListSheetView: View {
     }
     
     @State private var selectedItem: String = ""
-    @State private var selectedColor: Color = Color.accentColor
     
-    var body2: some View {
-        NavigationView {
-            ScrollView(showsIndicators: false) {
-                HStack {
-                    Spacer()
-                    VStack {
-                        Image(systemName: selectedItem)
-                            .font(.title)
-                            .padding(.bottom, 5)
-                            .frame(minHeight: 35, maxHeight: 35)
-                        Text(title == "" ? "Untitled" : title)
-                            .font(.headline)
-                    }
-                    .foregroundColor(selectedColor)
-                    Spacer()
-                }
-                .padding(20)
-                .background(selectedColor.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 20))
-                VStack {
-                    TextField("Title", text:  $localTitle)
-                        .padding(10)
-                        .background(Color.gray.opacity(0.1))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                }
-                LazyVGrid(columns: columns, spacing: 0) {
-                    ForEach(colors, id:\.self) { color in
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(height: 40)
-                                .foregroundColor(color)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 10)
-                                        .stroke(selectedColor == color ? .primary : Color.gray.opacity(0.1))
-                                )
-                        }
-                        .padding(5)
-                        .onTapGesture {
-                            selectedColor = color
-                        }
-                    }
-                }
-                .padding(10)
-                .background(Color.gray.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-                LazyVGrid(columns: columns, spacing: 0) {
-                    ForEach(items, id:\.self) { item in
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .frame(height: 40)
-                                .foregroundColor(selectedItem == item ? selectedColor.opacity(0.1) : Color.gray.opacity(0.1))
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 10)
-                                        .stroke(selectedItem == item ? .primary : Color.gray.opacity(0.1))
-                                )
-                            Image(systemName: item)
-                                .foregroundColor(selectedColor)
-                        }
-                        .padding(5)
-                        .onTapGesture {
-                            selectedItem = item
-                        }
-                    }
-                }
-                .padding(10)
-                .background(Color.gray.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-            }
-            .padding(.horizontal)
-            .navigationTitle("New List")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
-                    .foregroundColor(selectedColor)
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Create") {
-                        if createNewList() {
-                            dismiss()
-                        } else {
-                            
-                        }
-                    }
-                    .foregroundColor(selectedColor)
-                }
-            }
-            .onAppear {
-                print(Array(dictColor.values))
-                selectedItem = items[0]
-                selectedColor = colors[0]
-            }
-        }
-    }
+    @State private var selectedColor: Color = Color.accentColor
     
     var body: some View {
         NavigationView {
@@ -202,7 +119,7 @@ struct NewListSheetView: View {
                         .disableAutocorrection(true)
                         .autocapitalization(.words)
                 }
-
+                
                 Section {
                     LazyVGrid(columns: columns, spacing: 0) {
                         ForEach(colors, id:\.self) { color in
@@ -221,7 +138,7 @@ struct NewListSheetView: View {
                     }
                     .listRowInsets(.init(top: 5, leading: 5, bottom: 5, trailing: 5))
                 }
-
+                
                 Section {
                     LazyVGrid(columns: columns, spacing: 0) {
                         ForEach(items, id:\.self) { item in
@@ -245,7 +162,7 @@ struct NewListSheetView: View {
                     .listRowInsets(.init(top: 5, leading: 5, bottom: 5, trailing: 5))
                 }
             }
-            .navigationTitle("New List")
+            .navigationTitle(editBunch != nil ? "Edit List" : "New List")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -255,21 +172,41 @@ struct NewListSheetView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        if createNewList() {
+                        var success = false
+                        if editBunch != nil {
+                            success = updateList()
+                        } else {
+                            success = createNewList()
+                        }
+                        if success {
                             dismiss()
                         } else {
-//                            TODO: Show an error for failure.
+                            showAlert.toggle()
                         }
                     } label: {
-                        Text("Create")
+                        Text(editBunch != nil ? "Done" : "Create")
                             .bold()
                     }
                     .disabled(title == "")
                 }
             }
             .onAppear {
-                selectedItem = items[0]
-                selectedColor = colors[0]
+                if editBunch != nil {
+                    localTitle = editBunch!.bunchName!
+                    selectedItem = editBunch!.bunchIconName!
+                    selectedColor = getColorColor(colorName: editBunch!.bunchColorName!)
+                } else {
+                    localTitle = ""
+                    selectedItem = items[0]
+                    selectedColor = colors[0]
+                }
+            }
+            .alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("Invalid Name"),
+                    message: Text("A list with same name already exists. Please choose a different name."),
+                    dismissButton: .default(Text("OK"))
+                )
             }
         }
     }
@@ -278,19 +215,41 @@ struct NewListSheetView: View {
         
         let trimmedTitle = title
         
-        if trimmedTitle.count > 0 {
-            if trimmedTitle != Constants.favoritesString || trimmedTitle != "All Flags" {
-                let newBunch = Bunch(context: managedObjectContext)
-                newBunch.bunchName = trimmedTitle
-                newBunch.bunchIconName = selectedItem
-                newBunch.bunchColorName = getColorName(colorColor: selectedColor)
-                return true
+        for bunch in bunches {
+            if bunch.bunchName == trimmedTitle {
+                return false
             }
         }
-        print(title)
-        print(selectedItem)
-        print(selectedColor)
-        return false
+        
+        let newBunch = Bunch(context: managedObjectContext)
+        newBunch.bunchName = trimmedTitle
+        newBunch.bunchIconName = selectedItem
+        newBunch.bunchColorName = getColorName(colorColor: selectedColor)
+        PersistenceController.shared.save()
+        
+        if addFlag != nil {
+            newBunch.flags = NSSet(array: [addFlag!])
+        }
+        
+        return true
+    }
+    
+    func updateList() -> Bool {
+        
+        let trimmedTitle = title
+        
+        for bunch in bunches {
+            if bunch.bunchName == trimmedTitle {
+                if bunch.bunchName != editBunch!.bunchName {
+                    return false
+                }
+            }
+        }
+        
+        editBunch!.bunchName = trimmedTitle
+        editBunch!.bunchIconName = selectedItem
+        editBunch!.bunchColorName = getColorName(colorColor: selectedColor)
+        return true
     }
 }
 

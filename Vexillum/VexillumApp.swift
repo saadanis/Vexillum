@@ -18,10 +18,6 @@ struct VexillumApp: App {
     var body: some Scene {
         WindowGroup {
             if dataIsLoaded {
-                //				ContentView()
-                //					.environment(\.managedObjectContext, persistenceController.container.viewContext)
-//                MainView()
-//                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 ListsView()
                     .environment(\.managedObjectContext, persistenceController.container.viewContext)
             } else {
@@ -36,8 +32,6 @@ struct VexillumApp: App {
 }
 
 struct Constants {
-    static let favoritesString: String = "rORZ8EIbHs"
-    
     static let colorDictionary: [String: Color] = [
         "primary": .primary,
         "red": .red,
@@ -53,4 +47,10 @@ struct Constants {
         "pink": .pink,
         "brown": .brown
     ]
+}
+
+extension Dictionary where Value: Equatable {
+    func someKey(forValue val: Value) -> Key? {
+        return first(where: { $1 == val })?.key
+    }
 }

@@ -10,18 +10,30 @@ import SwiftUI
 struct FlagView: View {
     
     @Environment(\.managedObjectContext) var managedObjectContext
-    //	@FetchRequest(
-    //		entity: Flag.entity(),
-    //		sortDescriptors: [
-    //			NSSortDescriptor(keyPath: \Flag.countryName, ascending: true),
-    //			NSSortDescriptor(keyPath: \Flag.favorite, ascending: false)
-    //		]
-    //	) var flags: FetchedResults<Flag>
+    
+    @FetchRequest(
+        entity: Flag.entity(),
+        sortDescriptors: []
+    ) var flags: FetchedResults<Flag>
     
     @FetchRequest(
         entity: Bunch.entity(),
-        sortDescriptors: []
+        sortDescriptors: [
+            NSSortDescriptor(keyPath: \Bunch.bunchOrder, ascending: true),
+            NSSortDescriptor(keyPath: \Bunch.bunchName, ascending: true)
+        ]
     ) var bunches: FetchedResults<Bunch>
+    
+//    var countryName: String
+//
+//    var flag: Flag {
+//        for flag in flags {
+//            if flag.countryName == countryName {
+//                return flag
+//            }
+//        }
+//        return Flag()
+//    }
     
     var flag: Flag
     
@@ -93,7 +105,7 @@ struct FlagView: View {
                             Label("Copy", systemImage: "doc.on.doc")
                         }
                     }
-
+                    
                 }
             }
             Section("Location") {
@@ -167,18 +179,18 @@ struct FlagView: View {
                     Label {
                         Text("Aspect Ratio")
                     } icon: {
-//                        RoundedRectangle(cornerRadius: 2)
-//                            .stroke(averageColor, lineWidth: 2)
-//                            .frame(width: aspectRatioWidth, height: aspectRatioHeight)
+                        //                        RoundedRectangle(cornerRadius: 2)
+                        //                            .stroke(averageColor, lineWidth: 2)
+                        //                            .frame(width: aspectRatioWidth, height: aspectRatioHeight)
                         Image(systemName: "aspectratio")
                             .foregroundColor(averageColor)
                     }
                     Spacer()
-//                    Button(action: {
-//                        pasteboard.string = flag.aspectRatio!
-//                    }) {
-                        Text(flag.aspectRatio!)
-//                    }
+                    //                    Button(action: {
+                    //                        pasteboard.string = flag.aspectRatio!
+                    //                    }) {
+                    Text(flag.aspectRatio!)
+                    //                    }
                 }
                 .contextMenu {
                     Button {
@@ -226,50 +238,27 @@ struct FlagView: View {
                     } label: {
                         Label("Create New List", systemImage: "plus")
                     }
-                    ForEach(otherBunches) { bunch in
-                        Button {
-                            addToBunch(flag: flag, bunch: bunch)
-                        } label: {
-                            Label(bunch.bunchName!, systemImage: bunch.bunchIconName!)
-                        }
-                    }
-                } label: {
-                    Text("Add To List")
-                }
-                Button {
-                    for bunch in bunches {
-                        if (bunch.bunchName == Constants.favoritesString) {
-                            if isFavorite(flag: flag) {
-                                print("unfavoriting")
-                                removeFromBunch(flag: flag, bunch: bunch)
-                            } else {
-                                print("favoriting")
-                                addToBunch(flag: flag, bunch: bunch)
+                    Section {
+                        ForEach(bunches) { bunch in
+                            if !bunch.flags!.contains(flag) {
+                                Button {
+                                    addToBunch(flag: flag, bunch: bunch)
+                                } label: {
+                                    Label(bunch.bunchName!, systemImage: bunch.bunchIconName!)
+                                }
                             }
                         }
                     }
-                    print()
-                    for bunch in bunches {
-                        print(bunch.bunchName!)
-                        let _flags = bunch.flags!.allObjects
-                        for _flag in _flags {
-                            print((_flag as AnyObject).countryName)
-                        }
-                    }
-                    saveData()
                 } label: {
-                    Image(systemName: isFavorite(flag: flag) ? "star.fill" : "star")
+                    Image(systemName: "text.badge.plus")
                 }
             }
         }
         .onAppear {
-            
             // Get all other bunches.
             var locOtherBunches: [Bunch] = []
             for bunch in bunches {
-                if bunch.bunchName != Constants.favoritesString {
-                    locOtherBunches.append(bunch)
-                }
+                locOtherBunches.append(bunch)
             }
             otherBunches = locOtherBunches
             
@@ -308,22 +297,8 @@ struct FlagView: View {
             
         }
         .sheet(isPresented: $showingNewListSheetViewSheet) {
-            NewListSheetView()
+            NewListSheetView(addFlag: flag)
         }
-    }
-    
-    func isFavorite(flag: Flag) -> Bool {
-        for bunch in bunches {
-            if (bunch.bunchName == Constants.favoritesString) {
-                let _flags = bunch.flags!.allObjects
-                if _flags.contains(where: { $0 as! NSObject == flag }) {
-                    return true
-                } else {
-                    return false
-                }
-            }
-        }
-        return false
     }
     
     func addToBunch(flag: Flag, bunch: Bunch) {
@@ -347,17 +322,6 @@ struct FlagView: View {
             print("Removed from the list.")
         } else {
             print("Not in the list.")
-        }
-    }
-    
-    func saveData() {
-        print("Attempting to save data.")
-        do {
-            if managedObjectContext.hasChanges {
-                try managedObjectContext.save()
-            }
-        } catch {
-            fatalError("Issue.")
         }
     }
 }

@@ -30,3 +30,10 @@ struct ColourJSON: Decodable {
 	var colour_hex: String
     var colour_name: String
 }
+
+struct FilterOption: Identifiable {
+    var id = UUID()
+    var type: String
+    var values: [String]
+    var isUnion: Bool
+}
