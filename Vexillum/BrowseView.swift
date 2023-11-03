@@ -35,9 +35,13 @@ struct BrowseView: View {
     
     @State private var selectedSortIndex = 0
     @State private var isReverse = false
-    @State private var isFiltered = false
     
-    @State private var selectedContinents: [String] = []
+    @State private var selectedContinents = Constants.continents
+    
+    @State private var fromYear = 0000
+    @State private var toYear = Calendar.current.component(.year, from: Date())
+    
+    @State private var selectedAspectRatios = Constants.aspectRatios
     
     var ascendingText: String {
         switch selectedSortIndex {
@@ -74,10 +78,21 @@ struct BrowseView: View {
             localFlags = flags.filter { $0 == $0 }
         }
         
-        if selectedContinents.count > 0 {
-            localFlags = localFlags.filter {
-                $0 == $0
+        localFlags = localFlags.filter {
+            for continent in $0.continent! {
+                if selectedContinents.contains((continent as AnyObject).continentName!) {
+                    return true
+                }
             }
+            return false
+        }
+        
+        localFlags = localFlags.filter {
+            $0.inception >= fromYear && $0.inception <= toYear
+        }
+        
+        localFlags = localFlags.filter {
+            selectedAspectRatios.contains($0.aspectRatio!)
         }
         
         if !searchText.isEmpty {
@@ -128,10 +143,10 @@ struct BrowseView: View {
         var flagId: String
         var countryName: String
         var color: Color
-        var destination: FlagView
+        var destination: any View
         
         var body: some View {
-            NavigationLink(destination: destination) {
+            NavigationLink(destination: AnyView(destination)) {
                 VStack {
                     Image("\(flagId)")
                         .resizable()
@@ -240,7 +255,12 @@ struct BrowseView: View {
             NewListSheetView(editBunch: bunch)
         }
         .sheet(isPresented: $showingFilterOptionsSheet) {
-            FilterOptionsSheetView(selectedContinents: $selectedContinents, isFiltered: $isFiltered)
+            FilterOptionsSheetView(
+                selectedContinents: $selectedContinents,
+                fromYear: $fromYear,
+                toYear: $toYear,
+                selectedAspectRatios: $selectedAspectRatios
+            )
         }
     }
     

@@ -92,6 +92,7 @@ struct LoadingView: View {
 			// Add the JSON flags to CoreData if there are more JSON flags.
 			if (flagsJSON.count > flags.count) {
 				for flagJSON in flagsJSON {
+                    if flagJSON.visible {
 					if(flags.filter{$0.countryName == flagJSON.country_name}.isEmpty) {
 						let flag = Flag(context: managedObjectContext)
 						flag.countryName = flagJSON.country_name
@@ -118,6 +119,7 @@ struct LoadingView: View {
 						}
 						flag.continent = NSSet(array: _continents)
 					}
+                }
 				}
 			}
 			
@@ -197,7 +199,7 @@ struct LoadingView: View {
 				fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
 			}
 		}
-		
+        
 		return flagsJSON
 	}
 	

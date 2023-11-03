@@ -37,6 +37,13 @@ struct ListsView: View {
                             .foregroundColor(.accentColor)
                     }
                 }
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 20) {
+                        ForEach(0..<10) {_ in 
+                            BrowseView.CellContent(flagId: "", countryName: "National Flags", color: Color.red, destination: BrowseView())
+                        }
+                    }
+                }
                 Section {
                     ForEach(bunches) { bunch in
                         NavigationLink(destination: BrowseView(bunch: bunch)) {

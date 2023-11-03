@@ -24,16 +24,16 @@ struct FlagView: View {
         ]
     ) var bunches: FetchedResults<Bunch>
     
-//    var countryName: String
-//
-//    var flag: Flag {
-//        for flag in flags {
-//            if flag.countryName == countryName {
-//                return flag
-//            }
-//        }
-//        return Flag()
-//    }
+    //    var countryName: String
+    //
+    //    var flag: Flag {
+    //        for flag in flags {
+    //            if flag.countryName == countryName {
+    //                return flag
+    //            }
+    //        }
+    //        return Flag()
+    //    }
     
     var flag: Flag
     
@@ -109,7 +109,7 @@ struct FlagView: View {
                 }
             }
             Section("Location") {
-                HStack(alignment: .top) {
+                HStack {
                     Label {
                         Text("Country")
                     } icon: {
@@ -120,7 +120,7 @@ struct FlagView: View {
                     Text(flag.countryName!.capitalized)
                         .multilineTextAlignment(.trailing)
                 }
-                .padding(.vertical, 6)
+//                .padding(.vertical, 6)
                 .contextMenu {
                     Button {
                         pasteboard.string = flag.countryName!
@@ -128,7 +128,7 @@ struct FlagView: View {
                         Label("Copy", systemImage: "doc.on.doc")
                     }
                 }
-                HStack(alignment: .top) {
+                HStack {
                     Label {
                         Text("Continent")
                     } icon: {
@@ -136,13 +136,11 @@ struct FlagView: View {
                             .foregroundColor(averageColor)
                     }
                     Spacer()
-                    VStack(alignment: .trailing, spacing: 6) {
-                        ForEach(continents, id:\.self) { continent in
-                            Text(continent.continentName!.capitalized)
-                        }
+                    ForEach(continents, id:\.self) { continent in
+                        Text(continent.continentName!.capitalized)
                     }
                 }
-                .padding(.vertical, 6)
+//                .padding(.vertical, 6)
                 .contextMenu {
                     Button {
                         var continentString = ""

@@ -29,7 +29,12 @@
             "00993E",
             "FFFFFF",
             "C8312A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Afghanistan",
@@ -60,7 +65,12 @@
             "009900",
             "BF0000",
             "F4E5D7"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Albania",
@@ -78,7 +88,7 @@
             "field"
         ],
         "inception": 1992,
-        "nickname": null,
+        "nickname": "Flamuri Komb\u00ebtar",
         "continent": [
             "Europe"
         ],
@@ -88,7 +98,12 @@
         "colours": [
             "E41E20",
             "020000"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Algeria",
@@ -122,7 +137,12 @@
             "FFFFFF",
             "006233",
             "D21034"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Andorra",
@@ -156,7 +176,12 @@
             "0018A8",
             "FDDE00",
             "BBA373"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Angola",
@@ -190,7 +215,12 @@
             "CE1126",
             "000000",
             "F7D416"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Antigua and Barbuda",
@@ -227,7 +257,12 @@
             "0072C6",
             "FFFFFF",
             "FBD116"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Argentina",
@@ -261,7 +296,12 @@
             "74ACDF",
             "FFFFFF",
             "D7A454"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Armenia",
@@ -281,7 +321,7 @@
             "field"
         ],
         "inception": 1990,
-        "nickname": null,
+        "nickname": "Ye\u1e59aguyn",
         "continent": [
             "Asia",
             "Europe"
@@ -293,7 +333,12 @@
             "F2A800",
             "D90012",
             "0033A0"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Australia",
@@ -333,7 +378,12 @@
             "00008B",
             "FEFEFE",
             "FF0101"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Austria",
@@ -363,7 +413,12 @@
         "colours": [
             "ED2939",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Azerbaijan",
@@ -400,7 +455,12 @@
             "3F9C35",
             "ED2939",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Bahrain",
@@ -430,7 +490,12 @@
         "colours": [
             "CE1126",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Bangladesh",
@@ -449,7 +514,7 @@
             "roundel"
         ],
         "inception": 1972,
-        "nickname": null,
+        "nickname": "The Red & Green",
         "continent": [
             "Asia"
         ],
@@ -459,7 +524,12 @@
         "colours": [
             "006A4E",
             "F42A41"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Barbados",
@@ -481,7 +551,7 @@
             "pale"
         ],
         "inception": 1966,
-        "nickname": null,
+        "nickname": "The Broken Trident",
         "continent": [
             "North America"
         ],
@@ -492,7 +562,12 @@
             "00267F",
             "FFC726",
             "010100"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Belarus",
@@ -525,7 +600,12 @@
             "C8313E",
             "4AA657",
             "FEFAFA"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Belgium",
@@ -557,7 +637,12 @@
             "000000",
             "ED2939",
             "FAE042"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Belize",
@@ -589,7 +674,12 @@
             "CE1126",
             "D5DBD6",
             "2A9104"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Benin",
@@ -621,7 +711,12 @@
             "008751",
             "FCD116",
             "E8112D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Bhutan",
@@ -652,7 +747,12 @@
             "FFD520",
             "FF4E12",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Bosnia and Herzegovina",
@@ -683,7 +783,12 @@
             "002395",
             "FECB00",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Botswana",
@@ -716,7 +821,12 @@
             "75AADB",
             "000000",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Brazil",
@@ -773,7 +883,7 @@
             "five-pointed star"
         ],
         "inception": 1889,
-        "nickname": null,
+        "nickname": "A Auriverde",
         "continent": [
             "South America"
         ],
@@ -785,7 +895,12 @@
             "FDDF00",
             "012876",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Brunei",
@@ -820,7 +935,12 @@
             "CF1226",
             "E2751F",
             "DE5A68"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Bulgaria",
@@ -853,7 +973,12 @@
             "00966E",
             "47714F",
             "54B99E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Burkina Faso",
@@ -888,7 +1013,12 @@
             "FCD116",
             "F89B1D",
             "8EBB2C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Burundi",
@@ -923,7 +1053,12 @@
             "D8EEDA",
             "5CC870",
             "DD5867"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cambodia",
@@ -959,7 +1094,12 @@
             "767273",
             "A05964",
             "752A37"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cameroon",
@@ -993,7 +1133,12 @@
             "007A5E",
             "CE1126",
             "E6761E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Canada",
@@ -1014,7 +1159,7 @@
             "pale"
         ],
         "inception": 1965,
-        "nickname": null,
+        "nickname": "The Maple Leaf",
         "continent": [
             "North America"
         ],
@@ -1028,7 +1173,12 @@
             "FF9191",
             "FF2C2C",
             "FF5050"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cape Verde",
@@ -1064,7 +1214,12 @@
             "DF696E",
             "F5D017",
             "B5A838"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Central African Republic",
@@ -1102,7 +1257,12 @@
             "003082",
             "D21034",
             "CDAF1A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Chad",
@@ -1122,7 +1282,7 @@
             "field"
         ],
         "inception": 1959,
-        "nickname": null,
+        "nickname": "Les trois barres",
         "continent": [
             "Africa"
         ],
@@ -1133,7 +1293,12 @@
             "FECB00",
             "002664",
             "C60C30"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Chile",
@@ -1153,7 +1318,7 @@
             "five-pointed star"
         ],
         "inception": 1817,
-        "nickname": null,
+        "nickname": "La Estrella Solitaria",
         "continent": [
             "South America"
         ],
@@ -1167,7 +1332,12 @@
             "3663B9",
             "A3B8DF",
             "6A8CCB"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Colombia",
@@ -1187,7 +1357,7 @@
             "field"
         ],
         "inception": 1860,
-        "nickname": null,
+        "nickname": "El Tricolor Nacional",
         "continent": [
             "South America"
         ],
@@ -1198,7 +1368,12 @@
             "FCD116",
             "003893",
             "CE1126"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Comoros",
@@ -1235,7 +1410,12 @@
             "FFFFFF",
             "CE1126",
             "709D2E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cook Islands",
@@ -1272,7 +1452,12 @@
             "546CA7",
             "304D96",
             "DC5364"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Costa Rica",
@@ -1307,7 +1492,12 @@
             "CE1126",
             "5572AA",
             "DE5F6D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Croatia",
@@ -1332,7 +1522,7 @@
             "coat of arms of Croatia"
         ],
         "inception": 1990,
-        "nickname": null,
+        "nickname": "Trobojnica",
         "continent": [
             "Europe"
         ],
@@ -1346,7 +1536,12 @@
             "FD7071",
             "B3B3DC",
             "9C2639"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cuba",
@@ -1367,7 +1562,7 @@
             "five-pointed star"
         ],
         "inception": 1849,
-        "nickname": null,
+        "nickname": "Bandera de la Estrella Solitaria",
         "continent": [
             "North America"
         ],
@@ -1381,7 +1576,12 @@
             "302578",
             "E16B79",
             "DA495B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Cyprus",
@@ -1401,7 +1601,7 @@
             "field"
         ],
         "inception": 1960,
-        "nickname": null,
+        "nickname": "St\u00e1tn\u00ed vlajka \u010cesk\u00e9 republiky",
         "continent": [
             "Asia",
             "Europe"
@@ -1416,7 +1616,12 @@
             "475429",
             "E4A85D",
             "DC8E2D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Czech Republic",
@@ -1451,7 +1656,12 @@
             "B0C1D4",
             "6083A9",
             "95243B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "C\u00f4te d'Ivoire",
@@ -1482,7 +1692,12 @@
             "FFFFFF",
             "F77F00",
             "009E60"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Democratic Republic of the Congo",
@@ -1517,7 +1732,12 @@
             "539CB2",
             "E16C1D",
             "B1BD59"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Denmark",
@@ -1549,7 +1769,12 @@
             "C60C30",
             "FFFFFF",
             "D8576F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Djibouti",
@@ -1570,7 +1795,7 @@
             "five-pointed star"
         ],
         "inception": 1977,
-        "nickname": null,
+        "nickname": "Drapeau National",
         "continent": [
             "Africa"
         ],
@@ -1584,7 +1809,12 @@
             "D7141A",
             "E45F63",
             "5DC76E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Dominica",
@@ -1622,7 +1852,12 @@
             "D4AD13",
             "80B59F",
             "7E9E2A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Dominican Republic",
@@ -1656,7 +1891,12 @@
             "358F49",
             "9E2228",
             "0D7720"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Ecuador",
@@ -1682,7 +1922,7 @@
             "coat of arms of Ecuador"
         ],
         "inception": 56,
-        "nickname": null,
+        "nickname": "La Tricolor",
         "continent": [
             "South America"
         ],
@@ -1696,7 +1936,12 @@
             "483220",
             "42AAC9",
             "4D9332"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Egypt",
@@ -1734,7 +1979,12 @@
             "E4D091",
             "EFB0B7",
             "C29608"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "El Salvador",
@@ -1755,7 +2005,7 @@
             "coat of arms of El Salvador"
         ],
         "inception": 1912,
-        "nickname": null,
+        "nickname": "Bandera Magna",
         "continent": [
             "North America"
         ],
@@ -1769,7 +2019,12 @@
             "C1B11D",
             "258795",
             "E27C77"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Equatorial Guinea",
@@ -1806,7 +2061,12 @@
             "0073CE",
             "D2D2D1",
             "3893BA"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Eritrea",
@@ -1840,7 +2100,12 @@
             "F25130",
             "F9902B",
             "A63979"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Estonia",
@@ -1860,7 +2125,7 @@
             "field"
         ],
         "inception": 1918,
-        "nickname": null,
+        "nickname": "Sinimustvalge",
         "continent": [
             "Europe"
         ],
@@ -1873,7 +2138,12 @@
             "000000",
             "545454",
             "183048"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Eswatini",
@@ -1913,7 +2183,12 @@
             "FEFEFE",
             "020202",
             "5E5C61"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Ethiopia",
@@ -1949,7 +2224,12 @@
             "0F47AF",
             "D7C623",
             "A12144"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Federated States of Micronesia",
@@ -1978,7 +2258,12 @@
             "75B2DD",
             "FDFEFE",
             "D2E6F4"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Fiji",
@@ -2013,7 +2298,12 @@
             "DFD1D5",
             "4E6D94",
             "B4962A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Finland",
@@ -2045,7 +2335,12 @@
             "003580",
             "5C7EAE",
             "8DA5C6"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "France",
@@ -2066,7 +2361,7 @@
             "field"
         ],
         "inception": 1853,
-        "nickname": null,
+        "nickname": "Tricolour",
         "continent": [
             "Europe"
         ],
@@ -2077,7 +2372,12 @@
             "FFFFFF",
             "002395",
             "ED2939"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Gabon",
@@ -2110,7 +2410,12 @@
             "FCD116",
             "BCB350",
             "A8C02F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Georgia",
@@ -2129,7 +2434,7 @@
             "Bolnisi cross"
         ],
         "inception": 2004,
-        "nickname": null,
+        "nickname": "Five Cross Flag",
         "continent": [
             "Asia",
             "Europe"
@@ -2143,7 +2448,12 @@
             "FF8E8E",
             "FF2E2E",
             "FFD4D4"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Germany",
@@ -2177,7 +2487,12 @@
             "DD0000",
             "E84500",
             "930000"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Ghana",
@@ -2214,7 +2529,12 @@
             "ED911C",
             "A9AF24",
             "8C750C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Greece",
@@ -2233,7 +2553,7 @@
             "cross"
         ],
         "inception": 1978,
-        "nickname": null,
+        "nickname": "I Galanolefki",
         "continent": [
             "Europe"
         ],
@@ -2246,7 +2566,12 @@
             "79A6D3",
             "AEC9E4",
             "4382C1"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Grenada",
@@ -2284,7 +2609,12 @@
             "DD6221",
             "78A43C",
             "992C34"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Guatemala",
@@ -2319,7 +2649,12 @@
             "EAD98C",
             "6B5032",
             "C8AD4E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Guinea",
@@ -2351,7 +2686,12 @@
             "009460",
             "CE1126",
             "FCD116"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Guinea-Bissau",
@@ -2388,7 +2728,12 @@
             "764D35",
             "E2631F",
             "50070F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Guyana",
@@ -2411,7 +2756,7 @@
             "fimbriation"
         ],
         "inception": 1966,
-        "nickname": null,
+        "nickname": "The Golden Arrowhead",
         "continent": [
             "South America"
         ],
@@ -2425,7 +2770,12 @@
             "FEFEFD",
             "46B97B",
             "6B5E24"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Haiti",
@@ -2447,7 +2797,7 @@
             "Coat of Arms of Haiti"
         ],
         "inception": 1986,
-        "nickname": null,
+        "nickname": "Bicolour",
         "continent": [
             "North America"
         ],
@@ -2461,7 +2811,12 @@
             "A56A25",
             "BD9B3F",
             "D0504D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Honduras",
@@ -2494,7 +2849,12 @@
             "FFFFFF",
             "AAD0EF",
             "55A2DF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Hungary",
@@ -2527,7 +2887,12 @@
             "FFFFFF",
             "C1D0C4",
             "EEB8BF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Iceland",
@@ -2563,7 +2928,12 @@
             "EA8C8C",
             "E05757",
             "4971B5"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "India",
@@ -2585,7 +2955,7 @@
             "field"
         ],
         "inception": 1947,
-        "nickname": "The Tricolor",
+        "nickname": "Tira\u1e45g\u0101",
         "continent": [
             "Asia"
         ],
@@ -2599,7 +2969,12 @@
             "B0C07F",
             "07078B",
             "3A3AA3"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Indonesia",
@@ -2618,7 +2993,7 @@
             "field"
         ],
         "inception": 1945,
-        "nickname": null,
+        "nickname": "Sang Saka Merah-Putih",
         "continent": [
             "Asia",
             "Oceania"
@@ -2629,7 +3004,12 @@
         "colours": [
             "FFFFFF",
             "CE1126"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Iran",
@@ -2651,7 +3031,7 @@
             "Takbir"
         ],
         "inception": 1980,
-        "nickname": null,
+        "nickname": "Three-Coloured Flag",
         "continent": [
             "Asia"
         ],
@@ -2665,7 +3045,12 @@
             "B0DDBA",
             "E96A6A",
             "8ACC99"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Iraq",
@@ -2702,7 +3087,12 @@
             "E9949D",
             "459E71",
             "84BFA1"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Ireland",
@@ -2723,7 +3113,7 @@
             "field"
         ],
         "inception": 1922,
-        "nickname": null,
+        "nickname": "Bratach na h\u00c9ireann",
         "continent": [
             "Europe"
         ],
@@ -2735,7 +3125,12 @@
             "FFFFFF",
             "169B62",
             "7AC5A5"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Israel",
@@ -2755,7 +3150,7 @@
             "tallit"
         ],
         "inception": 1948,
-        "nickname": null,
+        "nickname": "Flag of Zion",
         "continent": [
             "Asia"
         ],
@@ -2768,7 +3163,12 @@
             "5F82D2",
             "D8E1F4",
             "88A2DE"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Italy",
@@ -2789,7 +3189,7 @@
             "field"
         ],
         "inception": 1797,
-        "nickname": null,
+        "nickname": "Tricolore",
         "continent": [
             "Europe",
             "Africa"
@@ -2801,7 +3201,12 @@
             "FFFFFF",
             "009246",
             "CE2B37"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Jamaica",
@@ -2822,7 +3227,7 @@
             "saltire"
         ],
         "inception": 1962,
-        "nickname": null,
+        "nickname": "The Cross, Black, Green and Gold",
         "continent": [
             "North America"
         ],
@@ -2835,7 +3240,12 @@
             "FED100",
             "8B7300",
             "8AB91A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Japan",
@@ -2854,7 +3264,7 @@
             "roundel"
         ],
         "inception": 1870,
-        "nickname": null,
+        "nickname": "Nissh\u014dki",
         "continent": [
             "Asia"
         ],
@@ -2867,7 +3277,12 @@
             "D14F6E",
             "EDBBC7",
             "DF869B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Jordan",
@@ -2905,7 +3320,12 @@
             "FFFFFF",
             "D84857",
             "972D2C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kazakhstan",
@@ -2924,7 +3344,7 @@
             "Steppe Eagle"
         ],
         "inception": 1992,
-        "nickname": null,
+        "nickname": "Qazaqstan Respublikasyny\u00f1 memlekett\u0131k tuy",
         "continent": [
             "Europe",
             "Asia"
@@ -2937,7 +3357,12 @@
             "FAC50F",
             "97BC59",
             "2BB3AA"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kenya",
@@ -2976,7 +3401,12 @@
             "FFFFFF",
             "D56262",
             "E6A6A6"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kiribati",
@@ -3013,7 +3443,12 @@
             "D0DCE9",
             "3768A1",
             "8FABCA"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kosovo",
@@ -3047,7 +3482,12 @@
             "A7B7DB",
             "748CC6",
             "A79064"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kuwait",
@@ -3070,7 +3510,7 @@
             "trapezoid"
         ],
         "inception": 1961,
-        "nickname": null,
+        "nickname": "Alam Baladii",
         "continent": [
             "Asia"
         ],
@@ -3084,7 +3524,12 @@
             "000000",
             "EA9AA3",
             "890B19"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Kyrgyzstan",
@@ -3116,7 +3561,12 @@
             "FFED00",
             "F58E14",
             "F05A1E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Laos",
@@ -3152,7 +3602,12 @@
             "879AB8",
             "375788",
             "ABB8CD"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Latvia",
@@ -3182,7 +3637,12 @@
         "colours": [
             "9E3039",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Lebanon",
@@ -3218,7 +3678,12 @@
             "8ED8B2",
             "42BD7E",
             "D7F1E4"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Lesotho",
@@ -3240,7 +3705,7 @@
             "mokorotlo"
         ],
         "inception": 2006,
-        "nickname": null,
+        "nickname": "",
         "continent": [
             "Africa"
         ],
@@ -3254,7 +3719,12 @@
             "020202",
             "2E2E2E",
             "4E4E4E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Liberia",
@@ -3274,7 +3744,7 @@
             "five-pointed star"
         ],
         "inception": 1847,
-        "nickname": null,
+        "nickname": "Lone Star",
         "continent": [
             "Africa"
         ],
@@ -3288,7 +3758,12 @@
             "EAADBA",
             "D96C83",
             "CA3453"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Libya",
@@ -3328,7 +3803,12 @@
             "727272",
             "313131",
             "505050"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Liechtenstein",
@@ -3363,7 +3843,12 @@
             "F9D33C",
             "826E1F",
             "524615"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Lithuania",
@@ -3396,7 +3881,12 @@
             "006A44",
             "40543D",
             "548533"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Luxembourg",
@@ -3416,7 +3906,7 @@
             "field"
         ],
         "inception": 1972,
-        "nickname": null,
+        "nickname": "rout, wäiß, blo",
         "continent": [
             "Europe"
         ],
@@ -3429,7 +3919,12 @@
             "FFFFFF",
             "F9B8BD",
             "AAE0F4"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Madagascar",
@@ -3461,7 +3956,12 @@
             "FFFFFF",
             "007E3A",
             "FC3D32"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Malawi",
@@ -3498,7 +3998,12 @@
             "550710",
             "6D3C23",
             "8F0C1A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Malaysia",
@@ -3521,7 +4026,7 @@
             "fourteen-pointed star"
         ],
         "inception": 1963,
-        "nickname": null,
+        "nickname": "Stripes of Glory",
         "continent": [
             "Asia"
         ],
@@ -3535,7 +4040,12 @@
             "E26E6F",
             "F1B7B7",
             "D4A911"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Maldives",
@@ -3569,7 +4079,12 @@
             "6FB690",
             "379A64",
             "29935A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mali",
@@ -3601,7 +4116,12 @@
             "14B53A",
             "CE1126",
             "FCD116"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Malta",
@@ -3635,7 +4155,12 @@
             "F6A9B5",
             "D36773",
             "6F6E6E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Marshall Islands",
@@ -3670,7 +4195,12 @@
             "CCD7E9",
             "2958A4",
             "90A8D0"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mauritania",
@@ -3703,7 +4233,12 @@
             "FFC400",
             "477D25",
             "B4A70F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mauritius",
@@ -3722,7 +4257,7 @@
             "field"
         ],
         "inception": 1968,
-        "nickname": null,
+        "nickname": "The Four Bands",
         "continent": [
             "Africa"
         ],
@@ -3734,7 +4269,12 @@
             "00A551",
             "EA2839",
             "1A206D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mexico",
@@ -3769,7 +4309,12 @@
             "EFB1B7",
             "593520",
             "925A2F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Moldova",
@@ -3804,7 +4349,12 @@
             "352815",
             "AD7D54",
             "674F21"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Monaco",
@@ -3833,7 +4383,12 @@
         "colours": [
             "FFFFFF",
             "CE1126"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mongolia",
@@ -3869,7 +4424,12 @@
             "833551",
             "E69511",
             "D66120"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Montenegro",
@@ -3902,7 +4462,12 @@
             "1D5E91",
             "6E8B3E",
             "626765"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Morocco",
@@ -3932,7 +4497,12 @@
             "C1272D",
             "016233",
             "684230"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Mozambique",
@@ -3976,7 +4546,12 @@
             "D21034",
             "D05B28",
             "B1A33E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Myanmar",
@@ -4012,7 +4587,12 @@
             "FEFFFE",
             "77BA22",
             "708435"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Namibia",
@@ -4049,7 +4629,12 @@
             "FEFDFD",
             "FECD01",
             "E05D75"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Nauru",
@@ -4083,7 +4668,12 @@
             "FEFEFE",
             "738AB9",
             "9AABCC"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Nepal",
@@ -4122,7 +4712,12 @@
             "EA728A",
             "F099AA",
             "63286C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Netherlands",
@@ -4156,7 +4751,12 @@
             "FFFFFF",
             "E4B3B7",
             "B6C2D9"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "New Zealand",
@@ -4196,7 +4796,12 @@
             "546CA8",
             "DDD9E6",
             "2E4B95"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Nicaragua",
@@ -4231,7 +4836,12 @@
             "98C826",
             "D0DB25",
             "CF2425"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Niger",
@@ -4267,7 +4877,12 @@
             "F5C5AC",
             "AFE5B9",
             "EEA279"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Nigeria",
@@ -4298,7 +4913,12 @@
             "008751",
             "FFFFFF",
             "5AB18E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Niue",
@@ -4336,7 +4956,12 @@
             "002868",
             "506B97",
             "D95F25"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "North Korea",
@@ -4360,7 +4985,7 @@
             "five-pointed star"
         ],
         "inception": 1948,
-        "nickname": null,
+        "nickname": "Ramhongsaek Konghwagukgi",
         "continent": [
             "Asia"
         ],
@@ -4374,7 +4999,12 @@
             "F5868C",
             "568AC1",
             "F14C55"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "North Macedonia",
@@ -4406,7 +5036,12 @@
             "DC3400",
             "F4AE00",
             "E86F00"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Northern Cyprus",
@@ -4440,7 +5075,12 @@
             "E30A17",
             "EA4B55",
             "F6AEB2"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Norway",
@@ -4476,7 +5116,12 @@
             "F68E8F",
             "BBC6D7",
             "637CA3"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Oman",
@@ -4498,7 +5143,7 @@
             "Coat of arms of Oman"
         ],
         "inception": 1995,
-        "nickname": null,
+        "nickname": "Khanjar Bo Sayfain",
         "continent": [
             "Asia"
         ],
@@ -4512,7 +5157,12 @@
             "E76669",
             "923A12",
             "F3B0B2"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Pakistan",
@@ -4533,7 +5183,7 @@
             "five-pointed star"
         ],
         "inception": 1947,
-        "nickname": null,
+        "nickname": "Parcham-e Sitārah o Hilāl",
         "continent": [
             "Asia"
         ],
@@ -4547,7 +5197,12 @@
             "DDE6E1",
             "47755A",
             "235A3A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Palau",
@@ -4579,7 +5234,12 @@
             "D4D233",
             "74B9A5",
             "9AC377"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Panama",
@@ -4598,7 +5258,7 @@
             "five-pointed star"
         ],
         "inception": 1925,
-        "nickname": null,
+        "nickname": "Bandera de Panamá",
         "continent": [
             "North America",
             "South America"
@@ -4613,7 +5273,12 @@
             "EA90A1",
             "5088B5",
             "DF536D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Papua New Guinea",
@@ -4654,7 +5319,12 @@
             "EC8F1B",
             "DC4D21",
             "6E0914"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Paraguay",
@@ -4689,7 +5359,12 @@
             "ABBDE2",
             "F1B8B4",
             "309556"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "People's Republic of China",
@@ -4707,7 +5382,7 @@
             "field"
         ],
         "inception": 1949,
-        "nickname": null,
+        "nickname": "Five-star Red Flag",
         "continent": [
             "Asia"
         ],
@@ -4718,7 +5393,12 @@
             "DE2910",
             "FFDC00",
             "EB6F0A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Peru",
@@ -4736,7 +5416,7 @@
             "pale"
         ],
         "inception": 1825,
-        "nickname": null,
+        "nickname": "El pendón bicolor",
         "continent": [
             "South America"
         ],
@@ -4746,7 +5426,12 @@
         "colours": [
             "D91023",
             "FFFFFF"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Philippines",
@@ -4768,7 +5453,7 @@
             "five-pointed star"
         ],
         "inception": 2020,
-        "nickname": null,
+        "nickname": "Pambansang Watawat",
         "continent": [
             "Asia"
         ],
@@ -4782,7 +5467,12 @@
             "FCD116",
             "FEEFAD",
             "698ACC"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Plurinational State of Bolivia",
@@ -4803,7 +5493,7 @@
             "field"
         ],
         "inception": 1825,
-        "nickname": null,
+        "nickname": "La Tricolor",
         "continent": [
             "South America"
         ],
@@ -4817,7 +5507,12 @@
             "F0A40A",
             "ABBE11",
             "A46021"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Poland",
@@ -4846,7 +5541,12 @@
         "colours": [
             "FFFFFF",
             "DC143C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Portugal",
@@ -4867,7 +5567,7 @@
             "Coat of arms of Portugal"
         ],
         "inception": 1911,
-        "nickname": null,
+        "nickname": "Bandeira das Quinas",
         "continent": [
             "Europe"
         ],
@@ -4881,7 +5581,12 @@
             "FDFDFE",
             "2F59AC",
             "BA5F41"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Qatar",
@@ -4901,7 +5606,7 @@
             "flanche"
         ],
         "inception": 1971,
-        "nickname": null,
+        "nickname": "Al-Adaam",
         "continent": [
             "Asia"
         ],
@@ -4913,7 +5618,12 @@
             "FFFFFF",
             "B2657D",
             "E5CAD2"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Republic of Artsakh",
@@ -4943,7 +5653,12 @@
             "FFFFFF",
             "482271",
             "E13947"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Republic of the Congo",
@@ -4977,7 +5692,12 @@
             "FBDE4A",
             "EC8134",
             "7DBA47"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Romania",
@@ -4997,7 +5717,7 @@
             "field"
         ],
         "inception": 1848,
-        "nickname": null,
+        "nickname": "Tricolorul",
         "continent": [
             "Europe"
         ],
@@ -5008,7 +5728,12 @@
             "002B7F",
             "CE1126",
             "FCD116"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Russia",
@@ -5029,7 +5754,7 @@
             "field"
         ],
         "inception": 1696,
-        "nickname": null,
+        "nickname": "Trikolor",
         "continent": [
             "Europe",
             "Asia"
@@ -5043,7 +5768,12 @@
             "0039A6",
             "463479",
             "547AC3"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Rwanda",
@@ -5078,7 +5808,12 @@
             "81B162",
             "40A9A0",
             "C2BA22"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Western Sahara",
@@ -5118,7 +5853,12 @@
             "C4111B",
             "CE3A42",
             "DA6B71"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Saint Kitts and Nevis",
@@ -5157,7 +5897,12 @@
             "FBD116",
             "292929",
             "474747"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Saint Lucia",
@@ -5195,7 +5940,12 @@
             "665509",
             "AD900F",
             "FDDD56"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Saint Vincent and the Grenadines",
@@ -5216,7 +5966,7 @@
             "rhombus"
         ],
         "inception": 1985,
-        "nickname": null,
+        "nickname": "The Gems",
         "continent": [
             "North America"
         ],
@@ -5229,7 +5979,12 @@
             "0072C6",
             "7EB83B",
             "7EA16E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Samoa",
@@ -5269,7 +6024,12 @@
             "2F5297",
             "6D86B6",
             "BAC6DC"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "San Marino",
@@ -5303,7 +6063,12 @@
             "364B36",
             "D7A42E",
             "9CCBE7"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Saudi Arabia",
@@ -5335,7 +6100,12 @@
             "8BBCA3",
             "4C9872",
             "B7D5C6"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Senegal",
@@ -5370,7 +6140,12 @@
             "FDEF42",
             "71B540",
             "ABCD41"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Serbia",
@@ -5392,7 +6167,7 @@
             "field"
         ],
         "inception": 2004,
-        "nickname": null,
+        "nickname": "Tricolour",
         "continent": [
             "Europe"
         ],
@@ -5406,7 +6181,12 @@
             "B06232",
             "CFA6A5",
             "5C7FA3"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Seychelles",
@@ -5440,7 +6220,12 @@
             "FCD856",
             "FFFEFE",
             "3B996A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Sierra Leone",
@@ -5473,7 +6258,12 @@
             "FFFFFF",
             "B4E6BD",
             "ABD1EC"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Singapore",
@@ -5506,7 +6296,12 @@
             "ED2939",
             "F58C94",
             "FBCCD0"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Slovakia",
@@ -5543,7 +6338,12 @@
             "5C89C1",
             "F24C53",
             "9B2E53"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Slovenia",
@@ -5579,7 +6379,12 @@
             "5593C2",
             "4E477A",
             "B7B92E"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Solomon Islands",
@@ -5614,7 +6419,12 @@
             "FDFEFE",
             "C3B21D",
             "2F71C7"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Somalia",
@@ -5643,7 +6453,12 @@
             "4189DD",
             "FEFFFF",
             "9AC0ED"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Somaliland",
@@ -5680,7 +6495,12 @@
             "9B9F9C",
             "2C2C2C",
             "6D6D6D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "South Africa",
@@ -5720,7 +6540,12 @@
             "FEFEFE",
             "000000",
             "FDB512"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "South Korea",
@@ -5741,7 +6566,7 @@
             "field"
         ],
         "inception": 1883,
-        "nickname": null,
+        "nickname": "Taegukgi",
         "continent": [
             "Asia"
         ],
@@ -5755,7 +6580,12 @@
             "030303",
             "EED6DE",
             "303030"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "South Ossetia",
@@ -5788,7 +6618,12 @@
             "FF0000",
             "FF5454",
             "FF8238"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "South Sudan",
@@ -5829,7 +6664,12 @@
             "DA121A",
             "FFFFFF",
             "FBDC0A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Spain",
@@ -5851,7 +6691,7 @@
             "coat of arms of Spain"
         ],
         "inception": 1785,
-        "nickname": "rojigualda",
+        "nickname": "Rojigualda",
         "continent": [
             "Europe",
             "Africa"
@@ -5866,7 +6706,12 @@
             "9E2918",
             "B08F07",
             "CEB56B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Sri Lanka",
@@ -5889,7 +6734,7 @@
             "sword"
         ],
         "inception": 1972,
-        "nickname": null,
+        "nickname": "Sinha Flag",
         "continent": [
             "Asia"
         ],
@@ -5903,7 +6748,12 @@
             "552D0A",
             "B88301",
             "B3511B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "State of Palestine",
@@ -5940,7 +6790,12 @@
             "CE1126",
             "D63849",
             "E16C79"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Sudan",
@@ -5977,7 +6832,12 @@
             "007229",
             "2A894C",
             "7E382F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Suriname",
@@ -6015,7 +6875,12 @@
             "ECC81D",
             "C33B29",
             "D16E25"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Sweden",
@@ -6045,7 +6910,12 @@
         "colours": [
             "006AA7",
             "FECC00"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Switzerland",
@@ -6075,7 +6945,12 @@
             "FFFFFF",
             "FF6060",
             "FF9C9C"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Syria",
@@ -6112,7 +6987,12 @@
             "EFB0B7",
             "309361",
             "70B492"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
@@ -6151,7 +7031,12 @@
             "78BB18",
             "725E2F",
             "E86F1A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Taiwan",
@@ -6171,7 +7056,7 @@
             "Sun"
         ],
         "inception": 1924,
-        "nickname": null,
+        "nickname": "Blue Sky, White Sun, and a Wholly Red Earth",
         "continent": [
             "Asia"
         ],
@@ -6185,7 +7070,12 @@
             "6666BF",
             "CECEEB",
             "ABABDC"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Tajikistan",
@@ -6208,7 +7098,7 @@
             "five-pointed star"
         ],
         "inception": 1992,
-        "nickname": null,
+        "nickname": "Parçami Tojikiston",
         "continent": [
             "Asia"
         ],
@@ -6222,7 +7112,12 @@
             "F8C405",
             "6EA86E",
             "E26D6D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Tanzania",
@@ -6257,7 +7152,12 @@
             "FBD016",
             "BEC548",
             "93C327"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Thailand",
@@ -6277,7 +7177,7 @@
             "fimbriation"
         ],
         "inception": 1917,
-        "nickname": null,
+        "nickname": "Trairanga",
         "continent": [
             "Asia"
         ],
@@ -6290,7 +7190,12 @@
             "ED1C24",
             "6D688A",
             "F3686D"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "The Bahamas",
@@ -6326,7 +7231,12 @@
             "A8CE6E",
             "A9972D",
             "62581A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "The Gambia",
@@ -6362,7 +7272,12 @@
             "FFFFFF",
             "BDD2B7",
             "D0C2D7"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Timor-Leste",
@@ -6398,7 +7313,12 @@
             "5D490E",
             "A17E18",
             "D2A41F"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Togo",
@@ -6435,7 +7355,12 @@
             "FFFDFD",
             "F2BAC4",
             "E2647B"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Tonga",
@@ -6467,7 +7392,12 @@
             "D65555",
             "EFBFBF",
             "E49090"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Transnistria",
@@ -6505,7 +7435,12 @@
             "6F4D1A",
             "FED200",
             "F48E00"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Trinidad and Tobago",
@@ -6525,7 +7460,7 @@
             "fimbriation"
         ],
         "inception": 1962,
-        "nickname": null,
+        "nickname": "The Sun-Sea-Sand Banner",
         "continent": [
             "North America"
         ],
@@ -6539,7 +7474,12 @@
             "DF6371",
             "E78893",
             "EEADB4"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Tunisia",
@@ -6573,7 +7513,12 @@
             "F16C77",
             "F7ADB4",
             "EC3847"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Turkey",
@@ -6593,7 +7538,7 @@
             "five-pointed star"
         ],
         "inception": 1936,
-        "nickname": null,
+        "nickname": "Al Bayrak",
         "continent": [
             "Asia",
             "Europe"
@@ -6607,7 +7552,12 @@
             "F9CDD0",
             "EF7279",
             "EA4953"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Turkmenistan",
@@ -6628,7 +7578,7 @@
             "gul"
         ],
         "inception": 1992,
-        "nickname": null,
+        "nickname": "Türkmenistanyň baýdagy",
         "continent": [
             "Asia"
         ],
@@ -6642,7 +7592,12 @@
             "60654E",
             "65BE8E",
             "AE915A"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Tuvalu",
@@ -6679,7 +7634,12 @@
             "00247D",
             "FCCD03",
             "B2B452"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Uganda",
@@ -6714,7 +7674,12 @@
             "FEFDFD",
             "544901",
             "C4A636"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Ukraine",
@@ -6743,7 +7708,12 @@
         "colours": [
             "FFD500",
             "005BBB"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "United Arab Emirates",
@@ -6779,7 +7749,12 @@
             "000000",
             "00732F",
             "929292"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "United Kingdom",
@@ -6814,7 +7789,12 @@
             "AAB6D4",
             "DB4F60",
             "6E82B5"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "United States of America",
@@ -6848,7 +7828,12 @@
             "CA6673",
             "EDCDD1",
             "DC9AA2"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Uruguay",
@@ -6869,7 +7854,7 @@
             "Sun"
         ],
         "inception": 1830,
-        "nickname": null,
+        "nickname": "The National Pavilion",
         "continent": [
             "South America"
         ],
@@ -6883,7 +7868,12 @@
             "8DA6D8",
             "F8CE16",
             "547AC5"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Uzbekistan",
@@ -6921,7 +7911,12 @@
             "CE1126",
             "4EB8CC",
             "89D0DD"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Vanuatu",
@@ -6958,7 +7953,12 @@
             "FCCE12",
             "A6870B",
             "7A6308"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Vatican City",
@@ -6992,7 +7992,12 @@
             "AA9A68",
             "B2890F",
             "9C2C20"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Venezuela",
@@ -7028,7 +8033,12 @@
             "555C53",
             "441F62",
             "2E4B94"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Vietnam",
@@ -7046,7 +8056,7 @@
             "five-pointed star"
         ],
         "inception": 1945,
-        "nickname": null,
+        "nickname": "cờ đỏ sao vàng",
         "continent": [
             "Asia"
         ],
@@ -7057,7 +8067,12 @@
             "DA251D",
             "FFFE00",
             "E67013"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Yemen",
@@ -7092,7 +8107,12 @@
             "FFFFFF",
             "ABABAB",
             "EFB0B7"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Zambia",
@@ -7129,7 +8149,12 @@
             "000000",
             "904F05",
             "4C6C02"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     },
     {
         "country_name": "Zimbabwe",
@@ -7168,6 +8193,11 @@
             "000000",
             "C5C002",
             "F18507"
-        ]
+        ],
+        "visible": true,
+        "un_membership": "",
+        "designer": "",
+        "design_info": "",
+        "note": ""
     }
 ]

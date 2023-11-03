@@ -24,6 +24,7 @@ struct FlagJSON: Decodable {
 	var average_red: Int
 	var average_green: Int
 	var average_blue: Int
+    var visible: Bool
 }
 
 struct ColourJSON: Decodable {
